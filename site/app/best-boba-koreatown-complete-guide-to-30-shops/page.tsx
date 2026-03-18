@@ -2,6 +2,52 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 
+const STAR_PATH =
+  "M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z";
+
+function StarIcon({ type }: { type: "full" | "half" | "empty" }) {
+  if (type === "full") {
+    return (
+      <svg viewBox="0 0 24 24" className="w-4 h-4" fill="#2B6CB0">
+        <path d={STAR_PATH} />
+      </svg>
+    );
+  }
+  if (type === "empty") {
+    return (
+      <svg viewBox="0 0 24 24" className="w-4 h-4" fill="none" stroke="#2B6CB0" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d={STAR_PATH} />
+      </svg>
+    );
+  }
+  return (
+    <div className="relative w-4 h-4">
+      <svg viewBox="0 0 24 24" className="absolute inset-0 w-4 h-4" fill="none" stroke="#2B6CB0" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d={STAR_PATH} />
+      </svg>
+      <div className="absolute inset-0 overflow-hidden" style={{ width: "50%" }}>
+        <svg viewBox="0 0 24 24" className="w-4 h-4" fill="#2B6CB0">
+          <path d={STAR_PATH} />
+        </svg>
+      </div>
+    </div>
+  );
+}
+
+function StarRating({ rating }: { rating: string }) {
+  const value = parseFloat(rating);
+  const full = Math.floor(value);
+  const half = value % 1 >= 0.5;
+  const empty = 5 - full - (half ? 1 : 0);
+  return (
+    <div className="flex items-center gap-0.5" aria-label={`${rating} stars`}>
+      {Array.from({ length: full }).map((_, i) => <StarIcon key={`f${i}`} type="full" />)}
+      {half && <StarIcon key="h" type="half" />}
+      {Array.from({ length: empty }).map((_, i) => <StarIcon key={`e${i}`} type="empty" />)}
+    </div>
+  );
+}
+
 export const metadata: Metadata = {
   title: "Best Boba in Koreatown: Complete Guide to 30+ Shops | Justin Sather",
   description: "The most complete guide to boba and bubble tea in Koreatown, Los Angeles. 30+ shops reviewed personally. Rankings, insider tips, and honest takes. Updated quarterly.",
@@ -187,7 +233,7 @@ export default function KoreatownGuidePage() {
                     <h3 className="text-xl font-bold text-[#1A202C]">Tiger Sugar</h3>
                     <p className="text-sm text-[#718096]">3470 W 6th St, Los Angeles</p>
                   </div>
-                  <span className="text-[#2B6CB0] font-bold">5/5</span>
+                  <StarRating rating="5/5" />
                 </div>
                 <p className="text-[#4A5568] text-sm leading-relaxed mb-4">
                   The best brown sugar boba in Koreatown and arguably in all of Los Angeles. Pearls are made fresh every 4 hours. The theatrical torching of the drink is Instagram-worthy, but the flavor is the real story. This is what brown sugar boba should taste like.
@@ -221,7 +267,7 @@ export default function KoreatownGuidePage() {
                 <div className="p-4 flex-1">
                   <div className="flex items-start justify-between mb-1">
                     <h3 className="font-bold text-[#1A202C]">{shop.name}</h3>
-                    <span className="text-sm font-bold text-[#2B6CB0] flex-shrink-0 ml-2">{shop.rating}</span>
+                    <div className="flex-shrink-0 ml-2"><StarRating rating={shop.rating} /></div>
                   </div>
                   <p className="text-xs text-[#718096] mb-2">{shop.address} &bull; {shop.price} &bull; Best for: {shop.bestFor}</p>
                   <p className="text-[#4A5568] text-sm leading-relaxed mb-2" dangerouslySetInnerHTML={{ __html: shop.verdict }} />
