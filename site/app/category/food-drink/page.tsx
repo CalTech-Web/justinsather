@@ -27,7 +27,7 @@ const articles = [
   {
     title: "Best Boba in Los Angeles: 25+ Top Shops Across LA County",
     href: "/best-boba-los-angeles/",
-    image: "/assets/gallery/best-boba-los-angeles-feature-full.jpeg",
+    image: "/assets/products/boba_scene_lifestyle.png",
     type: "Citywide Roundup",
     summary: "25+ top boba shops across LA County. Koreatown, San Gabriel Valley, Silver Lake, and beyond. Every shop personally visited, all drinks paid out of pocket.",
     rating: null,

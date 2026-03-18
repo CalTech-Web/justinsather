@@ -191,7 +191,7 @@ export default function BestBobaLAPage() {
             </div>
             <div className="relative h-72 rounded-2xl overflow-hidden shadow-lg">
               <Image
-                src="/assets/gallery/best-boba-los-angeles-feature-full.jpeg"
+                src="/assets/products/boba_scene_lifestyle.png"
                 alt="Best boba shops in Los Angeles County"
                 fill
                 className="object-cover"
@@ -209,7 +209,7 @@ export default function BestBobaLAPage() {
             <div className="relative w-12 h-12 rounded-full overflow-hidden flex-shrink-0">
               <Image src="/assets/team/justin-sather-avatar.jpg" alt="Justin Sather" fill className="object-cover" />
             </div>
-            <p className="text-sm text-[#4A5568]">
+            <p className="text-base text-[#4A5568] leading-relaxed">
               <span className="font-semibold text-[#1A202C]">Justin Sather</span> has personally visited every shop on this list. Rankings are based on drink quality, consistency, value, and overall experience. Last updated: Q1 2026.
             </p>
           </div>
@@ -250,9 +250,11 @@ export default function BestBobaLAPage() {
                     <span className="text-xs text-[#718096]">
                       <span className="font-semibold text-[#2D3748]">Must order:</span> {shop.mustOrder}
                     </span>
-                    <Link href={shop.href} className="text-[#2B6CB0] text-xs font-semibold hover:text-[#215387] transition-colors flex-shrink-0 ml-2">
-                      Full Review &rarr;
-                    </Link>
+                    {shop.href !== "/best-boba-los-angeles/" && (
+                      <Link href={shop.href} className="text-[#2B6CB0] text-xs font-semibold hover:text-[#215387] transition-colors flex-shrink-0 ml-2">
+                        Full Review &rarr;
+                      </Link>
+                    )}
                   </div>
                 </div>
               </div>

@@ -26,7 +26,7 @@ export default function WhyLosAngelesPage() {
       {/* Main story content */}
       <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
-          <div className="lg:col-span-2 space-y-6 text-[#4A5568] leading-relaxed">
+          <div className="lg:col-span-2 space-y-6 text-[#4A5568] leading-relaxed max-w-prose">
             <h2 className="text-2xl font-bold text-[#1A202C]">From Turlock to Los Angeles</h2>
             <p>
               I&apos;m originally from Turlock, California. If you&apos;ve never been, it&apos;s a small agricultural city in the Central Valley, the kind of place where everyone knows everyone and the closest thing to boba is a Jamba Juice.
@@ -91,7 +91,7 @@ export default function WhyLosAngelesPage() {
 
             <div className="bg-[#2B6CB0] rounded-xl p-5 text-white">
               <h3 className="font-bold mb-2 text-sm">Explore the Guide</h3>
-              <p className="text-blue-100 text-xs mb-3">Start with the most thoroughly documented neighborhood in LA.</p>
+              <p className="text-white text-xs mb-3">Start with the most thoroughly documented neighborhood in LA.</p>
               <Link
                 href="/best-boba-koreatown-complete-guide-to-30-shops/"
                 className="block text-center bg-white text-[#2B6CB0] font-bold text-sm px-4 py-2 rounded-lg hover:bg-blue-50 transition-colors"

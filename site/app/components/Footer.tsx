@@ -14,7 +14,7 @@ export default function Footer() {
                 alt="Justin Sather Los Angeles"
                 width={140}
                 height={95}
-                className="h-10 w-auto mb-4 brightness-0 invert"
+                className="h-10 w-auto mb-4"
               />
             </Link>
             <p className="text-[#A0AEC0] text-sm leading-relaxed">

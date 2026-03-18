@@ -64,7 +64,7 @@ export default function AboutPage() {
       </section>
 
       {/* Personal story */}
-      <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-6">
         <div className="prose max-w-none">
           <h2 className="text-2xl font-bold text-[#1A202C] mb-6">The Story Behind the Guide</h2>
           <div className="space-y-4 text-[#4A5568] leading-relaxed">

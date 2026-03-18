@@ -116,16 +116,27 @@ export default function BobaGuidePage() {
       {/* Hero */}
       <section className="bg-white border-b border-gray-100 py-14">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl">
-            <span className="inline-block bg-[#EDF2F7] text-[#2B6CB0] text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full mb-4">
-              LA Boba Guide
-            </span>
-            <h1 className="text-4xl font-bold text-[#1A202C] mb-4">
-              The Complete Los Angeles Boba and Bubble Tea Guide
-            </h1>
-            <p className="text-lg text-[#4A5568] leading-relaxed">
-              150+ shops visited personally. Every review is based on a real in-person visit with original photos. No sponsorships, no free drinks.
-            </p>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <span className="inline-block bg-[#EDF2F7] text-[#2B6CB0] text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full mb-4">
+                LA Boba Guide
+              </span>
+              <h1 className="text-4xl font-bold text-[#1A202C] mb-4">
+                The Complete Los Angeles Boba and Bubble Tea Guide
+              </h1>
+              <p className="text-lg text-[#4A5568] leading-relaxed">
+                150+ shops visited personally. Every review is based on a real in-person visit with original photos. No sponsorships, no free drinks.
+              </p>
+            </div>
+            <div className="relative overflow-hidden rounded-2xl shadow-xl aspect-video">
+              <Image
+                src="/assets/products/boba_scene_lifestyle.png"
+                alt="Los Angeles boba and bubble tea scene"
+                fill
+                className="object-cover"
+                priority
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -152,7 +163,7 @@ export default function BobaGuidePage() {
           <Link href="/best-boba-los-angeles/" className="group bg-white rounded-xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
             <div className="relative h-56">
               <Image
-                src="/assets/gallery/best-boba-los-angeles-feature-full.jpeg"
+                src="/assets/gallery/boba-koreatown-guide.png"
                 alt="Best boba shops across all of Los Angeles County"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-300"

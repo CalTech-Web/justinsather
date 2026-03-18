@@ -11,7 +11,7 @@ export default function TigerSugarReviewPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-white border-b border-gray-100 py-12">
+      <section className="bg-white border-b border-gray-100 pt-12 pb-6">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-4">
             <Link href="/best-boba-koreatown-complete-guide-to-30-shops/" className="text-[#2B6CB0] text-sm hover:text-[#215387] transition-colors">
@@ -43,7 +43,7 @@ export default function TigerSugarReviewPage() {
       </section>
 
       {/* Featured image */}
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 -mt-2 mb-10">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-8">
         <div className="relative aspect-video rounded-2xl overflow-hidden shadow-lg">
           <Image
             src="/assets/products/tiger_sugar_drink.png"
@@ -112,8 +112,8 @@ export default function TigerSugarReviewPage() {
             <h2 className="text-2xl font-bold text-[#1A202C]">Pros and Cons</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="bg-green-50 rounded-xl p-4">
-                <h3 className="font-bold text-green-800 mb-2 text-sm">Pros</h3>
-                <ul className="text-sm text-green-700 space-y-1">
+                <h3 className="font-bold text-green-800 mb-3 text-base">Pros</h3>
+                <ul className="text-sm text-green-700 space-y-2 leading-relaxed">
                   <li>Best brown sugar boba in Koreatown</li>
                   <li>Fresh pearls every 4 hours</li>
                   <li>Theatrical table-side torching</li>
@@ -122,8 +122,8 @@ export default function TigerSugarReviewPage() {
                 </ul>
               </div>
               <div className="bg-red-50 rounded-xl p-4">
-                <h3 className="font-bold text-red-800 mb-2 text-sm">Cons</h3>
-                <ul className="text-sm text-red-700 space-y-1">
+                <h3 className="font-bold text-red-800 mb-3 text-base">Cons</h3>
+                <ul className="text-sm text-red-700 space-y-2 leading-relaxed">
                   <li>Limited seating</li>
                   <li>Long lines on weekends</li>
                   <li>Menu is narrow outside the signature drink</li>
@@ -137,7 +137,7 @@ export default function TigerSugarReviewPage() {
               Tiger Sugar is the real deal. The hype is earned. If you are building a boba bucket list for Koreatown, start here. Five out of five.
             </p>
 
-            <div className="bg-[#EDF2F7] rounded-xl p-5 mt-6">
+            <div className="bg-[#EDF2F7] rounded-xl p-5 mt-8 border-t-4 border-[#2B6CB0]">
               <p className="text-sm font-semibold text-[#1A202C] mb-2">Insider Tips</p>
               <ul className="text-sm text-[#4A5568] space-y-2">
                 <li>Come before noon on weekdays to skip the line entirely.</li>
