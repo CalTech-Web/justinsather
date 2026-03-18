@@ -17,7 +17,7 @@ export default function Footer() {
                 className="h-10 w-auto mb-4 brightness-0 invert"
               />
             </Link>
-            <p className="text-[#718096] text-sm leading-relaxed">
+            <p className="text-[#A0AEC0] text-sm leading-relaxed">
               Your honest guide to every boba shop in Los Angeles. No sponsorships, no free drinks, just real reviews.
             </p>
             <div className="flex gap-4 mt-4">
@@ -25,7 +25,7 @@ export default function Footer() {
                 href="https://instagram.com/labobaguide"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#718096] hover:text-white transition-colors text-sm"
+                className="text-[#A0AEC0] hover:text-white transition-colors text-sm"
               >
                 @labobaguide
               </a>
@@ -34,7 +34,7 @@ export default function Footer() {
 
           {/* Content */}
           <div>
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-[#718096] mb-4">Top Reviews</h3>
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-[#A0AEC0] mb-4">Top Reviews</h3>
             <ul className="space-y-2">
               <li>
                 <Link href="/tiger-sugar-review-koreatown-boba-bubble-tea/" className="text-sm text-[#A0AEC0] hover:text-white transition-colors">
@@ -56,7 +56,7 @@ export default function Footer() {
 
           {/* Categories */}
           <div>
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-[#718096] mb-4">Categories</h3>
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-[#A0AEC0] mb-4">Categories</h3>
             <ul className="space-y-2">
               <li>
                 <Link href="/category/food-drink/" className="text-sm text-[#A0AEC0] hover:text-white transition-colors">
@@ -68,7 +68,7 @@ export default function Footer() {
 
           {/* Company */}
           <div>
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-[#718096] mb-4">About</h3>
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-[#A0AEC0] mb-4">About</h3>
             <ul className="space-y-2">
               <li>
                 <Link href="/about-me/" className="text-sm text-[#A0AEC0] hover:text-white transition-colors">
@@ -90,14 +90,14 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-[#2D3748] mt-10 pt-6 flex flex-col sm:flex-row justify-between items-center gap-3">
-          <p className="text-[#718096] text-sm">
+          <p className="text-[#A0AEC0] text-sm">
             &copy; 2026 Justin Sather, Los Angeles. All rights reserved.
           </p>
           <a
             href="https://caltechweb.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[#718096] hover:text-white text-sm transition-colors"
+            className="text-[#A0AEC0] hover:text-white text-sm transition-colors"
           >
             Powered by Caltechweb
           </a>

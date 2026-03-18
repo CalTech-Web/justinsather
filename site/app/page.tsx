@@ -100,7 +100,7 @@ export default function HomePage() {
               <div key={stat.label} className="flex flex-col items-center">
                 <div className="text-blue-200 mb-2">{stat.icon}</div>
                 <p className="text-3xl font-bold">{stat.value}</p>
-                <p className="text-blue-100 text-sm mt-1">{stat.label}</p>
+                <p className="text-white/80 text-sm mt-1">{stat.label}</p>
               </div>
             ))}
           </div>
