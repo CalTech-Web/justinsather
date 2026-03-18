@@ -273,6 +273,15 @@ export default function BestBobaLAPage() {
               { name: "Coco Fresh Tea", area: "Multiple Locations", note: "No-frills, great value, consistently solid." },
               { name: "Sharetea", area: "Multiple Locations", note: "Taiwanese chain with a strong taro game." },
               { name: "Sunright Tea Studio", area: "San Gabriel Valley", note: "Minimalist, specialty-grade tea. Worth a special trip." },
+              { name: "Xing Fu Tang", area: "Koreatown / Multiple", note: "Handmade brown sugar tapioca. Serious competition for Tiger Sugar." },
+              { name: "Moge Tee", area: "Multiple Locations", note: "Yunnan Pu-erh base gives the drinks real depth. Better than it looks." },
+              { name: "Milksha", area: "Multiple Locations", note: "Premium Taiwanese chain using fresh milk, not powder. The taro milk is exceptional." },
+              { name: "Somi Somi", area: "Koreatown", note: "Fish-shaped waffle cones with soft serve and tapioca. A K-Town institution." },
+              { name: "The Alley", area: "Multiple Locations", note: "Known for Deerioca pearls. More Instagram than substance, but the milk tea base is solid." },
+              { name: "Class 302", area: "Koreatown", note: "Vintage Taiwanese classroom theme, good pearl milk tea. One of K-Town's more atmospheric spots." },
+              { name: "Machi Machi", area: "Multiple Locations", note: "One of the better cheese foam programs in LA. Properly salted and thick." },
+              { name: "KOI Thé", area: "Multiple Locations", note: "French-influenced chain. The Paris Latte is better than expected." },
+              { name: "Meet Fresh", area: "Multiple Locations", note: "Taiwanese dessert shop with interesting grass jelly and taro ball combination drinks." },
             ].map((shop) => (
               <div key={shop.name} className="bg-white rounded-lg p-4 border border-gray-100 shadow-sm">
                 <h3 className="font-bold text-[#1A202C] text-sm mb-1">{shop.name}</h3>

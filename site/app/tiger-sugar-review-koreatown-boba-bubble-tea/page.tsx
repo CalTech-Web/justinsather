@@ -87,7 +87,7 @@ export default function TigerSugarReviewPage() {
 
             <h2 className="text-2xl font-bold text-[#1A202C]">The Pearls</h2>
             <p>
-              The pearls are what separate Tiger Sugar from every imitator. They make fresh batches every 4 hours, which means the tapioca is always at the right texture: bouncy with the outside and soft inside, infused with brown sugar syrup that is genuinely house-made and not just a commercial syrup dumped over pre-packaged pearls.
+              The pearls are what separate Tiger Sugar from every imitator. They make fresh batches every 4 hours, which means the tapioca is always at the right texture: bouncy on the outside and soft inside, infused with brown sugar syrup that is genuinely house-made and not just a commercial syrup dumped over pre-packaged pearls.
             </p>
             <p>
               Most boba shops let their pearls sit. After a few hours, tapioca turns from bouncy to gummy. Tiger Sugar doesn&apos;t let that happen.

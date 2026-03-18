@@ -111,7 +111,7 @@ export default function AboutPage() {
             { step: "1", title: "In-Person Visit", desc: "Justin visits every shop himself, pays out of pocket, and photographs the full experience." },
             { step: "2", title: "Full Documentation", desc: "Original photos taken of the exterior, interior, menu board, and drinks." },
             { step: "3", title: "Detailed Review", desc: "Notes compiled into a full review with insider tips, pricing, atmosphere, and ordering recommendations." },
-            { step: "4", title: "Published to the Site", desc: "Review published with SEO-optimized content and all the practical info you actually need." },
+            { step: "4", title: "Published to the Site", desc: "Review goes live with all the practical info you actually need: hours, prices, parking, and what to order." },
             { step: "5", title: "Quarterly Updates", desc: "Shops revisited every quarter to keep hours, prices, and menu info current and accurate." },
           ].map((item) => (
             <div key={item.step} className="flex gap-4 bg-white rounded-xl p-5 border border-gray-100 shadow-sm">
