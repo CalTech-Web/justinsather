@@ -2,6 +2,52 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 
+const STAR_PATH =
+  "M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z";
+
+function StarIcon({ type }: { type: "full" | "half" | "empty" }) {
+  if (type === "full") {
+    return (
+      <svg viewBox="0 0 24 24" className="w-3.5 h-3.5" fill="#2B6CB0">
+        <path d={STAR_PATH} />
+      </svg>
+    );
+  }
+  if (type === "empty") {
+    return (
+      <svg viewBox="0 0 24 24" className="w-3.5 h-3.5" fill="none" stroke="#2B6CB0" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d={STAR_PATH} />
+      </svg>
+    );
+  }
+  return (
+    <div className="relative w-3.5 h-3.5">
+      <svg viewBox="0 0 24 24" className="absolute inset-0 w-3.5 h-3.5" fill="none" stroke="#2B6CB0" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d={STAR_PATH} />
+      </svg>
+      <div className="absolute inset-0 overflow-hidden" style={{ width: "50%" }}>
+        <svg viewBox="0 0 24 24" className="w-3.5 h-3.5" fill="#2B6CB0">
+          <path d={STAR_PATH} />
+        </svg>
+      </div>
+    </div>
+  );
+}
+
+function StarRating({ rating }: { rating: string }) {
+  const value = parseFloat(rating);
+  const full = Math.floor(value);
+  const half = value % 1 >= 0.5;
+  const empty = 5 - full - (half ? 1 : 0);
+  return (
+    <div className="flex items-center gap-0.5" aria-label={`${rating} stars`}>
+      {Array.from({ length: full }).map((_, i) => <StarIcon key={`f${i}`} type="full" />)}
+      {half && <StarIcon key="h" type="half" />}
+      {Array.from({ length: empty }).map((_, i) => <StarIcon key={`e${i}`} type="empty" />)}
+    </div>
+  );
+}
+
 export const metadata: Metadata = {
   title: "Los Angeles Boba Guide | Justin Sather",
   description: "The most comprehensive boba and bubble tea guide in Los Angeles. 150+ shops visited personally, honest reviews, original photos, and zero sponsorships.",
@@ -136,7 +182,7 @@ export default function BobaGuidePage() {
               <div className="p-4">
                 <div className="flex items-center justify-between mb-2">
                   <span className="text-xs text-[#718096] font-medium">{shop.neighborhood}</span>
-                  <span className="text-xs font-bold text-[#2B6CB0]">{shop.rating}</span>
+                  <StarRating rating={shop.rating} />
                 </div>
                 <h3 className="font-bold text-[#1A202C] mb-2" dangerouslySetInnerHTML={{ __html: shop.name }} />
                 <p className="text-[#4A5568] text-sm leading-relaxed mb-3" dangerouslySetInnerHTML={{ __html: shop.highlight }} />
