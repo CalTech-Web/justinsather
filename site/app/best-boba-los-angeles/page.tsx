@@ -1,0 +1,256 @@
+import Image from "next/image";
+import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Best Boba in Los Angeles: 25+ Top Shops Across LA County | Justin Sather",
+  description: "The most comprehensive guide to the best boba and bubble tea shops in Los Angeles. 25+ top shops across Koreatown, San Gabriel Valley, Silver Lake, and beyond. All personally visited.",
+};
+
+const topShops = [
+  {
+    rank: 1,
+    name: "Tiger Sugar",
+    neighborhood: "Koreatown",
+    image: "/assets/products/tiger_sugar_drink.png",
+    rating: "5/5",
+    price: "$$",
+    mustOrder: "Brown Sugar Boba Milk with Cream Mousse",
+    verdict: "The best brown sugar boba in LA. Fresh pearls every 4 hours, theatrical torching, and a drink that actually lives up to the hype. No competition in Koreatown.",
+    href: "/tiger-sugar-review-koreatown-boba-bubble-tea/",
+  },
+  {
+    rank: 2,
+    name: "Boba Guys",
+    neighborhood: "Multiple Locations",
+    image: "/assets/products/boba_guys_drinks.png",
+    rating: "4.5/5",
+    price: "$$",
+    mustOrder: "Strawberry Matcha Latte",
+    verdict: "The gold standard for specialty boba in LA. Organic teas, house-made milk, and fresh taro. More expensive than most, but worth every cent.",
+    href: "/best-boba-los-angeles/",
+  },
+  {
+    rank: 3,
+    name: "Chicha San Chen",
+    neighborhood: "Monterey Park",
+    image: "/assets/products/chicha_san_chen_drink.png",
+    rating: "4.5/5",
+    price: "$$$",
+    mustOrder: "Osmanthus Oolong Milk Tea",
+    verdict: "The most elevated boba experience in LA County. Taiwanese high-tea vibes with genuinely exceptional single-origin tea. Worth the drive to the SGV.",
+    href: "/best-boba-los-angeles/",
+  },
+  {
+    rank: 4,
+    name: "Yi Fang Taiwan Fruit Tea",
+    neighborhood: "San Gabriel Valley",
+    image: "/assets/products/yifang_drink.png",
+    rating: "4/5",
+    price: "$",
+    mustOrder: "Brown Sugar Boba Milk",
+    verdict: "Consistently excellent Taiwanese fruit teas and milk teas at very fair prices. The SGV location is the best in LA.",
+    href: "/best-boba-los-angeles/",
+  },
+  {
+    rank: 5,
+    name: "Half and Half Tea Express",
+    neighborhood: "Rowland Heights",
+    image: "/assets/products/half_and_half_tea_express_drink.png",
+    rating: "4/5",
+    price: "$",
+    mustOrder: "Supreme Milk Tea",
+    verdict: "A SGV institution. No frills, incredible tea quality, and the most affordable premium boba you will find anywhere in LA.",
+    href: "/best-boba-los-angeles/",
+  },
+  {
+    rank: 6,
+    name: "It's Boba Time",
+    neighborhood: "Silver Lake",
+    image: "/assets/products/its_boba_time_drink.png",
+    rating: "4/5",
+    price: "$",
+    mustOrder: "Classic Taro Milk Tea",
+    verdict: "LA original since 1999. Classic flavors done well, great value, and always reliable. The Silver Lake location is the best of the bunch.",
+    href: "/best-boba-los-angeles/",
+  },
+  {
+    rank: 7,
+    name: "LaTea",
+    neighborhood: "Koreatown",
+    image: "/assets/products/latea_drink.png",
+    rating: "4/5",
+    price: "$$",
+    mustOrder: "Matcha Latte with Tapioca",
+    verdict: "One of the best matcha programs in Koreatown. The milk tea base is exceptional and the tapioca is always perfectly cooked.",
+    href: "/best-boba-koreatown-complete-guide-to-30-shops/",
+  },
+  {
+    rank: 8,
+    name: "7 Leaves Cafe",
+    neighborhood: "Multiple Locations",
+    image: "/assets/products/7_leaves_cafe_drink.png",
+    rating: "4/5",
+    price: "$$",
+    mustOrder: "Vietnamese Coffee with Boba",
+    verdict: "Vietnamese-American cafe doing creative things with boba. The Vietnamese coffee drink is unique and excellent. Seasonal drinks are consistently good.",
+    href: "/best-boba-los-angeles/",
+  },
+  {
+    rank: 9,
+    name: "Teaspoon",
+    neighborhood: "Multiple Locations",
+    image: "/assets/products/teaspoon_exterior.png",
+    rating: "3.5/5",
+    price: "$$",
+    mustOrder: "Honey Green Milk Tea",
+    verdict: "Solid mid-tier boba. Nothing exceptional but consistently good quality. Good option if you are near one of their locations and need a reliable fix.",
+    href: "/best-boba-los-angeles/",
+  },
+  {
+    rank: 10,
+    name: "Boba Guys (West Side)",
+    neighborhood: "Culver City",
+    image: "/assets/products/boba_guys_exterior.png",
+    rating: "4/5",
+    price: "$$",
+    mustOrder: "Horchata Boba",
+    verdict: "The West Side&apos;s best bet for high-quality boba. The Culver City location has the best atmosphere of all the LA Boba Guys spots.",
+    href: "/best-boba-los-angeles/",
+  },
+];
+
+export default function BestBobaLAPage() {
+  return (
+    <>
+      {/* Hero */}
+      <section className="bg-white border-b border-gray-100">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+            <div>
+              <span className="inline-block bg-[#EDF2F7] text-[#2B6CB0] text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full mb-4">
+                Citywide Roundup
+              </span>
+              <h1 className="text-4xl font-bold text-[#1A202C] mb-4">
+                Best Boba in Los Angeles: 25+ Top Shops Across LA County
+              </h1>
+              <p className="text-[#4A5568] text-lg leading-relaxed mb-4">
+                Every shop on this list has been visited personally by Justin Sather. All drinks were purchased out of pocket. No sponsorships, no paid placements.
+              </p>
+              <div className="flex gap-3 flex-wrap text-sm">
+                <span className="bg-[#EDF2F7] text-[#2B6CB0] px-3 py-1 rounded-full font-medium">25+ Shops</span>
+                <span className="bg-[#EDF2F7] text-[#2D3748] px-3 py-1 rounded-full font-medium">All Neighborhoods</span>
+                <span className="bg-[#EDF2F7] text-[#2D3748] px-3 py-1 rounded-full font-medium">Updated Quarterly</span>
+              </div>
+            </div>
+            <div className="relative h-72 rounded-2xl overflow-hidden shadow-lg">
+              <Image
+                src="/assets/gallery/best-boba-los-angeles-feature-full.jpeg"
+                alt="Best boba shops in Los Angeles County"
+                fill
+                className="object-cover"
+                priority
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Author note */}
+      <section className="bg-[#EDF2F7] py-6">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center gap-4">
+            <div className="relative w-12 h-12 rounded-full overflow-hidden flex-shrink-0">
+              <Image src="/assets/team/justin-sather-avatar.jpg" alt="Justin Sather" fill className="object-cover" />
+            </div>
+            <p className="text-sm text-[#4A5568]">
+              <span className="font-semibold text-[#1A202C]">Justin Sather</span> has personally visited every shop on this list. Rankings are based on drink quality, consistency, value, and overall experience. Last updated: Q1 2026.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Ranked list */}
+      <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <h2 className="text-2xl font-bold text-[#1A202C] mb-8">The Top 10</h2>
+        <div className="space-y-6">
+          {topShops.map((shop) => (
+            <article key={shop.rank} className="bg-white rounded-xl border border-gray-100 shadow-sm overflow-hidden hover:shadow-md transition-shadow">
+              <div className="flex flex-col sm:flex-row">
+                <div className="relative sm:w-48 h-44 sm:h-auto flex-shrink-0">
+                  <Image
+                    src={shop.image}
+                    alt={`${shop.name} boba review`}
+                    fill
+                    className="object-cover"
+                  />
+                  <div className="absolute top-3 left-3 w-8 h-8 bg-[#2B6CB0] text-white rounded-full flex items-center justify-center text-sm font-bold shadow">
+                    {shop.rank}
+                  </div>
+                </div>
+                <div className="p-5 flex-1">
+                  <div className="flex items-start justify-between mb-2">
+                    <div>
+                      <h3 className="text-lg font-bold text-[#1A202C]">{shop.name}</h3>
+                      <p className="text-sm text-[#718096]">{shop.neighborhood}</p>
+                    </div>
+                    <div className="text-right flex-shrink-0">
+                      <span className="text-sm font-bold text-[#2B6CB0]">{shop.rating}</span>
+                      <p className="text-xs text-[#718096]">{shop.price}</p>
+                    </div>
+                  </div>
+                  <p className="text-[#4A5568] text-sm leading-relaxed mb-3" dangerouslySetInnerHTML={{ __html: shop.verdict }} />
+                  <div className="flex items-center justify-between">
+                    <span className="text-xs text-[#718096]">
+                      <span className="font-semibold text-[#2D3748]">Must order:</span> {shop.mustOrder}
+                    </span>
+                    <Link href={shop.href} className="text-[#2B6CB0] text-xs font-semibold hover:text-[#215387] transition-colors flex-shrink-0 ml-2">
+                      Full Review &rarr;
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      {/* Honorable mentions */}
+      <section className="bg-[#EDF2F7] py-12">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl font-bold text-[#1A202C] mb-6">More Worth Visiting</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {[
+              { name: "Gong Cha", area: "Multiple Locations", note: "Reliable Korean chain. Good for a quick fix." },
+              { name: "Ten Ren Tea", area: "San Gabriel Valley", note: "Old-school Taiwanese chain with excellent oolongs." },
+              { name: "TP Tea", area: "Multiple Locations", note: "Taiwanese brand known for fresh loose-leaf teas." },
+              { name: "Coco Fresh Tea", area: "Multiple Locations", note: "No-frills, great value, consistently solid." },
+              { name: "Sharetea", area: "Multiple Locations", note: "Taiwanese chain with a strong taro game." },
+              { name: "Sunright Tea Studio", area: "San Gabriel Valley", note: "Minimalist, specialty-grade tea. Worth a special trip." },
+            ].map((shop) => (
+              <div key={shop.name} className="bg-white rounded-lg p-4 border border-gray-100 shadow-sm">
+                <h3 className="font-bold text-[#1A202C] text-sm mb-1">{shop.name}</h3>
+                <p className="text-xs text-[#718096] mb-2">{shop.area}</p>
+                <p className="text-xs text-[#4A5568]">{shop.note}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 text-center">
+        <h2 className="text-2xl font-bold text-[#1A202C] mb-3">Want the Deepest Dive?</h2>
+        <p className="text-[#4A5568] mb-6 max-w-xl mx-auto">
+          The Koreatown guide covers 30+ shops with full individual reviews, rankings, and insider tips, all from a single neighborhood.
+        </p>
+        <Link
+          href="/best-boba-koreatown-complete-guide-to-30-shops/"
+          className="bg-[#2B6CB0] text-white font-bold px-8 py-3 rounded-lg hover:bg-[#215387] transition-colors inline-block"
+        >
+          Read the Koreatown Guide
+        </Link>
+      </section>
+    </>
+  );
+}
