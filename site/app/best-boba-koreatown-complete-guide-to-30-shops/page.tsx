@@ -287,12 +287,38 @@ export default function KoreatownGuidePage() {
           <h2 className="text-2xl font-bold text-[#1A202C] mb-6">Koreatown Boba Tips</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
-              { icon: "🅿️", title: "Parking", tip: "Street parking is extremely limited on 6th Street. Use the Target or Koreatown Galleria parking structure and walk." },
-              { icon: "⏰", title: "Best Time to Go", tip: "Weekday afternoons 2pm to 5pm have the shortest lines. Weekend evenings are packed at the popular spots." },
-              { icon: "💡", title: "Pro Tip", tip: "Many K-Town shops offer loyalty cards. If you plan to visit multiple times, ask when you order and start collecting." },
+              {
+                icon: (
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 18.75a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 0 1-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 0 0-3.213-9.193 2.056 2.056 0 0 0-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 0 0-10.026 0 1.106 1.106 0 0 0-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12" />
+                  </svg>
+                ),
+                title: "Parking",
+                tip: "Street parking is extremely limited on 6th Street. Use the Target or Koreatown Galleria parking structure and walk.",
+              },
+              {
+                icon: (
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                  </svg>
+                ),
+                title: "Best Time to Go",
+                tip: "Weekday afternoons 2pm to 5pm have the shortest lines. Weekend evenings are packed at the popular spots.",
+              },
+              {
+                icon: (
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 0 0 1.5-.189m-1.5.189a6.01 6.01 0 0 1-1.5-.189m3.75 7.478a12.06 12.06 0 0 1-4.5 0m3.75 2.383a14.406 14.406 0 0 1-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 1 0-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
+                  </svg>
+                ),
+                title: "Pro Tip",
+                tip: "Many K-Town shops offer loyalty cards. If you plan to visit multiple times, ask when you order and start collecting.",
+              },
             ].map((tip) => (
               <div key={tip.title} className="bg-white rounded-xl p-5 border border-gray-100 shadow-sm">
-                <div className="text-2xl mb-2">{tip.icon}</div>
+                <div className="w-9 h-9 rounded-lg bg-[#EDF2F7] flex items-center justify-center text-[#2B6CB0] mb-3">
+                  {tip.icon}
+                </div>
                 <h3 className="font-bold text-[#1A202C] mb-2 text-sm">{tip.title}</h3>
                 <p className="text-[#4A5568] text-sm leading-relaxed">{tip.tip}</p>
               </div>
