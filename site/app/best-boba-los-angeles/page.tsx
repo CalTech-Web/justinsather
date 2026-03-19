@@ -74,7 +74,7 @@ const topShops = [
     price: "$$",
     mustOrder: "Strawberry Matcha Latte",
     verdict: "The gold standard for specialty boba in LA. Organic teas, house-made milk, and fresh taro. More expensive than most, but worth every cent.",
-    href: "/best-boba-los-angeles/",
+    href: "/boba-guys-review-los-angeles/",
   },
   {
     rank: 3,
@@ -85,7 +85,7 @@ const topShops = [
     price: "$$$",
     mustOrder: "Osmanthus Oolong Milk Tea",
     verdict: "The most elevated boba experience in LA County. Taiwanese high-tea vibes with genuinely exceptional single-origin tea. Worth the drive to the SGV.",
-    href: "/best-boba-los-angeles/",
+    href: "/chicha-san-chen-san-gabriel-review/",
   },
   {
     rank: 4,
@@ -94,9 +94,9 @@ const topShops = [
     image: "/assets/products/yifang_drink.png",
     rating: "4/5",
     price: "$",
-    mustOrder: "Brown Sugar Boba Milk",
+    mustOrder: "Pineapple Green Tea",
     verdict: "Consistently excellent Taiwanese fruit teas and milk teas at very fair prices. The SGV location is the best in LA.",
-    href: "/best-boba-los-angeles/",
+    href: "/yi-fang-taiwan-fruit-tea-review-los-angeles/",
   },
   {
     rank: 5,
@@ -118,7 +118,7 @@ const topShops = [
     price: "$",
     mustOrder: "Classic Taro Milk Tea",
     verdict: "LA original since 1999. Classic flavors done well, great value, and always reliable. The Silver Lake location is the best of the bunch.",
-    href: "/best-boba-los-angeles/",
+    href: "/its-boba-time-review-los-angeles/",
   },
   {
     rank: 7,
@@ -140,7 +140,7 @@ const topShops = [
     price: "$$",
     mustOrder: "Vietnamese Coffee with Boba",
     verdict: "Vietnamese-American cafe doing creative things with boba. The Vietnamese coffee drink is unique and excellent. Seasonal drinks are consistently good.",
-    href: "/best-boba-los-angeles/",
+    href: "/7-leaves-cafe-review-los-angeles/",
   },
   {
     rank: 9,
@@ -151,7 +151,7 @@ const topShops = [
     price: "$$",
     mustOrder: "Honey Green Milk Tea",
     verdict: "Solid mid-tier boba. Nothing exceptional but consistently good quality. Good option if you are near one of their locations and need a reliable fix.",
-    href: "/best-boba-los-angeles/",
+    href: "/teaspoon-boba-review-los-angeles/",
   },
   {
     rank: 10,
@@ -162,7 +162,7 @@ const topShops = [
     price: "$$",
     mustOrder: "Horchata Boba",
     verdict: "The West Side&apos;s best bet for high-quality boba. The Culver City location has the best atmosphere of all the LA Boba Guys spots.",
-    href: "/best-boba-los-angeles/",
+    href: "/boba-guys-review-los-angeles/",
   },
 ];
 
