@@ -59,6 +59,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: `${baseUrl}/chicha-san-chen-san-gabriel-review`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
       url: `${baseUrl}/yi-fang-taiwan-fruit-tea-review-los-angeles`,
       lastModified: new Date(),
       changeFrequency: "monthly",
