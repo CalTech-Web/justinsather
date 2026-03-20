@@ -195,14 +195,14 @@ const topShops = [
   },
   {
     rank: 10,
-    name: "Boba Guys (West Side)",
-    neighborhood: "Culver City",
-    image: "/assets/products/boba_guys_exterior.png",
-    rating: "4/5",
+    name: "Sunright Tea Studio",
+    neighborhood: "Pasadena / Rowland Heights",
+    image: "/assets/products/boba_scene_lifestyle.png",
+    rating: "4.6/5",
     price: "$$",
-    mustOrder: "Horchata Boba",
-    verdict: "The West Side&apos;s best bet for high-quality boba. The Culver City location has the best atmosphere of all the LA Boba Guys spots.",
-    href: "/boba-guys-review-los-angeles/",
+    mustOrder: "Sun Moon Lake Milk Tea",
+    verdict: "The best single-origin tea program in the SGV. Sun Moon Lake black tea and Alishan oolong brewed fresh, never powder. Worth the drive to Pasadena.",
+    href: "/sunright-tea-studio-review-los-angeles/",
   },
 ];
 
