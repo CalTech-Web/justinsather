@@ -7,9 +7,49 @@ export const metadata: Metadata = {
   description: "An honest, in-depth review of Tiger Sugar in Koreatown, Los Angeles. The best brown sugar boba in LA? Justin Sather paid his own way and gives you the full verdict.",
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "name": "Tiger Sugar, Koreatown: The Best Brown Sugar Boba in Los Angeles?",
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "5",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Justin Sather",
+    "url": "https://justinsather.com/about-me/"
+  },
+  "itemReviewed": {
+    "@type": "FoodEstablishment",
+    "name": "Tiger Sugar",
+    "servesCuisine": "Bubble Tea",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "3470 W 6th St",
+      "addressLocality": "Los Angeles",
+      "addressRegion": "CA",
+      "addressCountry": "US"
+    }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Justin Sather, Los Angeles",
+    "url": "https://justinsather.com"
+  },
+  "datePublished": "2026-01-15",
+  "url": "https://justinsather.com/tiger-sugar-review-koreatown-boba-bubble-tea/"
+};
+
 export default function TigerSugarReviewPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Hero */}
       <section className="bg-white border-b border-gray-100 pt-12 pb-6">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

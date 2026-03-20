@@ -7,9 +7,48 @@ export const metadata: Metadata = {
   description: "An honest review of Boba Guys in Los Angeles. Premium ingredients, signature drinks, honest pros and cons, and what to order. Paid out of pocket, no sponsorships.",
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "name": "Boba Guys Review: Is the Premium Price Worth It in Los Angeles?",
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "4.5",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Justin Sather",
+    "url": "https://justinsather.com/about-me/"
+  },
+  "itemReviewed": {
+    "@type": "FoodEstablishment",
+    "name": "Boba Guys",
+    "servesCuisine": "Bubble Tea",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Los Angeles",
+      "addressRegion": "CA",
+      "addressCountry": "US"
+    }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Justin Sather, Los Angeles",
+    "url": "https://justinsather.com"
+  },
+  "datePublished": "2026-01-15",
+  "url": "https://justinsather.com/boba-guys-review-los-angeles/"
+};
+
 export default function BobaGuysReviewPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Hero */}
       <section className="bg-white border-b border-gray-100 pt-12 pb-6">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

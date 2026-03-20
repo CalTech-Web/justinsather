@@ -7,9 +7,48 @@ export const metadata: Metadata = {
   description: "Complete 7 Leaves Cafe menu guide and honest review. Full drink breakdown, secret menu, best orders, and what to expect. Personally visited, paid out of pocket, no sponsorships.",
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "name": "7 Leaves Cafe Review: The Complete Menu Guide for LA's Best Vietnamese Boba",
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "4.5",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Justin Sather",
+    "url": "https://justinsather.com/about-me/"
+  },
+  "itemReviewed": {
+    "@type": "FoodEstablishment",
+    "name": "7 Leaves Cafe",
+    "servesCuisine": "Vietnamese Bubble Tea",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Los Angeles",
+      "addressRegion": "CA",
+      "addressCountry": "US"
+    }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Justin Sather, Los Angeles",
+    "url": "https://justinsather.com"
+  },
+  "datePublished": "2026-01-15",
+  "url": "https://justinsather.com/7-leaves-cafe-review-los-angeles/"
+};
+
 export default function SevenLeavesCafeReviewPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Hero */}
       <section className="bg-white border-b border-gray-100 pt-12 pb-6">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

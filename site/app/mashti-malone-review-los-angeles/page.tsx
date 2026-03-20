@@ -7,9 +7,48 @@ export const metadata: Metadata = {
   description: "An honest review of Mashti Malone in Hollywood, LA. Persian ice cream, faloodeh, saffron bastani, and what to order. Visited in person, paid out of pocket, no sponsorships.",
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "name": "Mashti Malone Review: LA's Best Persian Ice Cream on Hollywood Boulevard",
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "4.7",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Justin Sather",
+    "url": "https://justinsather.com/about-me/"
+  },
+  "itemReviewed": {
+    "@type": "FoodEstablishment",
+    "name": "Mashti Malone",
+    "servesCuisine": "Persian Ice Cream",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Los Angeles",
+      "addressRegion": "CA",
+      "addressCountry": "US"
+    }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Justin Sather, Los Angeles",
+    "url": "https://justinsather.com"
+  },
+  "datePublished": "2026-01-15",
+  "url": "https://justinsather.com/mashti-malone-review-los-angeles/"
+};
+
 export default function MashtiMaloneReviewPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Hero */}
       <section className="bg-white border-b border-gray-100 pt-12 pb-6">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

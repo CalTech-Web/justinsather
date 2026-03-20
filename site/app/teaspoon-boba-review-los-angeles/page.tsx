@@ -7,9 +7,48 @@ export const metadata: Metadata = {
   description: "An honest review of Teaspoon boba in Los Angeles. Signature drinks, menu breakdown, pricing, and what to order. Visited in person, paid out of pocket, no sponsorships.",
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "name": "Teaspoon Boba Review: Is the Bay Area Import Worth It in Los Angeles?",
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "4.3",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Justin Sather",
+    "url": "https://justinsather.com/about-me/"
+  },
+  "itemReviewed": {
+    "@type": "FoodEstablishment",
+    "name": "Teaspoon",
+    "servesCuisine": "Bubble Tea",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Los Angeles",
+      "addressRegion": "CA",
+      "addressCountry": "US"
+    }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Justin Sather, Los Angeles",
+    "url": "https://justinsather.com"
+  },
+  "datePublished": "2026-01-15",
+  "url": "https://justinsather.com/teaspoon-boba-review-los-angeles/"
+};
+
 export default function TeaspoonBobaReviewPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Hero */}
       <section className="bg-white border-b border-gray-100 pt-12 pb-6">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

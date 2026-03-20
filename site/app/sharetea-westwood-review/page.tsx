@@ -7,9 +7,48 @@ export const metadata: Metadata = {
   description: "An honest review of Sharetea Westwood, Los Angeles. Full menu breakdown, best drinks, pricing, and insider ordering tips. Paid out of pocket, no sponsorships.",
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "name": "Sharetea Westwood Review: The Complete Menu Guide Near UCLA",
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "4.2",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Justin Sather",
+    "url": "https://justinsather.com/about-me/"
+  },
+  "itemReviewed": {
+    "@type": "FoodEstablishment",
+    "name": "Sharetea Westwood",
+    "servesCuisine": "Bubble Tea",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Los Angeles",
+      "addressRegion": "CA",
+      "addressCountry": "US"
+    }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Justin Sather, Los Angeles",
+    "url": "https://justinsather.com"
+  },
+  "datePublished": "2026-01-15",
+  "url": "https://justinsather.com/sharetea-westwood-review/"
+};
+
 export default function ShareteaWestwoodReviewPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Hero */}
       <section className="bg-white border-b border-gray-100 pt-12 pb-6">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
