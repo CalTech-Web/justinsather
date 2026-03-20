@@ -53,6 +53,46 @@ export const metadata: Metadata = {
   description: "The most comprehensive guide to the best boba and bubble tea shops in Los Angeles. 25+ top shops across Koreatown, San Gabriel Valley, Silver Lake, and beyond. All personally visited.",
 };
 
+const faqItems = [
+  {
+    question: "What is the best boba shop in Los Angeles?",
+    answer: "Tiger Sugar in Koreatown is the best brown sugar boba in Los Angeles. For the widest variety of high-quality drinks, Boba Guys is the top pick, using organic teas and house-made milk. Both have been personally visited and reviewed.",
+  },
+  {
+    question: "Which neighborhood in LA has the best boba?",
+    answer: "Koreatown has the highest concentration of excellent boba shops, with 30+ reviewed locations in a small area. The San Gabriel Valley, particularly Rowland Heights and Monterey Park, is unmatched for Taiwanese-style milk teas and premium fruit teas.",
+  },
+  {
+    question: "How much does boba cost in Los Angeles?",
+    answer: "Most boba shops in LA charge between $7 and $11 per drink. Budget-friendly spots like It's Boba Time typically run $5 to $7. Premium shops like Boba Guys and Chicha San Chen run $9 to $13 per drink.",
+  },
+  {
+    question: "What is the best bubble tea in Los Angeles?",
+    answer: "The best bubble tea in Los Angeles depends on what you are looking for. For brown sugar boba milk, Tiger Sugar is number one. For fruit teas, Yi Fang Taiwan Fruit Tea in the SGV uses real fresh fruit. For Vietnamese-style boba, 7 Leaves Cafe is the top pick.",
+  },
+  {
+    question: "Are there boba shops open late in Los Angeles?",
+    answer: "Yes. It's Boba Time locations in Silver Lake are among the latest-closing boba shops in LA. Most Koreatown boba shops stay open until 10 or 11 PM. Always check current hours directly with the shop before visiting.",
+  },
+  {
+    question: "What are the best boba shops near UCLA in Westwood?",
+    answer: "Sharetea Westwood is the closest reviewed boba shop to UCLA. It is located in Westwood Village and serves a full Taiwanese tea menu including the Three Mates and handcrafted milk teas.",
+  },
+];
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqItems.map((item) => ({
+    "@type": "Question",
+    name: item.question,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.answer,
+    },
+  })),
+};
+
 const topShops = [
   {
     rank: 1,
@@ -169,6 +209,10 @@ const topShops = [
 export default function BestBobaLAPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
       {/* Hero */}
       <section className="bg-white border-b border-gray-100">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
@@ -292,6 +336,19 @@ export default function BestBobaLAPage() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <h2 className="text-2xl font-bold text-[#1A202C] mb-8">Frequently Asked Questions</h2>
+        <div className="space-y-4">
+          {faqItems.map((item) => (
+            <div key={item.question} className="bg-white rounded-xl border border-gray-100 shadow-sm p-6">
+              <h3 className="text-base font-bold text-[#1A202C] mb-2">{item.question}</h3>
+              <p className="text-[#4A5568] text-sm leading-relaxed">{item.answer}</p>
+            </div>
+          ))}
         </div>
       </section>
 
