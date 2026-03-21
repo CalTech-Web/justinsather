@@ -204,6 +204,17 @@ const topShops = [
     verdict: "The best single-origin tea program in the SGV. Sun Moon Lake black tea and Alishan oolong brewed fresh, never powder. Worth the drive to Pasadena.",
     href: "/sunright-tea-studio-review-los-angeles/",
   },
+  {
+    rank: 11,
+    name: "Happy Lemon",
+    neighborhood: "Koreatown + SGV",
+    image: "/assets/products/boba_scene_lifestyle.png",
+    rating: "4.2/5",
+    price: "$$",
+    mustOrder: "Rock Salt & Cheese Oolong",
+    verdict: "The chain that brought Rock Salt and Cheese foam to LA. Essential for understanding the city's boba history. The Oolong base with cheese foam is the definitive order.",
+    href: "/happy-lemon-review-los-angeles/",
+  },
 ];
 
 export default function BestBobaLAPage() {
