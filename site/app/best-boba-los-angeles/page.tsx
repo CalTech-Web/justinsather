@@ -215,6 +215,17 @@ const topShops = [
     verdict: "The chain that brought Rock Salt and Cheese foam to LA. Essential for understanding the city's boba history. The Oolong base with cheese foam is the definitive order.",
     href: "/happy-lemon-review-los-angeles/",
   },
+  {
+    rank: 12,
+    name: "Kung Fu Tea",
+    neighborhood: "Multiple LA Locations",
+    image: "/assets/products/boba_scene_lifestyle.png",
+    rating: "4.1/5",
+    price: "$$",
+    mustOrder: "Kung Fu Milk Tea",
+    verdict: "The most accessible boba chain in LA. Reliable across all locations, affordable pricing, and a genuinely well-made house milk tea. The Taro Slush is one of the better versions in the city.",
+    href: "/kung-fu-tea-review-los-angeles/",
+  },
 ];
 
 export default function BestBobaLAPage() {
