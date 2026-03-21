@@ -237,6 +237,17 @@ const topShops = [
     verdict: "Not a boba shop, the best Taiwanese dessert shop in LA. Taro balls, grass jelly, and sweet soups done authentically and priced under $11 for a full bowl. Essential SGV stop.",
     href: "/meet-fresh-review-los-angeles/",
   },
+  {
+    rank: 14,
+    name: "Xing Fu Tang",
+    neighborhood: "Temple City, Alhambra (San Gabriel Valley)",
+    image: "/assets/products/boba_scene_lifestyle.png",
+    rating: "4.7/5",
+    price: "$$",
+    mustOrder: "Tiger Milk Tea",
+    verdict: "The best fresh-pearl brown sugar boba in the SGV. Pearls cooked every two hours in a wok with Okinawa black sugar. The Tiger Milk Tea is one of the top two brown sugar boba drinks in all of LA County.",
+    href: "/xing-fu-tang-review-los-angeles/",
+  },
 ];
 
 export default function BestBobaLAPage() {
@@ -352,7 +363,7 @@ export default function BestBobaLAPage() {
               { name: "Coco Fresh Tea", area: "Multiple Locations", note: "No-frills, great value, consistently solid." },
               { name: "Sharetea", area: "Multiple Locations", note: "Taiwanese chain with a strong taro game." },
               { name: "Sunright Tea Studio", area: "San Gabriel Valley", note: "Minimalist, specialty-grade tea. Worth a special trip." },
-              { name: "Xing Fu Tang", area: "Koreatown / Multiple", note: "Handmade brown sugar tapioca. Serious competition for Tiger Sugar." },
+              { name: "Wushiland Boba", area: "Multiple Locations", note: "Hong Kong-style milk tea specialist. Less known than the big chains but consistently excellent." },
               { name: "Moge Tee", area: "Multiple Locations", note: "Yunnan Pu-erh base gives the drinks real depth. Better than it looks." },
               { name: "Milksha", area: "Multiple Locations", note: "Premium Taiwanese chain using fresh milk, not powder. The taro milk is exceptional." },
               { name: "Somi Somi", area: "Koreatown", note: "Fish-shaped waffle cones with soft serve and tapioca. A K-Town institution." },
