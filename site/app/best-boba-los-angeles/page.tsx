@@ -248,6 +248,17 @@ const topShops = [
     verdict: "The best fresh-pearl brown sugar boba in the SGV. Pearls cooked every two hours in a wok with Okinawa black sugar. The Tiger Milk Tea is one of the top two brown sugar boba drinks in all of LA County.",
     href: "/xing-fu-tang-review-los-angeles/",
   },
+  {
+    rank: 15,
+    name: "TP Tea",
+    neighborhood: "Diamond Bar, Hacienda Heights (San Gabriel Valley)",
+    image: "/assets/products/boba_scene_lifestyle.png",
+    rating: "4.4/5",
+    price: "$",
+    mustOrder: "Green Milk Tea, Pearl Milk Tea",
+    verdict: "The most underrated boba chain in LA. Backed by Ten Ren Tea Company (est. 1953), TP Tea uses loose-leaf Taiwanese teas that outclass every other chain in its price range. Best value boba in the SGV at $5 to $7 per drink.",
+    href: "/tp-tea-review-los-angeles/",
+  },
 ];
 
 export default function BestBobaLAPage() {
