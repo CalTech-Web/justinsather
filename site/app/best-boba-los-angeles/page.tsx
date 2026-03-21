@@ -226,6 +226,17 @@ const topShops = [
     verdict: "The most accessible boba chain in LA. Reliable across all locations, affordable pricing, and a genuinely well-made house milk tea. The Taro Slush is one of the better versions in the city.",
     href: "/kung-fu-tea-review-los-angeles/",
   },
+  {
+    rank: 13,
+    name: "Meet Fresh",
+    neighborhood: "SGV (Rowland Heights, Alhambra, Monterey Park)",
+    image: "/assets/products/boba_scene_lifestyle.png",
+    rating: "4.4/5",
+    price: "$",
+    mustOrder: "Taro Ball Combination (warm)",
+    verdict: "Not a boba shop, the best Taiwanese dessert shop in LA. Taro balls, grass jelly, and sweet soups done authentically and priced under $11 for a full bowl. Essential SGV stop.",
+    href: "/meet-fresh-review-los-angeles/",
+  },
 ];
 
 export default function BestBobaLAPage() {
