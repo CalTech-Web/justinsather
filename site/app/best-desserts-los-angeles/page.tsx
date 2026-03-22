@@ -184,6 +184,20 @@ const bobaShops = [
   },
 ];
 
+const bakeryShops = [
+  {
+    rank: 1,
+    name: "85 Degrees Bakery Cafe",
+    neighborhood: "San Gabriel Valley, Multiple Locations",
+    image: "/assets/products/boba_scene_lifestyle.png",
+    rating: "4.4",
+    price: "$",
+    mustOrder: "Sea Salt Coffee, Tiger Bread",
+    verdict: "The best value food experience in the SGV. Sea salt coffee is one of LA's most underrated drinks, the tiger bread is unlike anything else, and the egg tarts are among the best in any LA bakery. Opens early and sells out of the best items by afternoon.",
+    href: "/85-degrees-bakery-review-los-angeles/",
+  },
+];
+
 const iceCreamShops = [
   {
     rank: 1,
@@ -405,6 +419,56 @@ export default function BestDessertsLAPage() {
               </article>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Bakery Section */}
+      <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="mb-8">
+          <h2 className="text-2xl font-bold text-[#1A202C] mb-2">Best Taiwanese Bakeries in Los Angeles</h2>
+          <p className="text-[#4A5568]">
+            The SGV has a Taiwanese bakery culture that most of LA has not discovered yet. These spots serve freshly baked bread, pastries, and drinks that pair perfectly with a boba run.
+          </p>
+        </div>
+        <div className="space-y-6">
+          {bakeryShops.map((shop) => (
+            <article key={shop.name} className="bg-white rounded-xl border border-gray-100 shadow-sm overflow-hidden hover:shadow-md transition-shadow">
+              <div className="flex flex-col sm:flex-row">
+                <div className="relative sm:w-48 h-44 sm:h-auto flex-shrink-0">
+                  <Image
+                    src={shop.image}
+                    alt={`${shop.name} review Los Angeles`}
+                    fill
+                    className="object-cover"
+                  />
+                  <div className="absolute top-3 left-3 w-8 h-8 bg-[#2B6CB0] text-white rounded-full flex items-center justify-center text-sm font-bold shadow">
+                    {shop.rank}
+                  </div>
+                </div>
+                <div className="p-5 flex-1">
+                  <div className="flex items-start justify-between mb-2">
+                    <div>
+                      <h3 className="text-lg font-bold text-[#1A202C]">{shop.name}</h3>
+                      <p className="text-sm text-[#718096]">{shop.neighborhood}</p>
+                    </div>
+                    <div className="text-right flex-shrink-0">
+                      <StarRating rating={shop.rating} />
+                      <p className="text-xs text-[#718096] mt-1">{shop.price}</p>
+                    </div>
+                  </div>
+                  <p className="text-[#4A5568] text-sm leading-relaxed mb-3">{shop.verdict}</p>
+                  <div className="flex items-center justify-between">
+                    <span className="text-xs text-[#718096]">
+                      <span className="font-semibold text-[#2D3748]">Must order:</span> {shop.mustOrder}
+                    </span>
+                    <Link href={shop.href} className="text-[#2B6CB0] text-xs font-semibold hover:text-[#215387] transition-colors flex-shrink-0 ml-2">
+                      Full Review &rarr;
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </article>
+          ))}
         </div>
       </section>
 
