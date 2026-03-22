@@ -229,6 +229,17 @@ const iceCreamShops = [
     verdict: "Small-batch artisan ice cream with a rotating menu of creative flavors. The Mar Vista location draws a loyal local crowd. Less touristy than Wanderlust but comparable quality in the best flavors.",
     href: null,
   },
+  {
+    rank: 5,
+    name: "Mochinut",
+    neighborhood: "Koreatown, Multiple Locations",
+    image: "/assets/products/boba_scene_lifestyle.png",
+    rating: "4.3",
+    price: "$$",
+    mustOrder: "Ube Mochi Donut",
+    verdict: "The most original dessert concept operating at scale in LA right now. Mochi donuts with a Korean-influenced flavor system, ube, matcha, black sesame, taro, plus a legitimate boba program. The Koreatown location is the essential stop.",
+    href: "/mochinut-review-los-angeles/",
+  },
 ];
 
 export default function BestDessertsLAPage() {

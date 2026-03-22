@@ -131,6 +131,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: `${baseUrl}/mochinut-review-los-angeles`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
       url: `${baseUrl}/best-desserts-los-angeles`,
       lastModified: new Date(),
       changeFrequency: "monthly",
