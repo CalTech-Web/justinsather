@@ -259,6 +259,17 @@ const topShops = [
     verdict: "The most underrated boba chain in LA. Backed by Ten Ren Tea Company (est. 1953), TP Tea uses loose-leaf Taiwanese teas that outclass every other chain in its price range. Best value boba in the SGV at $5 to $7 per drink.",
     href: "/tp-tea-review-los-angeles/",
   },
+  {
+    rank: 16,
+    name: "The Alley",
+    neighborhood: "Koreatown, Arcadia, Rowland Heights",
+    image: "/assets/products/boba_scene_lifestyle.png",
+    rating: "4.3/5",
+    price: "$$",
+    mustOrder: "Roasted Oolong with Deerioca",
+    verdict: "The Taiwanese chain that made crystal tapioca famous. Deerioca is a genuinely unique topping and the roasted oolong base is one of the better teas available from a chain this size in LA.",
+    href: "/the-alley-boba-review-los-angeles/",
+  },
 ];
 
 export default function BestBobaLAPage() {
