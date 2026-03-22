@@ -270,6 +270,17 @@ const topShops = [
     verdict: "The Taiwanese chain that made crystal tapioca famous. Deerioca is a genuinely unique topping and the roasted oolong base is one of the better teas available from a chain this size in LA.",
     href: "/the-alley-boba-review-los-angeles/",
   },
+  {
+    rank: 17,
+    name: "Tastea",
+    neighborhood: "Alhambra, West Covina, SGV",
+    image: "/assets/products/boba_scene_lifestyle.png",
+    rating: "4.3/5",
+    price: "$$",
+    mustOrder: "Rose Matcha Milk Tea, Strawberry Milk Tea",
+    verdict: "The San Diego chain that earns its hype in LA. Tastea is the most consistently good mid-tier chain in the city, with a Rose Matcha Milk Tea that is one of the most interesting specialty drinks at any LA boba shop.",
+    href: "/tastea-review-los-angeles/",
+  },
 ];
 
 export default function BestBobaLAPage() {
