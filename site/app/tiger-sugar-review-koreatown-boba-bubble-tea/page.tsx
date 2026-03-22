@@ -3,8 +3,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Tiger Sugar Review: The Best Brown Sugar Boba in Koreatown | Justin Sather",
-  description: "An honest, in-depth review of Tiger Sugar in Koreatown, Los Angeles. The best brown sugar boba in LA? Justin Sather paid his own way and gives you the full verdict.",
+  title: "Tiger Sugar Review: Menu, Prices & Hours in Koreatown LA | Justin Sather",
+  description: "Tiger Sugar Koreatown review with full menu, prices, and hours. Is it the best brown sugar boba in Los Angeles? Justin Sather visited in person and gives the honest verdict.",
 };
 
 const jsonLd = {
@@ -43,12 +43,71 @@ const jsonLd = {
   "url": "https://justinsather.com/tiger-sugar-review-koreatown-boba-bubble-tea/"
 };
 
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is on the Tiger Sugar menu?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Tiger Sugar menu centers on its signature Brown Sugar Boba Milk with Cream Mousse. Other drinks include Brown Sugar Boba Milk (without foam), Brown Sugar Milk Tea with Cream Mousse, Coconut Milk with Cream Mousse, and rotating seasonal specials. Prices range from $6 to $8."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does Tiger Sugar cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tiger Sugar drinks in Los Angeles range from $6 to $8. The signature Brown Sugar Boba Milk with Cream Mousse is $7.50. This puts it at a mid-range price point compared to other Koreatown boba shops."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is Tiger Sugar in Los Angeles?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tiger Sugar is located at 3470 W 6th St, Los Angeles, CA 90020, in the heart of Koreatown. The nearest parking is the Target parking structure approximately two blocks west on Vermont Avenue."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are Tiger Sugar's hours in Koreatown?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tiger Sugar Koreatown is open daily from 11am to 10pm. The slowest time is weekday mornings before noon. Expect lines on Friday and Saturday evenings."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Tiger Sugar worth it in Los Angeles?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Tiger Sugar is the best brown sugar boba in Koreatown and one of the best in all of Los Angeles. The fresh-cooked pearls, house-made brown sugar syrup, and table-side torching make it a must-visit. The $7.50 price is fair for the quality."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does Tiger Sugar compare to other boba shops near me in Koreatown?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tiger Sugar has a narrower menu than most Koreatown boba shops, but no other shop in the area matches its brown sugar boba. For a wider menu with cheese foam and fruit tea options, Feng Cha and Happy Lemon are nearby. Tiger Sugar wins on the brown sugar category by a wide margin."
+      }
+    }
+  ]
+};
+
 export default function TigerSugarReviewPage() {
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
       {/* Hero */}
       <section className="bg-white border-b border-gray-100 pt-12 pb-6">
@@ -149,6 +208,40 @@ export default function TigerSugarReviewPage() {
               If you hate sweet drinks, reduce the sugar level when you order. The default is very sweet, which is part of the experience, but a 50% sugar option gives you a more balanced drink.
             </p>
 
+            <h2 className="text-2xl font-bold text-[#1A202C]">Tiger Sugar Menu and Prices</h2>
+            <p>
+              The Tiger Sugar menu is intentionally short. This is a shop that does one thing and does it better than anyone else in Koreatown. Here is every item currently on the menu at the Los Angeles location:
+            </p>
+            <div className="overflow-x-auto rounded-xl border border-gray-100">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="bg-[#EDF2F7] text-[#2D3748]">
+                    <th className="text-left px-4 py-3 font-semibold">Drink</th>
+                    <th className="text-left px-4 py-3 font-semibold">Price</th>
+                    <th className="text-left px-4 py-3 font-semibold">Notes</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-gray-100">
+                  {[
+                    { drink: "Brown Sugar Boba Milk with Cream Mousse", price: "$7.50", notes: "Signature. Table-side torching. Order this." },
+                    { drink: "Brown Sugar Boba Milk", price: "$6.75", notes: "No foam, simpler version of the signature" },
+                    { drink: "Brown Sugar Milk Tea with Cream Mousse", price: "$7.50", notes: "Tea base instead of plain milk, still great" },
+                    { drink: "Coconut Milk with Cream Mousse", price: "$7.50", notes: "Lighter, tropical variation" },
+                    { drink: "Seasonal Specials", price: "$7–$8", notes: "Vary by season, ask staff what is current" },
+                  ].map((row) => (
+                    <tr key={row.drink} className="text-[#4A5568]">
+                      <td className="px-4 py-3 font-medium text-[#1A202C]">{row.drink}</td>
+                      <td className="px-4 py-3 font-semibold text-[#2B6CB0]">{row.price}</td>
+                      <td className="px-4 py-3">{row.notes}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <p>
+              Customization options at Tiger Sugar include sugar level (25%, 50%, 75%, 100%) and ice level (no ice, less ice, regular). The default sugar level is very sweet. I recommend 75% on your first visit.
+            </p>
+
             <h2 className="text-2xl font-bold text-[#1A202C]">Pros and Cons</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="bg-green-50 rounded-xl p-4">
@@ -229,12 +322,60 @@ export default function TigerSugarReviewPage() {
             </div>
 
             <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-5">
-              <h3 className="font-bold text-[#1A202C] mb-3 text-sm">More Koreatown Reviews</h3>
-              <Link href="/best-boba-koreatown-complete-guide-to-30-shops/" className="text-[#2B6CB0] text-sm font-semibold hover:text-[#215387] transition-colors block">
-                Full Koreatown Guide (30+ shops) &rarr;
-              </Link>
+              <h3 className="font-bold text-[#1A202C] mb-3 text-sm">Compare Brown Sugar Boba</h3>
+              <div className="space-y-2">
+                <Link href="/xing-fu-tang-review-los-angeles/" className="text-[#2B6CB0] text-sm hover:text-[#215387] transition-colors block">
+                  Xing Fu Tang Review &rarr;
+                </Link>
+                <Link href="/boba-guys-review-los-angeles/" className="text-[#2B6CB0] text-sm hover:text-[#215387] transition-colors block">
+                  Boba Guys Review &rarr;
+                </Link>
+                <Link href="/the-alley-boba-review-los-angeles/" className="text-[#2B6CB0] text-sm hover:text-[#215387] transition-colors block">
+                  The Alley Review &rarr;
+                </Link>
+                <Link href="/best-boba-koreatown-complete-guide-to-30-shops/" className="text-[#2B6CB0] text-sm font-semibold hover:text-[#215387] transition-colors block mt-3 pt-3 border-t border-gray-100">
+                  Full Koreatown Guide (30+ shops) &rarr;
+                </Link>
+              </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
+        <h2 className="text-2xl font-bold text-[#1A202C] mb-6">Tiger Sugar FAQ</h2>
+        <div className="space-y-4">
+          {[
+            {
+              q: "What is on the Tiger Sugar menu?",
+              a: "The Tiger Sugar menu centers on its signature Brown Sugar Boba Milk with Cream Mousse. Other drinks include Brown Sugar Boba Milk (without foam), Brown Sugar Milk Tea with Cream Mousse, Coconut Milk with Cream Mousse, and rotating seasonal specials. Prices range from $6 to $8.",
+            },
+            {
+              q: "How much does Tiger Sugar cost?",
+              a: "Tiger Sugar drinks in Los Angeles range from $6 to $8. The signature Brown Sugar Boba Milk with Cream Mousse is $7.50. This puts it at a mid-range price point compared to other Koreatown boba shops.",
+            },
+            {
+              q: "Where is Tiger Sugar near me in Los Angeles?",
+              a: "Tiger Sugar is located at 3470 W 6th St, Los Angeles, CA 90020, in Koreatown. The nearest parking is the Target parking structure approximately two blocks west on Vermont Avenue.",
+            },
+            {
+              q: "What are Tiger Sugar's hours in Koreatown?",
+              a: "Tiger Sugar Koreatown is open daily from 11am to 10pm. The slowest time is weekday mornings before noon. Expect lines on Friday and Saturday evenings.",
+            },
+            {
+              q: "Is Tiger Sugar worth it in Los Angeles?",
+              a: "Yes. Tiger Sugar is the best brown sugar boba in Koreatown and one of the best in all of Los Angeles. The fresh-cooked pearls, house-made brown sugar syrup, and table-side torching make it a must-visit. The $7.50 price is fair for the quality.",
+            },
+          ].map((item) => (
+            <details key={item.q} className="bg-[#EDF2F7] rounded-xl p-5 group">
+              <summary className="font-semibold text-[#1A202C] cursor-pointer list-none flex justify-between items-center">
+                {item.q}
+                <span className="text-[#2B6CB0] ml-3 flex-shrink-0">+</span>
+              </summary>
+              <p className="mt-3 text-[#4A5568] text-sm leading-relaxed">{item.a}</p>
+            </details>
+          ))}
         </div>
       </section>
 
