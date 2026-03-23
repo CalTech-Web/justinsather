@@ -292,6 +292,17 @@ const topShops = [
     verdict: "The only LA chain built around Yunnan Pu-erh tea. The Dirty Pu-erh with cheese foam is one of the most distinctive boba drinks in the city. If you have not had Pu-erh-based boba, start here.",
     href: "/moge-tee-review-los-angeles/",
   },
+  {
+    rank: 19,
+    name: "Ding Tea",
+    neighborhood: "Hawthorne, Arcadia (Multiple LA Locations)",
+    image: "/assets/products/boba_scene_lifestyle.png",
+    rating: "4.3/5",
+    price: "$$",
+    mustOrder: "Red Tea with Tapioca, Oolong Milk Tea with Cheese Foam",
+    verdict: "The precision-brewed Taiwanese chain that rewards customers who care about the tea itself. The oolong and red tea bases are cleaner and more consistent than most LA chains at this price. Low brand awareness keeps it underrated.",
+    href: "/ding-tea-review-los-angeles/",
+  },
 ];
 
 export default function BestBobaLAPage() {
