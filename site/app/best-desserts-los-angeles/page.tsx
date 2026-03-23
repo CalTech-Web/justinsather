@@ -254,6 +254,17 @@ const iceCreamShops = [
     verdict: "The most original dessert concept operating at scale in LA right now. Mochi donuts with a Korean-influenced flavor system, ube, matcha, black sesame, taro, plus a legitimate boba program. The Koreatown location is the essential stop.",
     href: "/mochinut-review-los-angeles/",
   },
+  {
+    rank: 6,
+    name: "Somi Somi",
+    neighborhood: "Koreatown, Multiple Locations",
+    image: "/assets/products/wanderlust_creamery_product.png",
+    rating: "4.5",
+    price: "$$",
+    mustOrder: "Ah-Boong with Injeolmi Soft Serve",
+    verdict: "The ah-boong fish-shaped waffle cone stuffed with Korean soft serve is the most original dessert format in LA. The Injeolmi flavor is unavailable anywhere else in the city and alone justifies the visit. Best Korean soft serve in Los Angeles.",
+    href: "/somi-somi-review-los-angeles/",
+  },
 ];
 
 export default function BestDessertsLAPage() {
