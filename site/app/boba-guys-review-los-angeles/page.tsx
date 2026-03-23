@@ -3,8 +3,63 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Boba Guys Review: LA's Premium Boba Shop Explained | Justin Sather",
-  description: "An honest review of Boba Guys in Los Angeles. Premium ingredients, signature drinks, honest pros and cons, and what to order. Paid out of pocket, no sponsorships.",
+  title: "Boba Guys Menu & Review: Complete LA Guide with Prices | Justin Sather",
+  description: "Complete Boba Guys menu with prices, honest review, and what to order at the LA location. Earl Grey, Horchata, Strawberry Matcha, and full drink list. No sponsorships.",
+};
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is on the Boba Guys menu?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Boba Guys menu includes the Earl Grey Milk Tea ($9), Horchata Milk Tea ($9), Strawberry Matcha ($9.50), Thai Milk Tea ($8.50), Classic Milk Tea ($8), Matcha Milk Tea ($8.50), Brown Sugar Boba Milk ($9), and rotating seasonal specials. All drinks use real brewed tea and organic dairy."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does Boba Guys cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Boba Guys drinks range from $8 to $10. This is the most expensive boba in Los Angeles, but the quality of ingredients, including real brewed tea leaves, organic dairy, and freshly cooked pearls, justifies the premium."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is the Boba Guys Los Angeles location?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The LA location is inside Rideback Ranch on Beverly Blvd, near Echo Park and Silver Lake. Parking is available in the Rideback Ranch lot. The space is a creative campus with a distinct atmosphere unlike any other boba shop in the city."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the best drink at Boba Guys?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Earl Grey Milk Tea is the best drink at Boba Guys. The bergamot cuts through the sweetness in a way standard black milk tea cannot. Order it at 75% sweet. The Horchata Milk Tea is the sleeper hit, and the Strawberry Matcha is the most visually striking."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Boba Guys use real tea or powder?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Boba Guys uses real brewed tea leaves, not powder. This is the main quality difference between Boba Guys and most other boba shops. They also use organic dairy and cook their tapioca pearls fresh throughout the day."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Boba Guys worth it in Los Angeles?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, for a special treat or if you want to experience premium boba. The Earl Grey Milk Tea alone justifies the visit. If you want everyday boba, cheaper options like It's Boba Time or TP Tea are more practical. Boba Guys is for when you want the best."
+      }
+    }
+  ]
 };
 
 const jsonLd = {
@@ -48,6 +103,10 @@ export default function BobaGuysReviewPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
       {/* Hero */}
       <section className="bg-white border-b border-gray-100 pt-12 pb-6">
@@ -132,12 +191,41 @@ export default function BobaGuysReviewPage() {
               They were founded in 2011 in San Francisco with the explicit goal of elevating the category. The LA location carries that same philosophy. Everything is made with more care than you expect from a boba counter.
             </p>
 
-            <h2 className="text-2xl font-bold text-[#1A202C]">The Menu</h2>
+            <h2 className="text-2xl font-bold text-[#1A202C]">Boba Guys Menu with Prices</h2>
             <p>
               The menu is focused compared to most boba shops, which is a good thing. You will not find 80 options here. What you will find is a tight lineup of milk teas, matcha drinks, and seasonal specials, all executed well.
             </p>
+            <div className="overflow-x-auto rounded-xl border border-gray-100 shadow-sm my-4">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="bg-[#EDF2F7]">
+                    <th className="text-left px-4 py-3 font-semibold text-[#1A202C]">Drink</th>
+                    <th className="text-left px-4 py-3 font-semibold text-[#1A202C]">Price</th>
+                    <th className="text-left px-4 py-3 font-semibold text-[#1A202C]">Notes</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-gray-100">
+                  {[
+                    { drink: "Earl Grey Milk Tea", price: "$9.00", notes: "Signature drink, best on the menu, order at 75% sweet" },
+                    { drink: "Horchata Milk Tea", price: "$9.00", notes: "Cinnamon and vanilla, the sleeper hit" },
+                    { drink: "Strawberry Matcha", price: "$9.50", notes: "Real matcha, real strawberry, most visually striking" },
+                    { drink: "Thai Milk Tea", price: "$8.50", notes: "One of the best versions in LA" },
+                    { drink: "Classic Milk Tea", price: "$8.00", notes: "Black tea base, organic dairy, freshly cooked pearls" },
+                    { drink: "Matcha Milk Tea", price: "$8.50", notes: "Ceremonial grade matcha, not sweetened powder" },
+                    { drink: "Brown Sugar Boba Milk", price: "$9.00", notes: "Fresh wok-cooked pearls, organic whole milk" },
+                    { drink: "Seasonal Specials", price: "Varies", notes: "Rotate throughout the year, always worth trying" },
+                  ].map((row) => (
+                    <tr key={row.drink} className="hover:bg-[#F7FAFC]">
+                      <td className="px-4 py-3 font-medium text-[#1A202C]">{row.drink}</td>
+                      <td className="px-4 py-3 text-[#2B6CB0] font-semibold">{row.price}</td>
+                      <td className="px-4 py-3 text-[#718096]">{row.notes}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
             <p>
-              The signature items are the Earl Grey Milk Tea, the Horchata Milk Tea, and the Strawberry Matcha. The Thai Milk Tea is also on rotation and is one of the best versions in the city. Seasonal specials show up throughout the year and are worth trying when available.
+              All Boba Guys drinks can be customized for sweetness level (25%, 50%, 75%, 100%) and ice level. Toppings include tapioca pearls ($0.75 each), egg pudding, and aloe. Ask about the current seasonal menu before ordering.
             </p>
 
             <div className="relative aspect-video rounded-xl overflow-hidden my-4">
@@ -197,6 +285,40 @@ export default function BobaGuysReviewPage() {
                   <li>Can have long waits on weekend afternoons</li>
                 </ul>
               </div>
+            </div>
+
+            <h2 className="text-2xl font-bold text-[#1A202C]">Frequently Asked Questions</h2>
+            <div className="space-y-4">
+              {[
+                {
+                  q: "What is on the Boba Guys menu?",
+                  a: "The Boba Guys menu includes the Earl Grey Milk Tea ($9), Horchata Milk Tea ($9), Strawberry Matcha ($9.50), Thai Milk Tea ($8.50), Classic Milk Tea ($8), Matcha Milk Tea ($8.50), Brown Sugar Boba Milk ($9), and rotating seasonal specials."
+                },
+                {
+                  q: "How much does Boba Guys cost?",
+                  a: "Boba Guys drinks range from $8 to $10. This is the most expensive boba in Los Angeles, but the premium ingredients, including real brewed tea and organic dairy, justify the price."
+                },
+                {
+                  q: "Where is the Boba Guys Los Angeles location?",
+                  a: "Inside Rideback Ranch on Beverly Blvd, near Echo Park and Silver Lake. Parking is available in the lot. It is one of the most distinctive boba settings in the city."
+                },
+                {
+                  q: "Does Boba Guys use real tea or powder?",
+                  a: "Real brewed tea leaves. This is the main quality difference between Boba Guys and most competitors who use powder. They also use organic dairy and cook tapioca pearls fresh throughout the day."
+                },
+                {
+                  q: "Is Boba Guys worth it?",
+                  a: "Yes, for a special visit or to experience what premium boba can be. The Earl Grey Milk Tea alone justifies the trip. For everyday boba, cheaper options like It's Boba Time are more practical."
+                },
+              ].map((item) => (
+                <details key={item.q} className="border border-gray-100 rounded-xl">
+                  <summary className="px-5 py-4 cursor-pointer font-semibold text-[#1A202C] text-sm list-none flex justify-between items-center gap-2">
+                    {item.q}
+                    <span className="text-[#2B6CB0] flex-shrink-0">+</span>
+                  </summary>
+                  <p className="px-5 pb-4 text-sm text-[#4A5568] leading-relaxed">{item.a}</p>
+                </details>
+              ))}
             </div>
 
             <h2 className="text-2xl font-bold text-[#1A202C]">Final Verdict</h2>
