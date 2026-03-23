@@ -253,6 +253,9 @@ export default function ItsBobaTImeReviewPage() {
             <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-5">
               <h3 className="font-bold text-[#1A202C] mb-3 text-sm">More LA Boba Guides</h3>
               <div className="space-y-2">
+                <Link href="/its-boba-time-burbank/" className="text-[#2B6CB0] text-sm font-semibold hover:text-[#215387] transition-colors block">
+                  It&apos;s Boba Time Burbank Location Guide &rarr;
+                </Link>
                 <Link href="/best-boba-los-angeles/" className="text-[#2B6CB0] text-sm font-semibold hover:text-[#215387] transition-colors block">
                   Best Boba in Los Angeles (25+ shops) &rarr;
                 </Link>
