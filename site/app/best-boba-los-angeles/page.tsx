@@ -281,6 +281,17 @@ const topShops = [
     verdict: "The San Diego chain that earns its hype in LA. Tastea is the most consistently good mid-tier chain in the city, with a Rose Matcha Milk Tea that is one of the most interesting specialty drinks at any LA boba shop.",
     href: "/tastea-review-los-angeles/",
   },
+  {
+    rank: 18,
+    name: "Moge Tee",
+    neighborhood: "San Gabriel Valley (Multiple Locations)",
+    image: "/assets/products/boba_scene_lifestyle.png",
+    rating: "4.4/5",
+    price: "$$",
+    mustOrder: "Dirty Pu-erh, Cheese Pu-erh Milk Tea",
+    verdict: "The only LA chain built around Yunnan Pu-erh tea. The Dirty Pu-erh with cheese foam is one of the most distinctive boba drinks in the city. If you have not had Pu-erh-based boba, start here.",
+    href: "/moge-tee-review-los-angeles/",
+  },
 ];
 
 export default function BestBobaLAPage() {
@@ -397,7 +408,7 @@ export default function BestBobaLAPage() {
               { name: "Sharetea", area: "Multiple Locations", note: "Taiwanese chain with a strong taro game." },
               { name: "Sunright Tea Studio", area: "San Gabriel Valley", note: "Minimalist, specialty-grade tea. Worth a special trip." },
               { name: "Wushiland Boba", area: "Multiple Locations", note: "Hong Kong-style milk tea specialist. Less known than the big chains but consistently excellent." },
-              { name: "Moge Tee", area: "Multiple Locations", note: "Yunnan Pu-erh base gives the drinks real depth. Better than it looks." },
+              { name: "Tbaar", area: "Multiple Locations", note: "Minimalist Taiwanese chain with clean tea execution and no-frills ordering." },
               { name: "Milksha", area: "Multiple Locations", note: "Premium Taiwanese chain using fresh milk, not powder. The taro milk is exceptional." },
               { name: "Somi Somi", area: "Koreatown", note: "Fish-shaped waffle cones with soft serve and tapioca. A K-Town institution." },
               { name: "The Alley", area: "Multiple Locations", note: "Known for Deerioca pearls. More Instagram than substance, but the milk tea base is solid." },
