@@ -452,17 +452,18 @@ export default function BestBobaLAPage() {
       </section>
 
       {/* CTA */}
-      <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 text-center">
-        <h2 className="text-2xl font-bold text-[#1A202C] mb-3">Want the Deepest Dive?</h2>
-        <p className="text-[#4A5568] mb-6 max-w-xl mx-auto">
-          The Koreatown guide covers 30+ shops with full individual reviews, rankings, and insider tips, all from a single neighborhood.
-        </p>
-        <Link
-          href="/best-boba-koreatown-complete-guide-to-30-shops/"
-          className="bg-[#2B6CB0] text-white font-bold px-8 py-3 rounded-lg hover:bg-[#215387] transition-colors inline-block"
-        >
-          Read the Koreatown Guide
-        </Link>
+      <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <h2 className="text-2xl font-bold text-[#1A202C] mb-6 text-center">Want the Deepest Dive?</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+          <Link href="/best-boba-koreatown-complete-guide-to-30-shops/" className="group bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow p-6 text-center block">
+            <h3 className="text-lg font-bold text-[#1A202C] group-hover:text-[#2B6CB0] transition-colors mb-2">Best Boba in Koreatown &rarr;</h3>
+            <p className="text-[#4A5568] text-sm">30+ shops reviewed in K-Town. The highest density of boba shops in any LA neighborhood, all in one guide.</p>
+          </Link>
+          <Link href="/best-boba-san-gabriel-valley/" className="group bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow p-6 text-center block">
+            <h3 className="text-lg font-bold text-[#1A202C] group-hover:text-[#2B6CB0] transition-colors mb-2">Best Boba in the San Gabriel Valley &rarr;</h3>
+            <p className="text-[#4A5568] text-sm">The complete SGV guide covering Rowland Heights, Monterey Park, Alhambra, Temple City, Pasadena, and more.</p>
+          </Link>
+        </div>
       </section>
     </>
   );
