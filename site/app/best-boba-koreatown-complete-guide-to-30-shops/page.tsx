@@ -676,6 +676,27 @@ export default function KoreatownGuidePage() {
           Tiger Sugar Full Review
         </Link>
       </section>
+
+      {/* Related Guides */}
+      <section className="bg-[#F7FAFC] border-t border-gray-100 py-12">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl font-bold text-[#1A202C] mb-6">More LA Boba Guides</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <Link href="/best-boba-silver-lake/" className="block bg-white rounded-xl p-5 border border-gray-200 hover:border-[#2B6CB0] transition-colors">
+              <h3 className="font-bold text-[#1A202C] mb-1">Best Boba Near Silver Lake</h3>
+              <p className="text-[#4A5568] text-sm">The guide for Silver Lake, Los Feliz, Echo Park, and Atwater Village, including why Koreatown is the best boba destination from the Eastside.</p>
+            </Link>
+            <Link href="/best-boba-san-gabriel-valley/" className="block bg-white rounded-xl p-5 border border-gray-200 hover:border-[#2B6CB0] transition-colors">
+              <h3 className="font-bold text-[#1A202C] mb-1">Best Boba in the SGV</h3>
+              <p className="text-[#4A5568] text-sm">The most authentic Taiwanese boba in Southern California. 15+ shops ranked across Rowland Heights, Monterey Park, and Alhambra.</p>
+            </Link>
+            <Link href="/best-boba-los-angeles/" className="block bg-white rounded-xl p-5 border border-gray-200 hover:border-[#2B6CB0] transition-colors">
+              <h3 className="font-bold text-[#1A202C] mb-1">Best Boba in Los Angeles</h3>
+              <p className="text-[#4A5568] text-sm">The definitive citywide ranking of the best boba shops across all of LA County, with Koreatown shops at the top.</p>
+            </Link>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
