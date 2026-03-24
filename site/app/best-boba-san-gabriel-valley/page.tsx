@@ -241,7 +241,7 @@ const sgvShops = [
 
 const moreSGVShops = [
   { name: "Kung Fu Tea", city: "Multiple SGV locations", note: "Reliable, affordable milk teas. Good Taro Slush. Best for a quick fix near an SGV location." },
-  { name: "Half and Half Tea Express", city: "Rowland Heights", note: "SGV institution serving classic Taiwanese milk teas at extremely low prices. Long queues on weekends." },
+  { name: "Half and Half Tea Express", city: "Rowland Heights", note: "Cold-brew layered milk tea done right. The Top 1 Milk Tea is one of the cleanest milk teas in the SGV. Read the full review.", href: "/half-and-half-tea-express-review-los-angeles/" },
   { name: "Lollicup", city: "Multiple SGV locations", note: "The original LA boba chain, founded in Alhambra in 2000. Lower tier today but a historic stop for boba enthusiasts." },
   { name: "Ten Ren Tea", city: "Multiple SGV locations", note: "The original loose-leaf Taiwanese tea company that TP Tea is based on. Quieter than TP Tea but same high-quality sourcing." },
   { name: "Gong Cha", city: "Multiple SGV locations", note: "Korean-founded chain with a strong milk tea program. Reliable across all SGV locations." },
@@ -426,7 +426,12 @@ export default function BestBobaSGVPage() {
             <div key={shop.name} className="bg-white rounded-lg p-4 border border-gray-100 shadow-sm">
               <h3 className="font-bold text-[#1A202C] text-sm mb-1">{shop.name}</h3>
               <p className="text-xs text-[#718096] mb-2">{shop.city}</p>
-              <p className="text-xs text-[#4A5568]">{shop.note}</p>
+              <p className="text-xs text-[#4A5568] mb-2">{shop.note}</p>
+              {(shop as { name: string; city: string; note: string; href?: string }).href && (
+                <Link href={(shop as { name: string; city: string; note: string; href?: string }).href!} className="text-xs text-[#2B6CB0] font-semibold hover:text-[#215387] transition-colors">
+                  Full Review &rarr;
+                </Link>
+              )}
             </div>
           ))}
         </div>
