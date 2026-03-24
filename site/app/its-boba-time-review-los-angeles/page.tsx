@@ -256,6 +256,9 @@ export default function ItsBobaTImeReviewPage() {
                 <Link href="/its-boba-time-burbank/" className="text-[#2B6CB0] text-sm font-semibold hover:text-[#215387] transition-colors block">
                   It&apos;s Boba Time Burbank Location Guide &rarr;
                 </Link>
+                <Link href="/its-boba-time-gardena/" className="text-[#2B6CB0] text-sm font-semibold hover:text-[#215387] transition-colors block">
+                  It&apos;s Boba Time Gardena Location Guide &rarr;
+                </Link>
                 <Link href="/best-boba-los-angeles/" className="text-[#2B6CB0] text-sm font-semibold hover:text-[#215387] transition-colors block">
                   Best Boba in Los Angeles (25+ shops) &rarr;
                 </Link>
