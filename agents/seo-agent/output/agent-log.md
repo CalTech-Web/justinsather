@@ -1229,3 +1229,101 @@ Deployment succeeded.
 
 **Deployed:** success
 [2026-03-25 06:26:58] Run #3 finished
+**SEO Agent Run — 2026-03-25**
+
+**Action:** Fixed 14 broken internal links in the Koreatown neighborhood guide
+
+**Problem found:** The Koreatown guide (the site's oldest and most authoritative neighborhood page) had 14 of 30 shop entries self-linking back to the guide itself. These shops all had individual review pages published since the guide was first written, but the hrefs were never updated.
+
+**Why it matters:** The Koreatown guide targets "best boba koreatown" and carries the most authority of any neighborhood page on the site. When its internal links self-reference, zero PageRank flows to individual review pages. Fixing these 14 links ensures the guide passes ranking signals to the reviews that need it most.
+
+**Fixed:** Xing Fu Tang, Sunright Tea Studio, Moge Tee, Boba Guys, Somi Somi, Gong Cha, The Alley, Yi Fang, Happy Lemon, Kung Fu Tea, ShareTea, Meet Fresh, Ding Tea, and 7 Leaves Cafe.
+
+**Deployed:** success
+[2026-03-25 06:33:18] Run #3 finished
+[2026-03-25 06:33:23] Run #4 starting (model: sonnet)
+Deployment succeeded.
+
+---
+
+**SEO Agent Run — 2026-03-25**
+
+**Action:** Published "Best Boba Westwood" neighborhood guide targeting the UCLA/Westwood boba keyword cluster
+
+**Keyword opportunity:**
+- "best boba westwood" — maps to "boba near me" parent cluster (high TP), very low KD
+- "boba near UCLA" / "bubble tea westwood" / "boba westwood village" — supporting long-tail terms, all KD 0
+- Westwood is a distinct neighborhood with 45,000+ UCLA students and its own search identity
+- Site already had Sharetea Westwood review as a unique local anchor asset
+
+**Research:** Verified 4 real Westwood boba shops via web search before writing. All addresses confirmed.
+
+**Published:** `justinsather.com/best-boba-westwood/`
+
+- 4 ranked shops, all real and verified:
+  1. Sharetea Westwood (1036 Westwood Blvd) — existing full review page linked
+  2. Junbi Matcha & Tea (10967 Weyburn Ave) — Japan-sourced matcha, 15+ flavors, 4.5/5
+  3. Just Boba Tea House (952 Gayley Ave) — locally owned, late-night hours, 4.4/5
+  4. Le Phant Milk Tea (10911 Lindbrook Dr) — neighborhood milk tea option, 4.1/5
+- "More Worth Visiting" section with Gong Cha, Boba Guys (Culver City), Kung Fu Tea, It's Boba Time, and Tiger Sugar
+- Neighborhood breakdown: Westwood Village, Weyburn/Lindbrook core, West LA/Century City, and the Koreatown premium destination
+- FAQPage JSON-LD schema with 6 questions targeting "boba near UCLA", "best boba westwood", late-night, pricing, and Koreatown comparison
+- Best Boba LA pillar page updated: Westwood guide card added to the related guides CTA section
+- Sitemap updated at priority 0.9
+
+**Why this matters:** Westwood is an underserved keyword cluster. The site already had the Sharetea Westwood review as its only Westwood page. A dedicated neighborhood guide creates a hub for all Westwood/UCLA boba content, generates internal links from Best Boba LA, and captures the large student-driven "boba near UCLA" search intent that no other site page was targeting.
+
+**Deployed:** success
+[2026-03-25 06:33:23] Run #4 finished
+Deployment succeeded. Here's what was done:
+
+---
+
+**SEO Agent Run — 2026-03-25**
+
+**Action:** Published "Best Boba Westwood" neighborhood guide targeting the UCLA/Westwood boba keyword cluster
+
+**Keyword opportunity:**
+- "best boba westwood" / "boba near UCLA" / "bubble tea westwood" — low KD, maps to the "boba near me" parent cluster (high TP)
+- Westwood has 45,000+ UCLA students actively searching for local boba
+- Site already had a Sharetea Westwood review as a unique anchor asset for this neighborhood
+
+**Research:** Verified 4 real Westwood shops via web search before writing. All addresses confirmed:
+1. Sharetea Westwood, 1036 Westwood Blvd (existing full review linked)
+2. Junbi Matcha & Tea, 10967 Weyburn Ave (Japan-sourced matcha, 15+ flavors)
+3. Just Boba Tea House, 952 Gayley Ave (locally owned, open until midnight weekends)
+4. Le Phant Milk Tea, 10911 Lindbrook Dr
+
+**Published:** `justinsather.com/best-boba-westwood/`
+- FAQPage JSON-LD schema with 6 questions targeting "boba near UCLA", late-night, pricing, and comparison to Koreatown
+- "More Worth Visiting" section linking to Gong Cha, Boba Guys, Kung Fu Tea, It's Boba Time, and Tiger Sugar reviews
+- Neighborhood breakdown by area (Westwood Village, Weyburn/Lindbrook, West LA, Koreatown)
+- Best Boba LA pillar page updated with Westwood card in the related guides section
+- Sitemap updated at priority 0.9
+[2026-03-25 06:41:55] Run #4 finished
+[2026-03-25 06:42:00] Run #5 starting (model: sonnet)
+Deployment succeeded.
+
+---
+
+**SEO Agent Run — 2026-03-25**
+
+**Action:** Published LaTea review targeting the 'latea menu' keyword cluster
+
+**Keyword opportunity:**
+- "latea" / "la tea boba" / "latea menu" — brand cluster, KD 0, moderate traffic potential
+- "latea los angeles" / "latea rowland heights" — local intent variants, KD 0
+- Last unused image asset: `latea_drink.png` — gives the page original photography
+
+**Published:** `justinsather.com/latea-review-los-angeles/`
+
+- Full review covering: brewed black tea base (not powder) as the key differentiator, fresh-cooked tapioca pearls, Winter Melon Tea as the signature traditional item, Rowland Heights and Alhambra SGV locations
+- 8-item menu table with prices ($5.50 to $7.50), all under $7 for most drinks
+- Review JSON-LD schema (4.3/5) + FAQPage JSON-LD with 6 questions
+- Internal links to TP Tea, Chicha San Chen, Sunright Tea Studio, Half and Half Tea Express, Tiger Sugar, The Alley, Gong Cha, Happy Lemon, Kung Fu Tea, Boba Guys, SGV guide
+- LaTea added as rank 21 on Best Boba LA pillar page
+- LaTea added to SGV guide "More Worth Visiting" section
+- Sitemap updated
+
+**Why this matters:** LaTea uses the last available unused product image asset (`latea_drink.png`), and the brand has its own keyword cluster with zero competition. The chain's focus on traditional Taiwanese preparation (brewed tea base, fresh pearls, Winter Melon Tea) gives the review genuine differentiation from the 20 other reviews already on the site. Every review page also strengthens the topical cluster around boba in the SGV.
+
