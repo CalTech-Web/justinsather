@@ -93,7 +93,7 @@ const ktShops = [
     bestFor: "Handmade brown sugar tapioca",
     mustOrder: "Tiger Sugar Fresh Milk with Handmade Tapioca",
     verdict: "Direct competition to Tiger Sugar, and a serious one. The tapioca pearls are hand-pressed and noticeably chewier than machine-made pearls. The brown sugar caramelization is better than most. Worth going out of your way for.",
-    href: "/best-boba-koreatown-complete-guide-to-30-shops/",
+    href: "/xing-fu-tang-review-los-angeles/",
     featured: false,
   },
   {
@@ -107,7 +107,7 @@ const ktShops = [
     bestFor: "Single-origin teas, minimal additives",
     mustOrder: "Four Seasons Oolong Milk Tea",
     verdict: "One of the most underrated shops in Koreatown. The tea sourcing is genuinely serious, with single-origin oolongs you won't find at chain shops. If you actually care about the tea and not just the tapioca, start here.",
-    href: "/best-boba-koreatown-complete-guide-to-30-shops/",
+    href: "/sunright-tea-studio-review-los-angeles/",
     featured: false,
   },
   {
@@ -135,7 +135,7 @@ const ktShops = [
     bestFor: "Yunnan Pu-erh tea drinks",
     mustOrder: "Moge Black Sugar Latte",
     verdict: "Better than the average mid-tier chain. Uses Yunnan Pu-erh tea as a base, which gives the drinks a distinct earthy depth you won't find at most K-Town shops. The black sugar latte is legitimately good.",
-    href: "/best-boba-koreatown-complete-guide-to-30-shops/",
+    href: "/moge-tee-review-los-angeles/",
     featured: false,
   },
   {
@@ -191,7 +191,7 @@ const ktShops = [
     bestFor: "Specialty milk teas, organic teas",
     mustOrder: "Strawberry Matcha Latte",
     verdict: "Organic teas, house-made milk, fresh taro. You pay more than you would at a mid-tier chain, but the quality jump is real. The K-Town location is one of their better spots.",
-    href: "/best-boba-koreatown-complete-guide-to-30-shops/",
+    href: "/boba-guys-review-los-angeles/",
     featured: false,
   },
   {
@@ -205,7 +205,7 @@ const ktShops = [
     bestFor: "Ah-boong fish-shaped ice cream, bubble drinks",
     mustOrder: "Ah-Boong with Tapioca",
     verdict: "Technically more ice cream than boba, but worth including. The fish-shaped waffle cone filled with soft serve and tapioca is a K-Town classic. Lines are long on weekends for a reason.",
-    href: "/best-boba-koreatown-complete-guide-to-30-shops/",
+    href: "/somi-somi-review-los-angeles/",
     featured: false,
   },
   {
@@ -219,7 +219,7 @@ const ktShops = [
     bestFor: "Value, quick service",
     mustOrder: "Milk Foam Green Tea",
     verdict: "The most reliable mid-tier chain in K-Town. Good for a quick drink at a fair price. Not the most exciting but never disappoints.",
-    href: "/best-boba-koreatown-complete-guide-to-30-shops/",
+    href: "/gong-cha-review-los-angeles/",
     featured: false,
   },
   {
@@ -233,7 +233,7 @@ const ktShops = [
     bestFor: "Deerioca pearls, Korean aesthetic",
     mustOrder: "Brown Sugar Deerioca Milk Tea",
     verdict: "The chain that popularized Deerioca, tapioca shaped like deer silhouettes. More Instagram than substance, but the milk tea base is solid and the Deerioca has a pleasant bite.",
-    href: "/best-boba-koreatown-complete-guide-to-30-shops/",
+    href: "/the-alley-boba-review-los-angeles/",
     featured: false,
   },
   {
@@ -247,7 +247,7 @@ const ktShops = [
     bestFor: "Brown sugar milk, Taiwanese fruit teas",
     mustOrder: "Brown Sugar Boba Milk",
     verdict: "Yi Fang's Taiwanese fruit tea formula travels well. The K-Town location is consistently good, and the brown sugar milk is one of the best value options in the neighborhood. Less flashy than Tiger Sugar but considerably cheaper.",
-    href: "/best-boba-koreatown-complete-guide-to-30-shops/",
+    href: "/yi-fang-taiwan-fruit-tea-review-los-angeles/",
     featured: false,
   },
   {
@@ -261,7 +261,7 @@ const ktShops = [
     bestFor: "Rock salt cheese foam drinks",
     mustOrder: "Rock Salt Cheese Milk Tea",
     verdict: "Famous for the rock salt cheese foam, which is exactly what it sounds like. Salty, creamy foam over a sweet milk tea. Interesting once. After that, Koreatown has better options.",
-    href: "/best-boba-koreatown-complete-guide-to-30-shops/",
+    href: "/happy-lemon-review-los-angeles/",
     featured: false,
   },
   {
@@ -275,7 +275,7 @@ const ktShops = [
     bestFor: "Quick, reliable milk tea",
     mustOrder: "Kung Fu Milk Tea",
     verdict: "Reliable chain execution. Nothing innovative but the milk tea base is decent and you can count on it being open. Good for a quick fix when the premium shops have lines.",
-    href: "/best-boba-koreatown-complete-guide-to-30-shops/",
+    href: "/kung-fu-tea-review-los-angeles/",
     featured: false,
   },
   {
@@ -303,7 +303,7 @@ const ktShops = [
     bestFor: "Taro drinks, light ice options",
     mustOrder: "Taro Milk Tea with Pearl",
     verdict: "ShareTea's taro game is consistently above average. The taro powder base has more depth than the standard version you get at cheaper shops. Good value, especially for the taro drinks.",
-    href: "/best-boba-koreatown-complete-guide-to-30-shops/",
+    href: "/sharetea-westwood-review/",
     featured: false,
   },
   {
@@ -317,7 +317,7 @@ const ktShops = [
     bestFor: "Grass jelly desserts, taro ball drinks",
     mustOrder: "Taro Grass Jelly Milk Drink",
     verdict: "Taiwanese dessert shop that does boba alongside grass jelly and taro balls. The boba is secondary to the desserts, but the combination drinks are genuinely interesting. A different direction than most K-Town shops.",
-    href: "/best-boba-koreatown-complete-guide-to-30-shops/",
+    href: "/meet-fresh-review-los-angeles/",
     featured: false,
   },
   {
@@ -373,7 +373,7 @@ const ktShops = [
     bestFor: "Classic Taiwanese staples, low prices",
     mustOrder: "Oolong Milk Tea with Pearl",
     verdict: "Mid-level Taiwanese chain. The oolong milk tea is the move here, made with properly brewed loose-leaf tea and a light milky base. Nothing in the menu will surprise you, but the execution is clean.",
-    href: "/best-boba-koreatown-complete-guide-to-30-shops/",
+    href: "/ding-tea-review-los-angeles/",
     featured: false,
   },
   {
@@ -387,7 +387,7 @@ const ktShops = [
     bestFor: "Vietnamese coffee with boba, creative drinks",
     mustOrder: "Vietnamese Coffee with Boba",
     verdict: "Vietnamese-American cafe doing creative things with boba. The Vietnamese coffee drink is unique and excellent. Seasonal drinks are consistently good and change often enough to warrant return visits.",
-    href: "/best-boba-koreatown-complete-guide-to-30-shops/",
+    href: "/7-leaves-cafe-review-los-angeles/",
     featured: false,
   },
   {
