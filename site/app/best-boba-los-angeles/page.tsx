@@ -314,6 +314,17 @@ const topShops = [
     verdict: "The world's most recognized bubble tea chain delivers in LA. Better tea quality than comparable global chains, the best customization system in the category, and the egg pudding topping alone makes it worth ordering over the standard pearl. A reliable 4.2 out of 5.",
     href: "/gong-cha-review-los-angeles/",
   },
+  {
+    rank: 21,
+    name: "LaTea",
+    neighborhood: "Rowland Heights, Alhambra, Koreatown area",
+    image: "/assets/products/latea_drink.png",
+    rating: "4.3/5",
+    price: "$",
+    mustOrder: "Classic Milk Tea, Taro Milk Tea, Winter Melon Tea",
+    verdict: "The best traditional Taiwanese milk tea at a value price in the SGV. LaTea brews its black tea base fresh rather than using powder, cooks tapioca pearls in-house, and offers the Winter Melon Tea that most chains have dropped from their menus. The most authentic classic milk tea experience in LA under $7.",
+    href: "/latea-review-los-angeles/",
+  },
 ];
 
 export default function BestBobaLAPage() {

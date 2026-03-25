@@ -249,6 +249,7 @@ const moreSGVShops = [
   { name: "Wushiland Boba", city: "Multiple SGV locations", note: "Hong Kong-style milk tea specialist. Less well known than the big chains but consistently excellent tea quality." },
   { name: "Milksha", city: "Multiple SGV locations", note: "Premium Taiwanese chain that uses real fresh milk instead of powder. The taro milk tea is among the best in the SGV." },
   { name: "Ding Tea", city: "Arcadia", note: "Precision-brewed Taiwanese chain with excellent oolong and red tea bases. Underrated in the SGV because of low brand awareness." },
+  { name: "LaTea", city: "Rowland Heights, Alhambra", note: "Traditional Taiwanese milk tea using brewed black tea, not powder. Fresh-cooked pearls and the rarely-seen Winter Melon Tea. Best value milk tea in the SGV." },
 ];
 
 export default function BestBobaSGVPage() {
