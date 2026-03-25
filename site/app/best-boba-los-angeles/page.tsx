@@ -482,6 +482,10 @@ export default function BestBobaLAPage() {
             <h3 className="text-lg font-bold text-[#1A202C] group-hover:text-[#2B6CB0] transition-colors mb-2">Best Boba in Long Beach &rarr;</h3>
             <p className="text-[#4A5568] text-sm">The complete Long Beach guide covering Boba Guys at 2nd and PCH, Sunright Tea Studio, Ding Tea, Tastea, and more.</p>
           </Link>
+          <Link href="/best-boba-westwood/" className="group bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow p-6 text-center block">
+            <h3 className="text-lg font-bold text-[#1A202C] group-hover:text-[#2B6CB0] transition-colors mb-2">Best Boba in Westwood (Near UCLA) &rarr;</h3>
+            <p className="text-[#4A5568] text-sm">The complete Westwood Village guide covering Sharetea, Junbi Matcha, Just Boba Tea House, and Le Phant. Best boba near UCLA.</p>
+          </Link>
         </div>
       </section>
     </>

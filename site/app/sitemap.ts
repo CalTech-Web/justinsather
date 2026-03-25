@@ -221,6 +221,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
+      url: `${baseUrl}/best-boba-westwood`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
       url: `${baseUrl}/gong-cha-review-los-angeles`,
       lastModified: new Date(),
       changeFrequency: "monthly",
