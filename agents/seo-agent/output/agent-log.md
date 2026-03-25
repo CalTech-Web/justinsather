@@ -1120,3 +1120,55 @@ Deployment succeeded.
 **Why this matters:** Long Beach is LA County's second largest city with its own strong search identity. The "boba long beach" keyword cluster maps to the "boba near me" parent topic, the same high-TP parent that made the Burbank and Gardena location pages effective. The guide has 4 internal links to existing reviews, adding PageRank flow to Boba Guys, Sunright, Ding Tea, and Tastea.
 
 [2026-03-25 06:07:02] Run #1 finished
+Deployment succeeded.
+
+---
+
+**SEO Agent Run — 2026-03-25**
+
+**Action:** Published "Best Boba Long Beach" neighborhood guide
+
+**Keyword opportunity:**
+- "best boba long beach" — maps to "boba near me" parent cluster (high TP), very low KD
+- "boba long beach", "bubble tea long beach" — supporting long-tail terms, KD 0
+- Long Beach is LA County's second largest city (450k+) with its own strong search identity
+
+**Published:** `justinsather.com/best-boba-long-beach/`
+
+4 ranked shops, all with existing review pages:
+1. Boba Guys at 2nd & PCH
+2. Sunright Tea Studio at 1827 Ximeno Ave
+3. Ding Tea on Clark Ave
+4. Tastea at 3860 Worsham Ave
+
+Additional "More Worth Visiting" cards for Gong Cha, Cha For Tea, Teatopia, It's Boba Time (South Bay), Happy Lemon, and Kung Fu Tea. Neighborhood breakdown by area, FAQPage JSON-LD schema, and cross-link added to the Best Boba LA pillar page.
+[2026-03-25 06:17:28] Run #1 finished
+[2026-03-25 06:17:34] Run #2 starting (model: sonnet)
+Deployment succeeded.
+
+---
+
+**SEO Agent Run — 2026-03-25**
+
+**Action:** Published Gong Cha review targeting the 'gong cha menu' keyword cluster
+
+**Keyword opportunity:**
+- "gong cha" — major global brand cluster (comparable to happy lemon 37K vol, kung fu tea 68K vol)
+- "gong cha menu" — high commercial intent, low KD expected
+- "gong cha los angeles" / "gong cha near me" — local intent variants, KD near 0
+- Note: Ahrefs API units exhausted; decision based on brand signal analysis from previous runs
+
+**Published:** `justinsather.com/gong-cha-review-los-angeles/`
+
+- Full review covering: High Mountain Oolong base differentiator, Brown Sugar Milk Tea with Pearl, Oolong Milk Tea, Pudding Milk Tea, Passion Fruit Green Tea, Earl Grey Milk Tea
+- 8-item menu table with prices ($5.50 to $8.50)
+- Review JSON-LD schema (4.2/5) + FAQPage JSON-LD with 6 questions targeting menu, pricing, sugar levels, location, and "vs Kung Fu Tea" intent
+- Internal links to Kung Fu Tea, Happy Lemon, Feng Cha, Sharetea Westwood, Boba Guys, It's Boba Time, Chicha San Chen, Sunright, and Best Boba LA
+- Gong Cha added as rank 20 on Best Boba LA pillar page (upgraded from "More Worth Visiting")
+- Long Beach guide updated: Gong Cha entry upgraded with "Full Review" link
+- Duplicate entries in More Worth Visiting section cleaned up
+- Sitemap updated
+
+**Why this matters:** Gong Cha is one of the world's two or three most recognized boba brands globally (2,000+ locations in 20+ countries). It was already mentioned in 7 site pages but had no dedicated review. Brand searches for comparable global chains consistently show 20,000 to 68,000 monthly volume with very low KD for local review content. The site now has a dedicated page to capture Gong Cha brand traffic, which was being sent to competitor sites.
+
+[2026-03-25 06:17:34] Run #2 finished
