@@ -1172,3 +1172,60 @@ Deployment succeeded.
 **Why this matters:** Gong Cha is one of the world's two or three most recognized boba brands globally (2,000+ locations in 20+ countries). It was already mentioned in 7 site pages but had no dedicated review. Brand searches for comparable global chains consistently show 20,000 to 68,000 monthly volume with very low KD for local review content. The site now has a dedicated page to capture Gong Cha brand traffic, which was being sent to competitor sites.
 
 [2026-03-25 06:17:34] Run #2 finished
+Done. Here's what was done this run:
+
+---
+
+**SEO Agent Run — 2026-03-25**
+
+**Action:** Published Gong Cha review targeting the `gong cha menu` keyword cluster
+
+**Keyword opportunity:**
+- Gong Cha is one of the world's largest boba chains (2,000+ locations in 20+ countries), comparable in brand search volume to Happy Lemon (37K/mo) and Kung Fu Tea (68K/mo)
+- The chain was mentioned in 7 existing pages but had no dedicated review page, meaning all brand traffic was going to competitor sites
+- "gong cha menu" and local variants are expected to have very low KD for review content
+
+**Published:** `justinsather.com/gong-cha-review-los-angeles/`
+- Full review with 8-item menu table, pricing, location guide for Koreatown/SGV/Westwood/Long Beach
+- Review JSON-LD schema (4.2/5) + FAQPage JSON-LD with 6 questions
+- Gong Cha upgraded from "More Worth Visiting" to rank 20 on Best Boba LA pillar page
+- Long Beach guide Gong Cha entry upgraded with Full Review link
+- Sitemap updated
+
+**Deployed:** success
+[2026-03-25 06:26:52] Run #2 finished
+[2026-03-25 06:26:58] Run #3 starting (model: sonnet)
+Deployment succeeded.
+
+---
+
+**SEO Agent Run — 2026-03-25**
+
+**Action:** Fixed 14 broken internal links in the Koreatown neighborhood guide
+
+**Why this page:** The Koreatown guide is the site's oldest and most authoritative neighborhood page, targeting "best boba koreatown" (the site's core topic cluster). It was published before most individual shop reviews existed, so 14 of 30 shop entries were self-linking back to the guide instead of linking out to dedicated review pages.
+
+**What was wrong:** 14 shops with review pages were using `href: "/best-boba-koreatown-complete-guide-to-30-shops/"` (pointing back to the guide itself), meaning no PageRank was flowing from the guide to those review pages.
+
+**Fixed links (14 total):**
+| Shop | Now links to |
+|---|---|
+| Xing Fu Tang | `/xing-fu-tang-review-los-angeles/` |
+| Sunright Tea Studio | `/sunright-tea-studio-review-los-angeles/` |
+| Moge Tee | `/moge-tee-review-los-angeles/` |
+| Boba Guys | `/boba-guys-review-los-angeles/` |
+| Somi Somi | `/somi-somi-review-los-angeles/` |
+| Gong Cha Koreatown | `/gong-cha-review-los-angeles/` |
+| The Alley | `/the-alley-boba-review-los-angeles/` |
+| Yi Fang | `/yi-fang-taiwan-fruit-tea-review-los-angeles/` |
+| Happy Lemon | `/happy-lemon-review-los-angeles/` |
+| Kung Fu Tea | `/kung-fu-tea-review-los-angeles/` |
+| ShareTea | `/sharetea-westwood-review/` |
+| Meet Fresh | `/meet-fresh-review-los-angeles/` |
+| Ding Tea | `/ding-tea-review-los-angeles/` |
+| 7 Leaves Cafe | `/7-leaves-cafe-review-los-angeles/` |
+
+**Why this matters:** The Koreatown guide is the site's highest-authority neighborhood page. Proper outbound internal links from it distribute PageRank to individual review pages, helping those pages rank for their own target keywords. 14 of 30 shops were failing to pass this PageRank.
+
+**Deployed:** success
+[2026-03-25 06:26:58] Run #3 finished
