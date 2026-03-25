@@ -152,8 +152,8 @@ const moreLongBeachShops = [
   {
     name: "Gong Cha",
     city: "Long Beach",
-    note: "Korean-founded chain at 6346 E. Pacific Coast Hwy. Consistently good milk tea program with a wide menu. The Milk Foam Tea series and Brown Sugar Bubble Milk are the best orders.",
-    href: undefined,
+    note: "Taiwanese-founded global chain at 6346 E. Pacific Coast Hwy. The world&apos;s most recognized boba brand delivers consistently. Brown Sugar Milk Tea and Oolong Milk Tea are the best orders. Full review available.",
+    href: "/gong-cha-review-los-angeles/",
   },
   {
     name: "Cha For Tea",

@@ -303,6 +303,17 @@ const topShops = [
     verdict: "The precision-brewed Taiwanese chain that rewards customers who care about the tea itself. The oolong and red tea bases are cleaner and more consistent than most LA chains at this price. Low brand awareness keeps it underrated.",
     href: "/ding-tea-review-los-angeles/",
   },
+  {
+    rank: 20,
+    name: "Gong Cha",
+    neighborhood: "Koreatown, SGV, Westwood, Long Beach",
+    image: "/assets/products/boba_scene_lifestyle.png",
+    rating: "4.2/5",
+    price: "$$",
+    mustOrder: "Brown Sugar Milk Tea with Pearl, Oolong Milk Tea",
+    verdict: "The world's most recognized bubble tea chain delivers in LA. Better tea quality than comparable global chains, the best customization system in the category, and the egg pudding topping alone makes it worth ordering over the standard pearl. A reliable 4.2 out of 5.",
+    href: "/gong-cha-review-los-angeles/",
+  },
 ];
 
 export default function BestBobaLAPage() {
@@ -412,10 +423,10 @@ export default function BestBobaLAPage() {
           <h2 className="text-2xl font-bold text-[#1A202C] mb-6">More Worth Visiting</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
-              { name: "Gong Cha", area: "Multiple Locations", note: "Reliable Korean chain. Good for a quick fix." },
+              { name: "Coco Fresh Tea", area: "Multiple Locations", note: "No-frills, great value, consistently solid." },
               { name: "Ten Ren Tea", area: "San Gabriel Valley", note: "Old-school Taiwanese chain with excellent oolongs." },
               { name: "TP Tea", area: "Multiple Locations", note: "Taiwanese brand known for fresh loose-leaf teas." },
-              { name: "Coco Fresh Tea", area: "Multiple Locations", note: "No-frills, great value, consistently solid." },
+              { name: "Class 302", area: "Koreatown", note: "Vintage Taiwanese classroom theme, good pearl milk tea. One of K-Town's more atmospheric spots." },
               { name: "Sharetea", area: "Multiple Locations", note: "Taiwanese chain with a strong taro game." },
               { name: "Sunright Tea Studio", area: "San Gabriel Valley", note: "Minimalist, specialty-grade tea. Worth a special trip." },
               { name: "Wushiland Boba", area: "Multiple Locations", note: "Hong Kong-style milk tea specialist. Less known than the big chains but consistently excellent." },
@@ -423,7 +434,7 @@ export default function BestBobaLAPage() {
               { name: "Milksha", area: "Multiple Locations", note: "Premium Taiwanese chain using fresh milk, not powder. The taro milk is exceptional." },
               { name: "Somi Somi", area: "Koreatown", note: "Fish-shaped waffle cones with soft serve and tapioca. A K-Town institution." },
               { name: "The Alley", area: "Multiple Locations", note: "Known for Deerioca pearls. More Instagram than substance, but the milk tea base is solid." },
-              { name: "Class 302", area: "Koreatown", note: "Vintage Taiwanese classroom theme, good pearl milk tea. One of K-Town's more atmospheric spots." },
+              { name: "Lollicup", area: "Multiple Locations", note: "LA-born chain with a huge following. Solid pearl milk tea and good value for the price." },
               { name: "Machi Machi", area: "Multiple Locations", note: "One of the better cheese foam programs in LA. Properly salted and thick." },
               { name: "KOI Thé", area: "Multiple Locations", note: "French-influenced chain. The Paris Latte is better than expected." },
               { name: "Meet Fresh", area: "Multiple Locations", note: "Taiwanese dessert shop with interesting grass jelly and taro ball combination drinks." },
