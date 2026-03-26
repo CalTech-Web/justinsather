@@ -325,6 +325,17 @@ const topShops = [
     verdict: "The best traditional Taiwanese milk tea at a value price in the SGV. LaTea brews its black tea base fresh rather than using powder, cooks tapioca pearls in-house, and offers the Winter Melon Tea that most chains have dropped from their menus. The most authentic classic milk tea experience in LA under $7.",
     href: "/latea-review-los-angeles/",
   },
+  {
+    rank: 22,
+    name: "CoCo Fresh Tea & Juice",
+    neighborhood: "Alhambra, Rowland Heights, Monterey Park, Koreatown",
+    image: "/assets/products/boba_scene_lifestyle.png",
+    rating: "4.1/5",
+    price: "$",
+    mustOrder: "Avocado Smoothie Milk Tea, Pearl Milk Tea, Taro Milk Tea",
+    verdict: "The world's largest boba chain, and the best value option among major international chains in LA. The Avocado Smoothie Milk Tea is genuinely distinctive, QQ pearls are consistently well-cooked, and drinks run $1 to $2 cheaper than Gong Cha or Happy Lemon. The right call for daily boba on a budget.",
+    href: "/coco-fresh-tea-review-los-angeles/",
+  },
 ];
 
 export default function BestBobaLAPage() {
@@ -434,7 +445,6 @@ export default function BestBobaLAPage() {
           <h2 className="text-2xl font-bold text-[#1A202C] mb-6">More Worth Visiting</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
-              { name: "Coco Fresh Tea", area: "Multiple Locations", note: "No-frills, great value, consistently solid." },
               { name: "Ten Ren Tea", area: "San Gabriel Valley", note: "Old-school Taiwanese chain with excellent oolongs." },
               { name: "TP Tea", area: "Multiple Locations", note: "Taiwanese brand known for fresh loose-leaf teas." },
               { name: "Class 302", area: "Koreatown", note: "Vintage Taiwanese classroom theme, good pearl milk tea. One of K-Town's more atmospheric spots." },
