@@ -452,7 +452,7 @@ export default function BestBobaLAPage() {
               { name: "Sunright Tea Studio", area: "San Gabriel Valley", note: "Minimalist, specialty-grade tea. Worth a special trip." },
               { name: "Wushiland Boba", area: "Multiple Locations", note: "Hong Kong-style milk tea specialist. Less known than the big chains but consistently excellent." },
               { name: "Tbaar", area: "Multiple Locations", note: "Minimalist Taiwanese chain with clean tea execution and no-frills ordering." },
-              { name: "Milksha", area: "Multiple Locations", note: "Premium Taiwanese chain using fresh milk, not powder. The taro milk is exceptional." },
+              { name: "Milksha", area: "Westwood Village (First US Location)", note: "Taiwan's no-powder boba brand opened its first US store at 1009 Broxton Ave, Westwood in fall 2025. Fresh taro milk and Campus Crush exclusive. Full review available.", href: "/milksha-westwood-review/" },
               { name: "Somi Somi", area: "Koreatown", note: "Fish-shaped waffle cones with soft serve and tapioca. A K-Town institution." },
               { name: "The Alley", area: "Multiple Locations", note: "Known for Deerioca pearls. More Instagram than substance, but the milk tea base is solid." },
               { name: "Lollicup", area: "Multiple Locations", note: "LA-born chain with a huge following. Solid pearl milk tea and good value for the price." },
@@ -463,7 +463,12 @@ export default function BestBobaLAPage() {
               <div key={shop.name} className="bg-white rounded-lg p-4 border border-gray-100 shadow-sm">
                 <h3 className="font-bold text-[#1A202C] text-sm mb-1">{shop.name}</h3>
                 <p className="text-xs text-[#718096] mb-2">{shop.area}</p>
-                <p className="text-xs text-[#4A5568]">{shop.note}</p>
+                <p className="text-xs text-[#4A5568] mb-2">{shop.note}</p>
+                {"href" in shop && shop.href && (
+                  <Link href={shop.href} className="text-[#2B6CB0] text-xs font-semibold hover:text-[#215387] transition-colors">
+                    Full Review &rarr;
+                  </Link>
+                )}
               </div>
             ))}
           </div>

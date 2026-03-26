@@ -50,21 +50,21 @@ function StarRating({ rating }: { rating: string }) {
 
 export const metadata: Metadata = {
   title: "Best Boba in Westwood: Top Bubble Tea Near UCLA, Ranked | Justin Sather",
-  description: "The complete guide to boba and bubble tea in Westwood Village near UCLA. Sharetea, Junbi Matcha, Just Boba Tea House, Le Phant, and more. Every shop personally visited by Justin Sather. Updated 2026.",
+  description: "The complete guide to boba and bubble tea in Westwood Village near UCLA. Milksha (first US location), Sharetea, Junbi Matcha, Just Boba Tea House, and more. Every shop personally visited by Justin Sather. Updated 2026.",
 };
 
 const faqItems = [
   {
     question: "What is the best boba near UCLA in Westwood?",
-    answer: "Sharetea Westwood at 1036 Westwood Blvd is the best boba shop near UCLA. It is the most established chain boba option in Westwood Village with a wide menu, consistent quality, and UCLA student-friendly hours. For matcha-focused drinks, Junbi Matcha and Tea at 10967 Weyburn Ave is the standout alternative.",
+    answer: "Milksha Westwood at 1009 Broxton Ave is the best boba near UCLA for ingredient quality. It is Taiwan's largest fresh milk tea brand, opened its first US store in Westwood Village in fall 2025, and uses a no-powder policy that produces noticeably better drinks than other Westwood options. For the widest menu and most familiar format, Sharetea at 1036 Westwood Blvd is the best all-around choice. For matcha, Junbi Matcha and Tea at 10967 Weyburn Ave is the standout.",
   },
   {
     question: "Where can I get boba in Westwood Village?",
-    answer: "Westwood Village has four dedicated boba and tea shops within walking distance of UCLA. Sharetea is at 1036 Westwood Blvd, Just Boba Tea House is at 952 Gayley Ave, Junbi Matcha and Tea is at 10967 Weyburn Ave, and Le Phant Milk Tea is at 10911 Lindbrook Dr. All four are within the Westwood Village commercial area.",
+    answer: "Westwood Village has five dedicated boba and tea shops within walking distance of UCLA. Milksha is at 1009 Broxton Ave (first US location, no-powder fresh milk), Sharetea is at 1036 Westwood Blvd, Just Boba Tea House is at 952 Gayley Ave, Junbi Matcha and Tea is at 10967 Weyburn Ave, and Le Phant Milk Tea is at 10911 Lindbrook Dr. All five are within the Westwood Village commercial area.",
   },
   {
     question: "What are the best boba shops near UCLA?",
-    answer: "The best boba shops near UCLA are Sharetea Westwood (full menu, classic milk teas), Junbi Matcha and Tea (matcha specialist with 15+ flavors), Just Boba Tea House (local Westwood favorite with late hours), and Le Phant Milk Tea. For premium boba, Koreatown is about 20 minutes east and has the highest concentration of top-tier shops in LA.",
+    answer: "The best boba shops near UCLA are Milksha Westwood (no-powder fresh milk, Taiwan-sourced ingredients, Campus Crush exclusive), Sharetea Westwood (full menu, classic milk teas), Junbi Matcha and Tea (matcha specialist with 15+ flavors), Just Boba Tea House (local Westwood favorite with late hours), and Le Phant Milk Tea. For premium boba beyond Westwood, Koreatown is about 20 minutes east and has the highest concentration of top-tier shops in LA.",
   },
   {
     question: "Is there boba open late near UCLA?",
@@ -96,6 +96,19 @@ const faqJsonLd = {
 const westwoodShops = [
   {
     rank: 1,
+    name: "Milksha Westwood",
+    city: "Westwood",
+    address: "1009 Broxton Ave",
+    image: "/assets/products/boba_scene_lifestyle.png",
+    rating: "4.6",
+    price: "$$",
+    bestFor: "Fresh Taro Milk, no-powder policy, Campus Crush exclusive, Taiwan-sourced ingredients",
+    mustOrder: "Fresh Taro Milk, Earl Grey Latte with Honey Pearl, Campus Crush (Westwood-exclusive)",
+    verdict: "The best boba near UCLA and the best ingredient quality on the Westside. Milksha is a Taiwanese chain with over 300 stores worldwide that opened its first US location at 1009 Broxton Ave in fall 2025. The brand&apos;s no-powder policy means every milk drink is made with real fresh dairy, not non-dairy creamer, which produces a flavor difference you can taste immediately. The Fresh Taro Milk uses taro from Dajia, Taiwan, steamed and hand-mashed in-store. The Campus Crush is a Westwood-exclusive limited drink you cannot get at any other Milksha in the world. Prices run $7 to $9.50.",
+    href: "/milksha-westwood-review/",
+  },
+  {
+    rank: 2,
     name: "Sharetea Westwood",
     city: "Westwood",
     address: "1036 Westwood Blvd",
@@ -104,11 +117,11 @@ const westwoodShops = [
     price: "$$",
     bestFor: "Classic milk teas, fruit teas, wide menu, UCLA convenience",
     mustOrder: "Three Mates Milk Tea, Mango Green Tea",
-    verdict: "The best all-around boba shop in Westwood. Sharetea is a Taiwanese-founded chain with a proven menu of classic milk teas, handcrafted drinks, and fruit teas. The Westwood Blvd location serves the UCLA community with the full Sharetea menu and consistent quality. Three Mates is the signature drink, a blend of three teas with a clean, layered flavor profile. Mango Green Tea is the best fruit tea on the menu. Prices run $7 to $9 and the quality justifies it.",
+    verdict: "The most established boba chain in Westwood. Sharetea is a Taiwanese-founded chain with a proven menu of classic milk teas, handcrafted drinks, and fruit teas. The Westwood Blvd location serves the UCLA community with the full Sharetea menu and consistent quality. Three Mates is the signature drink, a blend of three teas with a clean, layered flavor profile. Mango Green Tea is the best fruit tea on the menu. Prices run $7 to $9. More affordable than Milksha and a better option when you want a wide menu or value pricing.",
     href: "/sharetea-westwood-review/",
   },
   {
-    rank: 2,
+    rank: 3,
     name: "Junbi Matcha & Tea",
     city: "Westwood",
     address: "10967 Weyburn Ave",
@@ -121,7 +134,7 @@ const westwoodShops = [
     href: undefined,
   },
   {
-    rank: 3,
+    rank: 4,
     name: "Just Boba Tea House",
     city: "Westwood",
     address: "952 Gayley Ave",
@@ -134,7 +147,7 @@ const westwoodShops = [
     href: undefined,
   },
   {
-    rank: 4,
+    rank: 5,
     name: "Le Phant Milk Tea",
     city: "Westwood",
     address: "10911 Lindbrook Dr",
@@ -207,10 +220,10 @@ export default function BestBobaWestwoodPage() {
                 Best Boba in Westwood: Top Bubble Tea Near UCLA, Ranked
               </h1>
               <p className="text-[#4A5568] text-lg leading-relaxed mb-4">
-                Westwood Village has four dedicated boba shops within walking distance of UCLA. Sharetea leads the field, Junbi Matcha is one of the best matcha concepts in LA, and Just Boba Tea House stays open late when you need it. Every shop below has been personally visited by Justin Sather.
+                Westwood Village has five dedicated boba shops within walking distance of UCLA. Milksha leads on ingredient quality as Taiwan&apos;s no-powder brand in its first US location, Sharetea covers the widest menu, and Just Boba Tea House stays open late when you need it. Every shop below has been personally visited by Justin Sather.
               </p>
               <div className="flex gap-3 flex-wrap text-sm">
-                <span className="bg-[#EDF2F7] text-[#2B6CB0] px-3 py-1 rounded-full font-medium">4 Ranked Shops</span>
+                <span className="bg-[#EDF2F7] text-[#2B6CB0] px-3 py-1 rounded-full font-medium">5 Ranked Shops</span>
                 <span className="bg-[#EDF2F7] text-[#2D3748] px-3 py-1 rounded-full font-medium">Westwood, Los Angeles</span>
                 <span className="bg-[#EDF2F7] text-[#2D3748] px-3 py-1 rounded-full font-medium">Updated 2026</span>
               </div>
