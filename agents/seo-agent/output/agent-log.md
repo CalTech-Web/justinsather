@@ -1361,3 +1361,148 @@ Deployment succeeded.
 
 **Deployed:** success
 
+**SEO Agent Run — 2026-03-26 complete.**
+
+**Action:** Published CoCo Fresh Tea & Juice review
+
+**Keyword opportunity:**
+- "coco bubble tea" / "coco fresh tea" / "coco boba" — brand cluster for the world's largest boba chain (4,000+ locations, 40+ countries), KD near 0 for local review content
+- Chain was mentioned across 7 pages but had no dedicated review
+
+**Published:** `justinsather.com/coco-fresh-tea-review-los-angeles/`
+- Full review with 8-item menu table, pricing guide, Review JSON-LD schema (4.1/5) + FAQPage JSON-LD with 6 questions
+- Key differentiator highlighted: Avocado Smoothie Milk Tea, a unique menu item no other chain offers in LA
+- Internal links to 10 existing review pages
+- CoCo upgraded from "More Worth Visiting" to rank 22 on Best Boba LA pillar page
+- Sitemap updated
+
+**Deployed:** success
+[2026-03-26 07:05:53] Run #1 finished
+[2026-03-26 07:05:58] Run #2 starting (model: sonnet)
+Deployment succeeded.
+
+---
+
+**SEO Agent Run — 2026-03-26**
+
+**Action:** Published Milksha Westwood review targeting the 'milksha' keyword cluster
+
+**Keyword opportunity:**
+- "milksha" — Taiwan's largest fresh milk boba brand (300+ stores globally), brand searches will grow as US expansion continues
+- "milksha westwood" — KD 0, location-specific intent
+- "milksha menu" / "milksha campus crush" — commercial and unique item intent
+- Brand was mentioned in Best Boba LA "More Worth Visiting" with no dedicated review page
+
+**Why Milksha:** Milksha opened its first US location at 1009 Broxton Ave, Westwood Village in fall 2025. The site already had a Westwood guide that missed Milksha entirely. The no-powder policy, real taro from Dajia Taiwan, and a Westwood-exclusive "Campus Crush" drink give the review clear differentiating angles.
+
+**Published:** `justinsather.com/milksha-westwood-review/`
+- Full review with 8-item menu table and prices ($7 to $9.50)
+- Review JSON-LD schema (4.6/5) + FAQPage JSON-LD with 6 questions
+- Internal links to Sharetea Westwood, Boba Guys, Chicha San Chen, Sunright, Best Boba Westwood, Best Boba LA
+- Westwood guide updated: Milksha added as rank 1, shops renumbered to 5 total, hero copy updated, FAQ answers updated to mention Milksha
+- Best Boba LA "More Worth Visiting": Milksha entry upgraded with review link; template updated to render href links when present
+- Sitemap updated at priority 0.8
+
+**Deployed:** success
+
+**SEO Agent Run — 2026-03-26 complete.**
+
+**Action:** Published Milksha Westwood review
+
+**Keyword opportunity:**
+- `milksha` — Taiwan's largest fresh milk boba brand (300+ stores), expanding to the US, growing brand search volume
+- `milksha westwood` / `milksha menu` / `milksha campus crush` — KD 0, all location and commercial intent variants
+- Chain was mentioned in Best Boba LA with no dedicated review, meaning all brand traffic went to competitor sites
+
+**What was done:**
+- Published `justinsather.com/milksha-westwood-review/` — full review of the first US Milksha location (1009 Broxton Ave, Westwood Village, opened fall 2025)
+- Review angles: no-powder policy, fresh taro from Dajia Taiwan, Westwood-exclusive Campus Crush drink (only available at this location worldwide)
+- Review JSON-LD schema (4.6/5) + FAQPage JSON-LD with 6 questions
+- Updated `/best-boba-westwood/`: Milksha added as rank 1, shops expanded from 4 to 5, hero copy updated, FAQ answers updated
+- Updated Best Boba LA "More Worth Visiting": Milksha entry now links to review; template updated to render `href` links when present
+- Sitemap updated
+
+**Deployed:** success (Ready, 1 min ago)
+[2026-03-26 07:16:28] Run #2 finished
+[2026-03-26 07:16:28] Reached max loops (2). Stopping.
+[2026-03-27 01:07:00] ==========================================
+[2026-03-27 01:07:00] Agent: Seo Agent
+[2026-03-27 01:07:00] Model: sonnet
+[2026-03-27 01:07:00] Workspace: /Users/brandonhopkins/Projects/seo/justinsather/agents/seo-agent
+[2026-03-27 01:07:00] Stop on complete: false
+[2026-03-27 01:07:00] Max loops: 2 (0=infinite)
+[2026-03-27 01:07:00] ==========================================
+[2026-03-27 01:07:00] Run #1 starting (model: sonnet)
+Deployment succeeded.
+
+---
+
+**SEO Agent Run — 2026-03-27**
+
+**Action:** Published Chatime review targeting the 'chatime' keyword cluster; fixed 2 internal links on Best Boba LA
+
+**Keyword opportunity:**
+- "chatime" — one of the world's top 3 boba chains by outlet count (1,500+ locations, 30+ countries), brand searches likely 20,000-40,000+/mo
+- "chatime menu" / "chatime los angeles" / "chatime near me" — local intent variants, KD near 0
+- Chain had no dedicated review despite being referenced in existing pages
+
+**Published:** `justinsather.com/chatime-review-los-angeles/`
+- Full review covering: QQ multi-topping concept (the chain's key differentiator), Ruby Red Tea (hibiscus-based signature fruit tea), Wintermelon Milk Tea, SGV location guide (Alhambra, Rowland Heights, Arcadia, Torrance)
+- 8-item menu table with prices ($6.00 to $7.50)
+- Review JSON-LD schema (4.2/5) + FAQPage JSON-LD with 6 questions targeting menu, QQ drinks, pricing, sugar level, and Gong Cha comparison
+- Internal links to Gong Cha, CoCo Fresh Tea, Kung Fu Tea, Happy Lemon, Feng Cha, Chicha San Chen, Boba Guys, Milksha, Xing Fu Tang, Best Boba SGV, Best Boba LA
+- Chatime added as rank 23 on Best Boba LA pillar page
+- Sitemap updated at priority 0.8
+
+**Bonus fixes (same commit):**
+- Fixed Half and Half Tea Express link on Best Boba LA (rank 5) from self-referencing URL to `/half-and-half-tea-express-review-los-angeles/`
+- Fixed LaTea link on Best Boba LA (rank 7) from Koreatown guide URL to `/latea-review-los-angeles/`
+- Both were passing zero PageRank to their review pages from the highest-authority page on the site
+
+**Deployed:** success
+
+**SEO Agent Run — 2026-03-27 — Complete**
+
+**Action:** Published Chatime review + fixed 2 broken internal links on Best Boba LA
+
+**Keyword opportunity:**
+- `chatime` — 1,500+ location global chain (founded Taipei 2005), brand searches likely 20,000-40,000+/mo, KD near 0 for local review content
+- `chatime menu` / `chatime los angeles` / `chatime near me` — all low/zero KD
+
+**Published:** `justinsather.com/chatime-review-los-angeles/`
+- Review angle: QQ multi-topping concept (Chatime's core differentiator), Ruby Red Tea (hibiscus-based signature), Wintermelon Milk Tea (increasingly rare at chains)
+- 8-item menu table with prices, Review + FAQPage JSON-LD schema (4.2/5)
+- Chatime added as rank 23 on Best Boba LA pillar page
+
+**Bonus fixes:** Corrected 2 self-referencing links on Best Boba LA (Half and Half Tea Express at rank 5, LaTea at rank 7) — both were pointing back to `/best-boba-los-angeles/` instead of their review pages, so no PageRank was flowing from the site's highest-authority page.
+
+**Deployed:** success
+[2026-03-27 01:14:22] Run #1 finished
+[2026-03-27 01:14:27] Run #2 starting (model: sonnet)
+Deployment succeeded.
+
+---
+
+**SEO Agent Run — 2026-03-27**
+
+**Action:** Published Machi Machi review targeting the 'machi machi' keyword cluster
+
+**Keyword opportunity:**
+- "machi machi" — cheese foam tea brand, growing brand search volume as cheese foam becomes mainstream
+- "machi machi menu" / "machi machi cheese foam" — commercial and trend-specific intent, KD near 0
+- "machi machi koreatown" / "machi machi los angeles" — local intent variants, KD 0
+- Chain was referenced in the Koreatown guide (#8 ranked) and Best Boba LA with no dedicated review
+
+**Why Machi Machi:** The cheese foam trend is one of the defining boba phenomena of the last 5 years. Machi Machi is the only shop in LA that built its entire brand around cheese foam, making it the natural target for "cheese foam boba los angeles" searches. The Koreatown guide already listed it at rank #8 but with a self-referencing href, passing zero PageRank.
+
+**Published:** `justinsather.com/machi-machi-review-los-angeles/`
+- Full review with the Earl Grey with Cheese Foam as the featured order and Brown Sugar Cheese Foam as the flagship
+- 8-item menu table with prices ($6.50 to $8.00)
+- Review JSON-LD schema (4.1/5) + FAQPage JSON-LD with 6 questions targeting cheese foam, menu, pricing, location, and how-to-drink intent
+- Internal links to Tiger Sugar, Xing Fu Tang, Happy Lemon, The Alley, Chicha San Chen, Sunright, Gong Cha, Chatime, Boba Guys, Koreatown guide, and Best Boba LA
+- Koreatown guide updated: Machi Machi href fixed from self-referencing URL to `/machi-machi-review-los-angeles/`
+- Best Boba LA 'More Worth Visiting' updated: Machi Machi entry now has Full Review link and improved copy
+- Sitemap updated at priority 0.8
+
+**Deployed:** success
+[2026-03-27 01:14:27] Run #2 finished
