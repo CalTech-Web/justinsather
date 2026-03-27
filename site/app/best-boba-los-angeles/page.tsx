@@ -147,7 +147,7 @@ const topShops = [
     price: "$",
     mustOrder: "Supreme Milk Tea",
     verdict: "A SGV institution. No frills, incredible tea quality, and the most affordable premium boba you will find anywhere in LA.",
-    href: "/best-boba-los-angeles/",
+    href: "/half-and-half-tea-express-review-los-angeles/",
   },
   {
     rank: 6,
@@ -169,7 +169,7 @@ const topShops = [
     price: "$$",
     mustOrder: "Matcha Latte with Tapioca",
     verdict: "One of the best matcha programs in Koreatown. The milk tea base is exceptional and the tapioca is always perfectly cooked.",
-    href: "/best-boba-koreatown-complete-guide-to-30-shops/",
+    href: "/latea-review-los-angeles/",
   },
   {
     rank: 8,
@@ -335,6 +335,17 @@ const topShops = [
     mustOrder: "Avocado Smoothie Milk Tea, Pearl Milk Tea, Taro Milk Tea",
     verdict: "The world's largest boba chain, and the best value option among major international chains in LA. The Avocado Smoothie Milk Tea is genuinely distinctive, QQ pearls are consistently well-cooked, and drinks run $1 to $2 cheaper than Gong Cha or Happy Lemon. The right call for daily boba on a budget.",
     href: "/coco-fresh-tea-review-los-angeles/",
+  },
+  {
+    rank: 23,
+    name: "Chatime",
+    neighborhood: "SGV (Alhambra, Rowland Heights, Arcadia), Torrance",
+    image: "/assets/products/boba_scene_lifestyle.png",
+    rating: "4.2/5",
+    price: "$$",
+    mustOrder: "QQ Milk Tea, Ruby Red Tea, Wintermelon Milk Tea",
+    verdict: "One of the world's largest bubble tea chains, built around the QQ multi-topping concept. The QQ Milk Tea combines pearls, pudding, and grass jelly in a single cup and delivers more texture variety than any single-topping chain order. The Ruby Red Tea is one of the best fruit teas at the chain level in the SGV.",
+    href: "/chatime-review-los-angeles/",
   },
 ];
 
