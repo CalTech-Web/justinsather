@@ -467,7 +467,7 @@ export default function BestBobaLAPage() {
               { name: "Somi Somi", area: "Koreatown", note: "Fish-shaped waffle cones with soft serve and tapioca. A K-Town institution." },
               { name: "The Alley", area: "Multiple Locations", note: "Known for Deerioca pearls. More Instagram than substance, but the milk tea base is solid." },
               { name: "Lollicup", area: "Multiple Locations", note: "LA-born chain with a huge following. Solid pearl milk tea and good value for the price." },
-              { name: "Machi Machi", area: "Multiple Locations", note: "One of the better cheese foam programs in LA. Properly salted and thick." },
+              { name: "Machi Machi", area: "Koreatown, SGV", note: "Best cheese foam program in LA. The Earl Grey with Cheese Foam is the most distinctive drink in Koreatown.", href: "/machi-machi-review-los-angeles/" },
               { name: "KOI Thé", area: "Multiple Locations", note: "French-influenced chain. The Paris Latte is better than expected." },
               { name: "Meet Fresh", area: "Multiple Locations", note: "Taiwanese dessert shop with interesting grass jelly and taro ball combination drinks." },
             ].map((shop) => (

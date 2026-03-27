@@ -163,7 +163,7 @@ const ktShops = [
     bestFor: "Cheese foam drinks, Taiwanese teas",
     mustOrder: "Brown Sugar Milk Tea with Cheese Foam",
     verdict: "One of the better cheese foam programs in K-Town. The foam is properly salted and thick, not the watery version you get at lesser shops. The brown sugar base works well with it.",
-    href: "/best-boba-koreatown-complete-guide-to-30-shops/",
+    href: "/machi-machi-review-los-angeles/",
     featured: false,
   },
   {

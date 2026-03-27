@@ -257,6 +257,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: `${baseUrl}/machi-machi-review-los-angeles`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
       url: `${baseUrl}/about-me`,
       lastModified: new Date(),
       changeFrequency: "yearly",
