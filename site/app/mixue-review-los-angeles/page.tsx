@@ -481,6 +481,9 @@ export default function MixueReviewPage() {
                 <Link href="/best-boba-los-angeles/" className="text-[#2B6CB0] text-sm font-semibold hover:text-[#215387] transition-colors block">
                   Best Boba in LA (25+ shops) &rarr;
                 </Link>
+                <Link href="/best-boba-hollywood/" className="text-[#2B6CB0] text-sm font-semibold hover:text-[#215387] transition-colors block">
+                  Best Boba Near Hollywood &rarr;
+                </Link>
               </div>
             </div>
           </div>
