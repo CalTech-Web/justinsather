@@ -1506,3 +1506,66 @@ Deployment succeeded.
 
 **Deployed:** success
 [2026-03-27 01:14:27] Run #2 finished
+Done. Here's what was done this run:
+
+---
+
+**SEO Agent Run — 2026-03-27**
+
+**Action:** Published Machi Machi review targeting the `machi machi` keyword cluster
+
+**Keyword opportunity:**
+- `machi machi` — brand search for LA's best cheese foam tea shop
+- `machi machi cheese foam` / `machi machi menu` — trend + commercial intent, KD near 0
+- `machi machi koreatown` / `machi machi los angeles` — local intent variants, KD 0
+
+**Published:** `justinsather.com/machi-machi-review-los-angeles/`
+- Full review with 8-item menu table, Review JSON-LD schema (4.1/5) + FAQPage JSON-LD (6 questions)
+- Review angle: cheese foam as the entire brand identity, Earl Grey with Cheese Foam as the most distinctive drink in Koreatown
+- Koreatown guide: Machi Machi href fixed from self-reference → `/machi-machi-review-los-angeles/` (was passing zero PageRank from the site's highest-authority neighborhood page)
+- Best Boba LA "More Worth Visiting": Machi Machi entry upgraded with Full Review link
+- Sitemap updated
+
+**Deployed:** success
+[2026-03-27 01:25:46] Run #2 finished
+[2026-03-27 01:25:46] Reached max loops (2). Stopping.
+[2026-03-28 01:07:03] ==========================================
+[2026-03-28 01:07:03] Agent: Seo Agent
+[2026-03-28 01:07:03] Model: sonnet
+[2026-03-28 01:07:03] Workspace: /Users/brandonhopkins/Projects/seo/justinsather/agents/seo-agent
+[2026-03-28 01:07:03] Stop on complete: false
+[2026-03-28 01:07:03] Max loops: 2 (0=infinite)
+[2026-03-28 01:07:03] ==========================================
+[2026-03-28 01:07:03] Run #1 starting (model: sonnet)
+Deployment succeeded.
+
+---
+
+**SEO Agent Run — 2026-03-28**
+
+**Action:** Published Mixue Hollywood review targeting the 'mixue' keyword cluster; fixed 4 broken internal links in Koreatown guide
+
+**Keyword opportunity:**
+- "mixue" — world's largest boba chain by outlet count (42,000+ locations globally), first US location opened December 2025 at 6922 Hollywood Blvd, Hollywood
+- "mixue los angeles" / "mixue hollywood" / "mixue menu" — all KD near 0, brand searches growing as US expansion begins
+- Comparable global brand scale to Kung Fu Tea (68K/mo) and Happy Lemon (37K/mo) but brand new to US market = zero competition from US content
+
+**Published:** `justinsather.com/mixue-review-los-angeles/`
+- Full review of first US Mixue location at 6922 Hollywood Blvd (across from TCL Chinese Theatre)
+- Key differentiator: most affordable boba in LA from $3.99, Snow King soft serve mascot, Lemon Tea as the global signature drink
+- 8-item menu table with prices, Review JSON-LD schema (3.9/5) + FAQPage JSON-LD with 6 questions targeting "what is mixue", "best drink at mixue", "how much does mixue cost", "how big is mixue globally", location, and comparison to It's Boba Time
+- Internal links to It's Boba Time, Boba Guys, Chicha San Chen, Milksha, Ding Tea, CoCo Fresh Tea, Kung Fu Tea, Gong Cha, Chatime, SGV guide, Koreatown guide, and Best Boba LA
+- Best Boba LA "More Worth Visiting" updated: Mixue added with review link
+- Sitemap updated at priority 0.8
+
+**Bonus fixes (same commit):**
+Fixed 4 self-referencing internal links in Koreatown guide (shops published after the last link-fix run on 2026-03-25):
+- LaTea → `/latea-review-los-angeles/` (was self-referencing)
+- Milksha → `/milksha-westwood-review/` (was self-referencing)
+- CoCo Fresh Tea → `/coco-fresh-tea-review-los-angeles/` (was self-referencing)
+- ChaTime → `/chatime-review-los-angeles/` (was self-referencing)
+
+**Why this matters:** Mixue is the world's largest boba chain by outlet count, surpassing McDonald's in some Asian markets. Its first US location opened 4 months ago in Hollywood with no dedicated review content from any LA food publication. The "mixue" brand keyword cluster has massive global search volume that is now converting to US intent, with zero competing local review content. The Hollywood location (6922 Hollywood Blvd, across from TCL Chinese Theatre) serves both tourists and local Hollywood residents, giving this review a location context no other page on the site has.
+
+**Deployed:** success
+
