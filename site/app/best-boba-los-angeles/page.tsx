@@ -468,6 +468,7 @@ export default function BestBobaLAPage() {
               { name: "The Alley", area: "Multiple Locations", note: "Known for Deerioca pearls. More Instagram than substance, but the milk tea base is solid." },
               { name: "Lollicup", area: "Multiple Locations", note: "LA-born chain with a huge following. Solid pearl milk tea and good value for the price." },
               { name: "Machi Machi", area: "Koreatown, SGV", note: "Best cheese foam program in LA. The Earl Grey with Cheese Foam is the most distinctive drink in Koreatown.", href: "/machi-machi-review-los-angeles/" },
+              { name: "Mixue", area: "Hollywood Blvd (First US Location)", note: "World's largest boba chain (42,000+ locations) opened its first US store at 6922 Hollywood Blvd in December 2025. Most affordable boba in LA from $3.99. The Lemon Tea is the signature order.", href: "/mixue-review-los-angeles/" },
               { name: "KOI Thé", area: "Multiple Locations", note: "French-influenced chain. The Paris Latte is better than expected." },
               { name: "Meet Fresh", area: "Multiple Locations", note: "Taiwanese dessert shop with interesting grass jelly and taro ball combination drinks." },
             ].map((shop) => (

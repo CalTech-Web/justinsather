@@ -79,7 +79,7 @@ const ktShops = [
     bestFor: "Matcha, milk teas",
     mustOrder: "Matcha Latte with Tapioca",
     verdict: "Outstanding matcha program with perfectly cooked tapioca. One of the most consistent shops in K-Town.",
-    href: "/best-boba-koreatown-complete-guide-to-30-shops/",
+    href: "/latea-review-los-angeles/",
     featured: false,
   },
   {
@@ -121,7 +121,7 @@ const ktShops = [
     bestFor: "Fresh milk teas, premium dairy",
     mustOrder: "Fresh Taro Milk with Pearl",
     verdict: "Premium Taiwanese chain built on fresh milk, not powder. The taro milk is made from actual taro, which gives it a texture and flavor depth the powder versions can't match. Pricier than most K-Town shops but the quality is real.",
-    href: "/best-boba-koreatown-complete-guide-to-30-shops/",
+    href: "/milksha-westwood-review/",
     featured: false,
   },
   {
@@ -289,7 +289,7 @@ const ktShops = [
     bestFor: "Budget boba, large portions",
     mustOrder: "Passion Fruit Green Tea with Pearl",
     verdict: "The Taiwanese chain that built a global empire on consistency and value. Nothing exceptional here, but the fruit teas are fresh and the price is hard to beat at under $5 for a full-size drink.",
-    href: "/best-boba-koreatown-complete-guide-to-30-shops/",
+    href: "/coco-fresh-tea-review-los-angeles/",
     featured: false,
   },
   {
@@ -345,7 +345,7 @@ const ktShops = [
     bestFor: "Standard Taiwanese chain options",
     mustOrder: "Honey Milk Tea",
     verdict: "Global Taiwanese chain. The tapioca here is usually fresh and properly cooked, which puts it above some chains. Everything else is average. Reliable but forgettable.",
-    href: "/best-boba-koreatown-complete-guide-to-30-shops/",
+    href: "/chatime-review-los-angeles/",
     featured: false,
   },
   {
