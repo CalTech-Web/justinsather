@@ -528,6 +528,10 @@ export default function BestBobaLAPage() {
             <h3 className="text-lg font-bold text-[#1A202C] group-hover:text-[#2B6CB0] transition-colors mb-2">Best Boba Near Hollywood &rarr;</h3>
             <p className="text-[#4A5568] text-sm">Mixue's first US location is on Hollywood Blvd. The guide for Hollywood, East Hollywood, and the Koreatown corridor 15 minutes west.</p>
           </Link>
+          <Link href="/best-boba-santa-monica/" className="group bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow p-6 text-center block">
+            <h3 className="text-lg font-bold text-[#1A202C] group-hover:text-[#2B6CB0] transition-colors mb-2">Best Boba Near Santa Monica &rarr;</h3>
+            <p className="text-[#4A5568] text-sm">The complete guide for boba near Santa Monica, the Pier, and Third Street Promenade. Includes Sawtelle, Westwood, and the best Westside options.</p>
+          </Link>
         </div>
       </section>
     </>
