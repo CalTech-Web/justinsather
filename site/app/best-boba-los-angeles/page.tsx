@@ -163,12 +163,12 @@ const topShops = [
   {
     rank: 7,
     name: "LaTea",
-    neighborhood: "Koreatown",
+    neighborhood: "SGV (Rowland Heights, Alhambra), Koreatown",
     image: "/assets/products/latea_drink.png",
-    rating: "4/5",
-    price: "$$",
-    mustOrder: "Matcha Latte with Tapioca",
-    verdict: "One of the best matcha programs in Koreatown. The milk tea base is exceptional and the tapioca is always perfectly cooked.",
+    rating: "4.3/5",
+    price: "$",
+    mustOrder: "Classic Milk Tea, Taro Milk Tea, Winter Melon Tea",
+    verdict: "The best traditional Taiwanese milk tea at a value price in the SGV. LaTea brews its black tea base fresh rather than using powder, cooks tapioca pearls in-house, and offers the Winter Melon Tea that most chains have dropped from their menus. The most authentic classic milk tea experience in LA under $7.",
     href: "/latea-review-los-angeles/",
   },
   {
@@ -316,17 +316,6 @@ const topShops = [
   },
   {
     rank: 21,
-    name: "LaTea",
-    neighborhood: "Rowland Heights, Alhambra, Koreatown area",
-    image: "/assets/products/latea_drink.png",
-    rating: "4.3/5",
-    price: "$",
-    mustOrder: "Classic Milk Tea, Taro Milk Tea, Winter Melon Tea",
-    verdict: "The best traditional Taiwanese milk tea at a value price in the SGV. LaTea brews its black tea base fresh rather than using powder, cooks tapioca pearls in-house, and offers the Winter Melon Tea that most chains have dropped from their menus. The most authentic classic milk tea experience in LA under $7.",
-    href: "/latea-review-los-angeles/",
-  },
-  {
-    rank: 22,
     name: "CoCo Fresh Tea & Juice",
     neighborhood: "Alhambra, Rowland Heights, Monterey Park, Koreatown",
     image: "/assets/products/boba_scene_lifestyle.png",
@@ -337,7 +326,7 @@ const topShops = [
     href: "/coco-fresh-tea-review-los-angeles/",
   },
   {
-    rank: 23,
+    rank: 22,
     name: "Chatime",
     neighborhood: "SGV (Alhambra, Rowland Heights, Arcadia), Torrance",
     image: "/assets/products/boba_scene_lifestyle.png",
@@ -405,7 +394,7 @@ export default function BestBobaLAPage() {
 
       {/* Ranked list */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <h2 className="text-2xl font-bold text-[#1A202C] mb-8">The Top 10</h2>
+        <h2 className="text-2xl font-bold text-[#1A202C] mb-8">The Complete Ranked List</h2>
         <div className="space-y-6">
           {topShops.map((shop) => (
             <article key={shop.rank} className="bg-white rounded-xl border border-gray-100 shadow-sm overflow-hidden hover:shadow-md transition-shadow">
@@ -457,20 +446,16 @@ export default function BestBobaLAPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
               { name: "Ten Ren Tea", area: "San Gabriel Valley", note: "Old-school Taiwanese chain with excellent oolongs." },
-              { name: "TP Tea", area: "Multiple Locations", note: "Taiwanese brand known for fresh loose-leaf teas." },
               { name: "Class 302", area: "Koreatown", note: "Vintage Taiwanese classroom theme, good pearl milk tea. One of K-Town's more atmospheric spots." },
-              { name: "Sharetea", area: "Multiple Locations", note: "Taiwanese chain with a strong taro game." },
-              { name: "Sunright Tea Studio", area: "San Gabriel Valley", note: "Minimalist, specialty-grade tea. Worth a special trip." },
+              { name: "Sharetea Westwood", area: "Westwood Village", note: "Taiwanese chain with a strong taro game. The Three Mates is the go-to order near UCLA.", href: "/sharetea-westwood-review/" },
               { name: "Wushiland Boba", area: "Multiple Locations", note: "Hong Kong-style milk tea specialist. Less known than the big chains but consistently excellent." },
               { name: "Tbaar", area: "Multiple Locations", note: "Minimalist Taiwanese chain with clean tea execution and no-frills ordering." },
-              { name: "Milksha", area: "Westwood Village (First US Location)", note: "Taiwan's no-powder boba brand opened its first US store at 1009 Broxton Ave, Westwood in fall 2025. Fresh taro milk and Campus Crush exclusive. Full review available.", href: "/milksha-westwood-review/" },
-              { name: "Somi Somi", area: "Koreatown", note: "Fish-shaped waffle cones with soft serve and tapioca. A K-Town institution." },
-              { name: "The Alley", area: "Multiple Locations", note: "Known for Deerioca pearls. More Instagram than substance, but the milk tea base is solid." },
+              { name: "Milksha", area: "Westwood Village (First US Location)", note: "Taiwan's no-powder boba brand opened its first US store at 1009 Broxton Ave, Westwood in fall 2025. Fresh taro milk and Campus Crush exclusive.", href: "/milksha-westwood-review/" },
+              { name: "Somi Somi", area: "Koreatown, SGV", note: "Fish-shaped waffle cones with soft serve and tapioca. The Injeolmi soft serve is one of the most distinctive dessert-boba hybrids in the city.", href: "/somi-somi-review-los-angeles/" },
               { name: "Lollicup", area: "Multiple Locations", note: "LA-born chain with a huge following. Solid pearl milk tea and good value for the price." },
               { name: "Machi Machi", area: "Koreatown, SGV", note: "Best cheese foam program in LA. The Earl Grey with Cheese Foam is the most distinctive drink in Koreatown.", href: "/machi-machi-review-los-angeles/" },
               { name: "Mixue", area: "Hollywood Blvd (First US Location)", note: "World's largest boba chain (42,000+ locations) opened its first US store at 6922 Hollywood Blvd in December 2025. Most affordable boba in LA from $3.99. The Lemon Tea is the signature order.", href: "/mixue-review-los-angeles/" },
               { name: "KOI Thé", area: "Multiple Locations", note: "French-influenced chain. The Paris Latte is better than expected." },
-              { name: "Meet Fresh", area: "Multiple Locations", note: "Taiwanese dessert shop with interesting grass jelly and taro ball combination drinks." },
             ].map((shop) => (
               <div key={shop.name} className="bg-white rounded-lg p-4 border border-gray-100 shadow-sm">
                 <h3 className="font-bold text-[#1A202C] text-sm mb-1">{shop.name}</h3>
