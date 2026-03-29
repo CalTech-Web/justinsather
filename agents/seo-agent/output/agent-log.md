@@ -1673,3 +1673,46 @@ Deployment succeeded.
 
 **Deployed:** success
 [2026-03-29 01:07:00] Run #1 finished
+**SEO Agent Run — 2026-03-29 complete.**
+
+**Action:** Published "Best Boba Santa Monica" neighborhood guide
+
+**Keyword opportunity:**
+- `best boba santa monica` / `boba near santa monica pier` / `boba third street promenade` — zero KD, maps to the "boba near me" parent cluster (high TP). Santa Monica is one of the most tourist-searched destinations in LA with no competing neighborhood boba guide.
+
+**Published:** `justinsather.com/best-boba-santa-monica/`
+- 6 ranked shops, all linking to existing full reviews: Yi Fang (Sawtelle, 10 min), Milksha Westwood (15 min), Sharetea Westwood (15 min), Gong Cha West LA (15 min), Boba Guys (20 min), Kung Fu Tea (multiple locations)
+- Honest framing: Santa Monica's immediate scene is thin; Sawtelle and Westwood are the best nearby destinations
+- 5-area neighborhood breakdown, FAQPage JSON-LD schema with 6 questions targeting tourist intent
+- Best Boba LA pillar page cross-linked with Santa Monica card
+- Sitemap updated at priority 0.9
+
+**Deployed:** success (state: "success", description: "Deployment has completed")
+[2026-03-29 01:14:51] Run #1 finished
+[2026-03-29 01:14:56] Run #2 starting (model: sonnet)
+Deployment succeeded.
+
+---
+
+**SEO Agent Run — 2026-03-29**
+
+**Action:** Fixed content quality issues on the Best Boba LA pillar page
+
+**Problems found:**
+- LaTea appeared at both rank 7 AND rank 21 (duplicate entry in ranked list)
+- Rank 7 LaTea had an entirely incorrect description ("best matcha programs in Koreatown") — LaTea is a traditional Taiwanese milk tea chain, not known for matcha
+- Section heading said "The Top 10" but the page listed 22+ shops
+- TP Tea, Sunright Tea Studio, The Alley, and Meet Fresh all appeared in BOTH the main ranked list AND the "More Worth Visiting" section (duplicate entries)
+- Somi Somi and Sharetea Westwood had full review pages on the site but no hrefs in "More Worth Visiting"
+
+**Changes made:**
+- Updated rank 7 LaTea: corrected description to match the actual review (brewed black tea base, Winter Melon Tea, value SGV chain under $7)
+- Removed rank 21 LaTea duplicate; renumbered CoCo Fresh Tea 22→21, Chatime 23→22
+- Changed "The Top 10" section heading to "The Complete Ranked List"
+- Removed TP Tea, Sunright Tea Studio, The Alley, and Meet Fresh from "More Worth Visiting" (all were already in the main ranked list with proper review links)
+- Added review href for Somi Somi → `/somi-somi-review-los-angeles/`
+- Added review href for Sharetea Westwood → `/sharetea-westwood-review/`
+
+**Why this matters:** The Best Boba LA page is the highest-authority page on the site. Duplicate entries, incorrect descriptions, and a section heading claiming "Top 10" for a list of 22+ shops all send quality signals to Google that can suppress rankings. Fixing these issues improves page quality and ensures all internal links from this high-authority page reach the correct review pages (PageRank distribution).
+
+**Deployed:** success
