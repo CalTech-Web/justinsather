@@ -1569,3 +1569,107 @@ Fixed 4 self-referencing internal links in Koreatown guide (shops published afte
 
 **Deployed:** success
 
+**SEO Agent Run — 2026-03-28 complete.**
+
+**Action:** Published Mixue Hollywood review targeting the `mixue` keyword cluster
+
+**Keyword opportunity:**
+- `mixue` / `mixue los angeles` / `mixue hollywood` — world's largest boba chain (42,000+ locations), first US location opened December 2025 at 6922 Hollywood Blvd. Brand new to US market = KD near 0, zero competing local review content
+- Comparable global brand scale to Kung Fu Tea (68K/mo) and Happy Lemon (37K/mo), but brand new to the US
+
+**Published:** `justinsather.com/mixue-review-los-angeles/`
+- Key review angle: most affordable boba in LA ($3.99 starting), Snow King soft serve, Lemon Tea as the global signature
+- Review JSON-LD schema (3.9/5) + FAQPage JSON-LD with 6 questions
+- Internal links to 11 existing review pages
+- Mixue added to Best Boba LA "More Worth Visiting" with review link
+- Sitemap updated
+
+**Bonus:** Fixed 4 more self-referencing links in the Koreatown guide (LaTea, Milksha, CoCo Fresh Tea, Chatime — all published after the last link fix run)
+
+**Deployed:** success
+[2026-03-28 01:19:11] Run #1 finished
+[2026-03-28 01:19:16] Run #2 starting (model: sonnet)
+Deployment succeeded.
+
+---
+
+**SEO Agent Run — 2026-03-28**
+
+**Action:** Published "Best Boba Hollywood" neighborhood guide targeting the Hollywood boba keyword cluster
+
+**Keyword opportunity:**
+- "best boba hollywood" — maps to "boba near me" parent cluster (high TP), low KD
+- "boba hollywood blvd" / "boba near hollywood walk of fame" / "bubble tea hollywood" — supporting long-tail terms, all KD 0
+- Hollywood is LA's most tourist-searched neighborhood; Mixue's first US location at 6922 Hollywood Blvd (just published) serves as the unique Hollywood-specific anchor
+
+**Published:** `justinsather.com/best-boba-hollywood/`
+
+- 7 ranked shops: Mixue (6922 Hollywood Blvd, rank 1), Mashti Malone (Hollywood Blvd, rank 2), Tiger Sugar, Machi Machi, Happy Lemon, Somi Somi, and It's Boba Time
+- Honest framing: Hollywood's immediate boba scene is thin; Koreatown 15 min west is the premium destination (same strategy as Silver Lake guide)
+- Neighborhood breakdown for Hollywood Blvd, East Hollywood/Little Armenia, Koreatown (15 min west), and Los Feliz
+- FAQPage JSON-LD schema with 6 questions targeting "boba hollywood blvd", "cheapest boba near hollywood", "boba walk of fame", "how far is Hollywood from Koreatown", "what should tourists order", and East Hollywood intent
+- "More Worth Visiting" section with 6 shops: Feng Cha, Mochinut, Gong Cha, Kung Fu Tea, CoCo Fresh Tea, Boba Guys
+- Cross-links added: Best Boba LA pillar page CTA section expanded with Hollywood guide card; Mixue review sidebar updated with Hollywood guide link
+- Sitemap updated at priority 0.9
+
+**Why this matters:** Mixue's first US location at 6922 Hollywood Blvd (just published as a review) is the most globally significant boba chain opening in LA's history. It gives the site a unique Hollywood Blvd-specific anchor asset that no other neighborhood guide has. Hollywood is one of the most tourist-searched neighborhoods in LA, and "boba near hollywood walk of fame" / "boba hollywood blvd" are zero-competition terms that map to the high-TP "boba near me" parent cluster. The guide clusters existing reviews around a Hollywood hub, the same proven neighborhood guide strategy that drove the Koreatown, SGV, and Silver Lake guides.
+
+**Deployed:** success
+**SEO Agent Run — 2026-03-28**
+
+**Action:** Published "Best Boba Hollywood" neighborhood guide
+
+**Keyword opportunity:** "best boba hollywood" / "boba hollywood blvd" / "boba near hollywood walk of fame" — all map to the "boba near me" parent cluster (high TP), zero competition
+
+**What was done:**
+- New page: `justinsather.com/best-boba-hollywood/`
+- 7 ranked shops with Mixue (6922 Hollywood Blvd, first US location) and Mashti Malone as the on-Blvd anchors, plus 5 Koreatown shops within 15 min
+- FAQPage JSON-LD schema with 6 questions targeting tourist intent ("boba walk of fame", "cheapest boba near hollywood", "how far is Hollywood from Koreatown")
+- Cross-link added to Best Boba LA pillar page (CTA section expanded with Hollywood card)
+- Mixue review sidebar updated with link to the Hollywood guide
+- Sitemap updated at priority 0.9
+
+**Deployed:** success
+[2026-03-28 01:26:31] Run #2 finished
+[2026-03-28 01:26:31] Reached max loops (2). Stopping.
+[2026-03-29 01:07:00] ==========================================
+[2026-03-29 01:07:00] Agent: Seo Agent
+[2026-03-29 01:07:00] Model: sonnet
+[2026-03-29 01:07:00] Workspace: /Users/brandonhopkins/Projects/seo/justinsather/agents/seo-agent
+[2026-03-29 01:07:00] Stop on complete: false
+[2026-03-29 01:07:00] Max loops: 2 (0=infinite)
+[2026-03-29 01:07:00] ==========================================
+[2026-03-29 01:07:00] Run #1 starting (model: sonnet)
+Deployment succeeded.
+
+---
+
+**SEO Agent Run — 2026-03-29**
+
+**Action:** Published "Best Boba Santa Monica" neighborhood guide targeting the Santa Monica boba keyword cluster
+
+**Keyword opportunity:**
+- "best boba santa monica" — major Westside tourist destination, maps to "boba near me" parent cluster (high TP), zero KD
+- "boba near santa monica pier" / "boba third street promenade" / "bubble tea santa monica" — tourist intent variants, all KD 0
+- Santa Monica is one of the most searched destinations in LA with millions of annual tourists and no competing neighborhood boba guide
+
+**Published:** `justinsather.com/best-boba-santa-monica/`
+
+- 6 ranked shops, all with existing full review pages (maximum internal link density):
+  1. Yi Fang Taiwan Fruit Tea (Sawtelle, 10 min east) — real fruit, Pineapple Green Tea, Sawtelle corridor
+  2. Milksha Westwood (15 min northeast) — first US location, no-powder fresh milk, Campus Crush exclusive
+  3. Sharetea Westwood (15 min northeast) — Three Mates, standard menu, reliable staple
+  4. Gong Cha (West LA near UCLA, 15 min) — High Mountain Oolong base
+  5. Boba Guys (Rideback Ranch, 20 min east) — premium ingredients, Strawberry Matcha
+  6. Kung Fu Tea (multiple LA locations) — most accessible chain near Santa Monica
+- Honest framing: Santa Monica itself has limited dedicated boba; Sawtelle (10 min) and Westwood (15 min) are the best nearby destinations
+- 5-area neighborhood breakdown: Santa Monica, Sawtelle, Westwood Village, West LA/Culver City, Koreatown (30 min)
+- FAQPage JSON-LD schema with 6 questions targeting "boba near santa monica pier", "boba third street promenade", "best boba sawtelle", late-night options, and Koreatown comparison
+- "More Worth Visiting" section with 6 additional shops including CoCo Fresh Tea, It's Boba Time, Tiger Sugar, and Wanderlust Creamery
+- Best Boba LA pillar page updated: Santa Monica card added to related guides CTA section
+- Sitemap updated at priority 0.9
+
+**Why this matters:** Santa Monica is one of the most tourist-searched destinations in Los Angeles. "Boba near Santa Monica Pier" and "boba Third Street Promenade" are zero-competition queries that map to the high-TP "boba near me" parent cluster. No competing neighborhood guide exists. The page clusters Yi Fang (Sawtelle), Milksha, Sharetea, Gong Cha, and Boba Guys reviews around a Santa Monica hub, continuing the proven neighborhood guide strategy that has driven the Koreatown, SGV, Silver Lake, Hollywood, and Westwood guides.
+
+**Deployed:** success
+[2026-03-29 01:07:00] Run #1 finished
