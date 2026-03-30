@@ -398,6 +398,9 @@ export default function ItsBobatimeBurbankPage() {
                 <Link href="/xing-fu-tang-review-los-angeles/" className="text-[#2B6CB0] text-sm font-semibold hover:text-[#215387] transition-colors block">
                   Xing Fu Tang Review &rarr;
                 </Link>
+                <Link href="/best-boba-burbank/" className="text-[#2B6CB0] text-sm font-semibold hover:text-[#215387] transition-colors block">
+                  Best Boba in Burbank Guide &rarr;
+                </Link>
                 <Link href="/best-boba-los-angeles/" className="text-[#2B6CB0] text-sm font-semibold hover:text-[#215387] transition-colors block">
                   Best Boba LA Guide (25+ shops) &rarr;
                 </Link>
