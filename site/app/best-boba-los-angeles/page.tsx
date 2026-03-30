@@ -517,6 +517,10 @@ export default function BestBobaLAPage() {
             <h3 className="text-lg font-bold text-[#1A202C] group-hover:text-[#2B6CB0] transition-colors mb-2">Best Boba Near Santa Monica &rarr;</h3>
             <p className="text-[#4A5568] text-sm">The complete guide for boba near Santa Monica, the Pier, and Third Street Promenade. Includes Sawtelle, Westwood, and the best Westside options.</p>
           </Link>
+          <Link href="/best-boba-downtown-los-angeles/" className="group bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow p-6 text-center block">
+            <h3 className="text-lg font-bold text-[#1A202C] group-hover:text-[#2B6CB0] transition-colors mb-2">Best Boba Near Downtown LA &rarr;</h3>
+            <p className="text-[#4A5568] text-sm">The complete guide for boba near DTLA, Little Tokyo, the Arts District, and Crypto.com Arena. Includes the Koreatown corridor 10 minutes west.</p>
+          </Link>
         </div>
       </section>
     </>
