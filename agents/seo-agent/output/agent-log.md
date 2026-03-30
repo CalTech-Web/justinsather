@@ -1777,3 +1777,58 @@ Deployment succeeded.
 
 **Deployed:** success (state: "success", description: "Deployment has completed")
 [2026-03-30 01:07:01] Run #1 finished
+**SEO Agent Run — 2026-03-30 complete.**
+
+**Action:** Published "Best Boba Downtown LA" neighborhood guide
+
+**Keyword opportunity:**
+- `best boba downtown los angeles` / `boba dtla` — zero competing guide on site, untapped urban core
+- `boba little tokyo los angeles` — specific neighborhood tourist intent
+- `boba near crypto.com arena` / `boba near staples center` — event-goer intent mapping to the "boba near me" parent cluster (high TP)
+- `boba arts district los angeles` — cultural tourist intent
+
+**Published:** `justinsather.com/best-boba-downtown-los-angeles/`
+- 6 ranked shops, all linking to existing full reviews: Happy Lemon, Tiger Sugar, Machi Machi (Koreatown corridor, 10-15 min west), Gong Cha, Kung Fu Tea, It's Boba Time (DTLA-accessible chains)
+- Honest framing: DTLA's dedicated boba scene is thin, centered in Little Tokyo; Koreatown is the serious destination (same strategy as Silver Lake, Hollywood, Santa Monica guides)
+- Neighborhood breakdown: Little Tokyo, Arts District, Chinatown, South Park/Crypto.com Arena, Koreatown
+- FAQPage JSON-LD schema with 6 questions
+- Best Boba LA pillar page cross-linked with DTLA guide card
+- Sitemap updated at priority 0.9
+
+**Deployed:** success
+[2026-03-30 01:16:36] Run #1 finished
+[2026-03-30 01:16:41] Run #2 starting (model: sonnet)
+Deployment succeeded.
+
+---
+
+**SEO Agent Run — 2026-03-30**
+
+**Action:** Published "Best Boba Burbank" neighborhood guide targeting the Burbank boba keyword cluster
+
+**Keyword opportunity:**
+- "best boba burbank" — maps to "boba near me" parent cluster (high TP), zero competing guide on site
+- "boba near warner bros burbank" / "boba near disney studios burbank" — entertainment industry worker intent, KD 0
+- "boba near burbank airport" / "boba burbank magnolia" — local commuter and visitor intent, all KD 0
+- The site already had the `its-boba-time-burbank` location page as a unique anchor asset for this neighborhood
+
+**Published:** `justinsather.com/best-boba-burbank/`
+
+- 6 ranked shops, all linking to existing full reviews (maximum internal link density):
+  1. It's Boba Time Burbank (3107 W Magnolia Blvd) — the Burbank anchor, dedicated location page linked
+  2. Sunright Tea Studio (Pasadena, 20 min east via 134) — best boba east of Burbank
+  3. Happy Lemon (SGV Alhambra/Arcadia, 25 min east via 134+210) — cheese foam series
+  4. Gong Cha (multiple LA locations accessible from Burbank) — High Mountain Oolong base
+  5. Kung Fu Tea (multiple LA locations) — most accessible affordable chain
+  6. Tiger Sugar (Koreatown, 30-35 min south via 5+101+10) — best brown sugar boba in LA
+- 6-shop "More Worth Visiting" section: Chicha San Chen, Mixue (Hollywood, 15 min south), Milksha, CoCo Fresh Tea, Feng Cha, Boba Guys
+- Honest framing: Burbank's immediate boba scene is thin, It's Boba Time on Magnolia is the local anchor; the 134 east to Pasadena/SGV (20-25 min) or south to Koreatown (30-35 min) are the serious destinations
+- Neighborhood breakdown: Magnolia Blvd, Media District (Warner Bros/Disney), Toluca Lake/North Hollywood, Glendale (10 min east), Pasadena/134 corridor, Koreatown
+- FAQPage JSON-LD schema with 6 questions targeting "boba near Warner Bros", "boba near Burbank Airport", Koreatown distance, Burbank Town Center, and late-night hours
+- It's Boba Time Burbank sidebar updated: "Best Boba in Burbank Guide" link added (cross-linking the location page to the neighborhood guide)
+- Best Boba LA pillar page updated: Burbank guide card added to the related guides CTA section
+- Sitemap updated at priority 0.9
+
+**Why this matters:** The site already had an It's Boba Time Burbank location-specific page (the first guide in this network to cover the Valley-adjacent corridor). A neighborhood guide creates the hub that clusters that location page, links it to the broader network, and captures all the "boba near me" searches from Burbank's 100,000+ residents and large entertainment industry daytime workforce. It also extends the neighborhood guide network northward from Hollywood into the first Valley-area coverage the site has.
+
+**Deployed:** success
