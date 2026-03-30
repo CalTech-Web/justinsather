@@ -1742,3 +1742,38 @@ Done. Here's what was done:
 [2026-03-30 01:07:01] Max loops: 2 (0=infinite)
 [2026-03-30 01:07:01] ==========================================
 [2026-03-30 01:07:01] Run #1 starting (model: sonnet)
+Deployment succeeded.
+
+---
+
+**SEO Agent Run — 2026-03-30**
+
+**Action:** Published "Best Boba Downtown LA" neighborhood guide targeting the DTLA boba keyword cluster
+
+**Keyword opportunity:**
+- "best boba downtown los angeles" / "best boba downtown la" — major untapped neighborhood, zero competing guide on site
+- "boba dtla" — short-form local intent, KD near 0
+- "boba little tokyo los angeles" — specific neighborhood within DTLA, strong tourist intent
+- "boba near crypto.com arena" / "boba near staples center" — event-goer intent, maps to "boba near me" parent cluster (high TP)
+- "boba arts district los angeles" / "boba near union station" — commuter and cultural tourist intent
+
+**Published:** `justinsather.com/best-boba-downtown-los-angeles/`
+
+- 6 ranked shops, all linking to existing full reviews (maximum internal link density):
+  1. Happy Lemon (Koreatown, 10-15 min west) — Rock Salt and Cheese Oolong, the foundational Koreatown order
+  2. Tiger Sugar (Koreatown, 10-15 min west) — best brown sugar boba in LA
+  3. Machi Machi (Koreatown, 10-15 min west) — only LA shop built entirely around cheese foam
+  4. Gong Cha (multiple DTLA-area locations) — High Mountain Oolong base differentiator
+  5. Kung Fu Tea (multiple DTLA-area locations) — most accessible chain near DTLA
+  6. It's Boba Time (multiple LA) — LA original since 1999, reliable value
+- 6-shop "More Worth Visiting" section covering Feng Cha, CoCo Fresh Tea, Meet Fresh, Chatime, Xing Fu Tang, Mixue
+- Honest framing: DTLA's dedicated boba scene is limited, centered in Little Tokyo; Koreatown 10-15 min west is the serious destination (same strategy as Silver Lake, Hollywood, Santa Monica guides)
+- Neighborhood breakdown for: Little Tokyo, Arts District, Chinatown, South Park/Crypto.com Arena, Koreatown
+- FAQPage JSON-LD schema with 6 questions targeting "boba dtla", "boba little tokyo", "boba near crypto.com arena", "arts district boba", Koreatown distance, and late-night options
+- Best Boba LA pillar page updated: Downtown LA card added to related guides CTA section
+- Sitemap updated at priority 0.9
+
+**Why this matters:** Downtown LA is the city's largest urban core, with millions of office workers, hotel guests, convention attendees, and sports/event visitors at Crypto.com Arena. No "best boba downtown la" neighborhood guide existed on the site. The page clusters existing Koreatown reviews around a DTLA hub, captures "boba near me" searches from the downtown area, and continues the proven neighborhood guide strategy.
+
+**Deployed:** success (state: "success", description: "Deployment has completed")
+[2026-03-30 01:07:01] Run #1 finished
