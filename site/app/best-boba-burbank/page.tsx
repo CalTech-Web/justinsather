@@ -398,9 +398,9 @@ export default function BestBobaBurbankPage() {
               <h3 className="font-bold text-[#1A202C] mb-1">Best Boba in Koreatown</h3>
               <p className="text-[#4A5568] text-sm">The complete guide to 30+ boba shops in Koreatown, the best boba neighborhood in Los Angeles. Tiger Sugar, Happy Lemon, and Machi Machi in one corridor.</p>
             </Link>
-            <Link href="/best-boba-los-angeles/" className="block bg-[#EDF2F7] rounded-xl p-5 hover:bg-[#E2E8F0] transition-colors">
-              <h3 className="font-bold text-[#1A202C] mb-1">Best Boba in Los Angeles</h3>
-              <p className="text-[#4A5568] text-sm">The definitive citywide ranking of the best boba shops across all of LA County, from Burbank and Hollywood to Koreatown, Westwood, and the SGV.</p>
+            <Link href="/best-boba-glendale/" className="block bg-[#EDF2F7] rounded-xl p-5 hover:bg-[#E2E8F0] transition-colors">
+              <h3 className="font-bold text-[#1A202C] mb-1">Best Boba in Glendale</h3>
+              <p className="text-[#4A5568] text-sm">The guide for boba near the Americana at Brand and Glendale Galleria. Glendale is 10 minutes east of Burbank, with the 134 east corridor toward Pasadena and the SGV.</p>
             </Link>
           </div>
         </div>
