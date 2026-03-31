@@ -529,6 +529,10 @@ export default function BestBobaLAPage() {
             <h3 className="text-lg font-bold text-[#1A202C] group-hover:text-[#2B6CB0] transition-colors mb-2">Best Boba in Glendale &rarr;</h3>
             <p className="text-[#4A5568] text-sm">The complete guide for boba near the Americana at Brand and Glendale Galleria. Includes the Pasadena corridor east and Koreatown 20 minutes south.</p>
           </Link>
+          <Link href="/best-boba-culver-city/" className="group bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow p-6 text-center block">
+            <h3 className="text-lg font-bold text-[#1A202C] group-hover:text-[#2B6CB0] transition-colors mb-2">Best Boba in Culver City &rarr;</h3>
+            <p className="text-[#4A5568] text-sm">The complete guide for boba near Sony Pictures, Amazon Studios, and the Westside. Yi Fang on Sawtelle is 10 minutes north. Koreatown is 20 minutes east.</p>
+          </Link>
         </div>
       </section>
     </>

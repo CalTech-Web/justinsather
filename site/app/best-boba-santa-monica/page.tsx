@@ -392,9 +392,9 @@ export default function BestBobaStMonicaPage() {
               <h3 className="font-bold text-[#1A202C] mb-1">Best Boba in Koreatown</h3>
               <p className="text-[#4A5568] text-sm">The complete guide to 30+ boba shops in Koreatown, the best boba neighborhood in Los Angeles. 30 minutes east of Santa Monica on the 10.</p>
             </Link>
-            <Link href="/best-boba-los-angeles/" className="block bg-[#EDF2F7] rounded-xl p-5 hover:bg-[#E2E8F0] transition-colors">
-              <h3 className="font-bold text-[#1A202C] mb-1">Best Boba in Los Angeles</h3>
-              <p className="text-[#4A5568] text-sm">The definitive citywide ranking of the best boba shops across all of LA County, from Santa Monica and the Westside to Koreatown and the SGV.</p>
+            <Link href="/best-boba-culver-city/" className="block bg-[#EDF2F7] rounded-xl p-5 hover:bg-[#E2E8F0] transition-colors">
+              <h3 className="font-bold text-[#1A202C] mb-1">Best Boba in Culver City</h3>
+              <p className="text-[#4A5568] text-sm">The guide for boba near Sony Pictures, Amazon Studios, and the Westside. Yi Fang on Sawtelle is the top pick. Culver City is 15 minutes south of Santa Monica.</p>
             </Link>
           </div>
         </div>
