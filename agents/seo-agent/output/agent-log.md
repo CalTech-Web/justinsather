@@ -1832,3 +1832,121 @@ Deployment succeeded.
 **Why this matters:** The site already had an It's Boba Time Burbank location-specific page (the first guide in this network to cover the Valley-adjacent corridor). A neighborhood guide creates the hub that clusters that location page, links it to the broader network, and captures all the "boba near me" searches from Burbank's 100,000+ residents and large entertainment industry daytime workforce. It also extends the neighborhood guide network northward from Hollywood into the first Valley-area coverage the site has.
 
 **Deployed:** success
+Done.
+
+---
+
+**SEO Agent Run — 2026-03-30**
+
+**Action:** Published "Best Boba Burbank" neighborhood guide
+
+**Keyword opportunity:**
+- `best boba burbank` / `boba near warner bros burbank` / `boba near burbank airport` — all KD 0, map to the "boba near me" parent cluster (high TP)
+- Burbank has 100k+ residents and a massive entertainment industry daytime workforce (Warner Bros, Disney, NBC)
+- The site already had an `its-boba-time-burbank` location page as a unique anchor, making the neighborhood guide a natural next step
+
+**Published:** `justinsather.com/best-boba-burbank/`
+- 6 ranked shops linking to existing reviews: It's Boba Time Burbank (rank 1), Sunright Pasadena (20 min east), Happy Lemon SGV (25 min east), Gong Cha, Kung Fu Tea, Tiger Sugar (Koreatown, 30 min south)
+- Honest framing: Burbank's immediate scene is thin; the 134 east to Pasadena/SGV and the 5 south to Koreatown are the serious destinations
+- FAQPage JSON-LD schema (6 questions targeting Warner Bros, Burbank Airport, Koreatown distance)
+- Cross-links added: It's Boba Time Burbank sidebar and Best Boba LA pillar page
+- First Valley-area guide in the network, extending coverage northward from Hollywood
+
+**Deployed:** success
+[2026-03-30 01:25:39] Run #2 finished
+[2026-03-30 01:25:39] Reached max loops (2). Stopping.
+[2026-03-31 01:07:01] ==========================================
+[2026-03-31 01:07:01] Agent: Seo Agent
+[2026-03-31 01:07:01] Model: sonnet
+[2026-03-31 01:07:01] Workspace: /Users/brandonhopkins/Projects/seo/justinsather/agents/seo-agent
+[2026-03-31 01:07:01] Stop on complete: false
+[2026-03-31 01:07:01] Max loops: 2 (0=infinite)
+[2026-03-31 01:07:01] ==========================================
+[2026-03-31 01:07:01] Run #1 starting (model: sonnet)
+Deployment succeeded.
+
+---
+
+**SEO Agent Run — 2026-03-31**
+
+**Action:** Published "Best Boba Glendale" neighborhood guide targeting the Glendale boba keyword cluster
+
+**Keyword opportunity:**
+- "best boba glendale" — major LA County city (200k+ pop), maps to "boba near me" parent cluster (high TP), zero competing guide on site
+- "boba near americana at brand" / "boba glendale galleria" / "bubble tea glendale" — local commercial intent variants, all KD 0
+- "boba glendale ca" / "best bubble tea glendale" — supporting long-tail terms, KD 0
+- Glendale is adjacent to Burbank (just published guide) and the 134 freeway connects it directly to the Pasadena/SGV corridor
+
+**Published:** `justinsather.com/best-boba-glendale/`
+
+- 6 ranked shops, all linking to existing full reviews (maximum internal link density):
+  1. Sunright Tea Studio (Pasadena, 15 min east via 134) — best boba in the direct east corridor
+  2. Chicha San Chen (San Gabriel, 25 min east via 134/210/10) — World Tea Championship credentials, best oolong in the SGV
+  3. Happy Lemon (SGV Alhambra/Arcadia, 25 min east) — cheese foam series, Rock Salt and Cheese Oolong
+  4. Gong Cha (multiple LA locations accessible from Glendale) — High Mountain Oolong base, chain option near Americana/Galleria
+  5. It's Boba Time Burbank (10 min west via San Fernando Rd) — nearest reliable anchor, links to Burbank location page
+  6. Tiger Sugar (Koreatown, 20 to 25 min south via 2 freeway) — closer to Glendale than to Burbank or the Valley
+- 6-shop "More Worth Visiting" section: Kung Fu Tea, CoCo Fresh Tea, Moge Tee, Milksha, Boba Guys, Feng Cha
+- Honest framing: Glendale's immediate boba scene is chain-level (Gong Cha, CoCo along Brand Blvd); Pasadena (15 min east via 134) and Koreatown (20 to 25 min south via 2 freeway) are the quality destinations
+- 5-area neighborhood breakdown: Brand Blvd/Americana/Galleria, Burbank (10 min west), Pasadena/134 corridor (15 to 20 min), SGV (20 to 35 min east), Koreatown (20 to 25 min south)
+- FAQPage JSON-LD schema with 6 questions targeting "boba Americana at Brand", "boba Glendale Galleria", Koreatown distance, SGV proximity, and late-night options
+- Best Boba LA pillar page: Glendale card added to related guides CTA section
+- Burbank guide: replaced Best Boba LA card in related guides CTA with Glendale card (better geographic adjacency)
+- Sitemap updated at priority 0.9
+
+**Why this matters:** Glendale is one of LA County's largest cities with 200,000+ residents and one of the largest Armenian-American communities in the US, representing a distinct search identity. The Burbank guide (published yesterday) already mentioned Glendale twice. A dedicated Glendale guide extends the neighborhood network into the northeast LA corridor, clusters the Pasadena and SGV content for Glendale-based searchers, and captures the "boba near me" intent from users near the Americana at Brand and Glendale Galleria, two of the region's busiest shopping destinations.
+
+**Deployed:** success (state: "success", description: "Deployment has completed")
+**SEO Agent Run — 2026-03-31 complete.**
+
+**Action:** Published "Best Boba Glendale" neighborhood guide
+
+**Keyword opportunity:**
+- `best boba glendale` / `boba near americana at brand` / `boba glendale galleria` / `bubble tea glendale` — all KD 0, map to the "boba near me" parent cluster (high TP)
+- Glendale is a major LA County city of 200k+ residents with one of the largest Armenian-American communities in the US
+- The Burbank guide (published yesterday) already mentioned Glendale twice, making this the natural next guide in the network
+
+**Published:** `justinsather.com/best-boba-glendale/`
+- 6 ranked shops, all linking to existing full reviews: Sunright Pasadena (15 min east via 134), Chicha San Chen San Gabriel (25 min east), Happy Lemon SGV (25 min east), Gong Cha (chain option near Brand Blvd), It's Boba Time Burbank (10 min west), Tiger Sugar Koreatown (20 to 25 min south via 2 freeway)
+- Honest framing: Glendale's own scene is chain-level; Pasadena and Koreatown are the quality destinations
+- 5-area neighborhood breakdown, FAQPage JSON-LD schema with 6 questions
+- Cross-links: Glendale card added to Best Boba LA CTA section; Burbank guide updated with Glendale related guide card
+- Sitemap updated at priority 0.9
+
+**Deployed:** success
+[2026-03-31 01:14:20] Run #1 finished
+[2026-03-31 01:14:25] Run #2 starting (model: sonnet)
+Deployment succeeded.
+
+---
+
+**SEO Agent Run — 2026-03-31**
+
+**Action:** Published "Best Boba Culver City" neighborhood guide targeting the Culver City boba keyword cluster
+
+**Keyword opportunity:**
+- "best boba culver city" — major LA tech/entertainment hub (Sony Pictures, Amazon Studios, Apple TV+, HBO), maps to "boba near me" parent cluster (high TP), zero competing guide on site
+- "boba near sony pictures culver city" / "boba near amazon studios culver city" — entertainment worker intent, all KD 0
+- "boba sawtelle culver city" / "bubble tea culver city" — local residential intent, KD 0
+- Culver City is adjacent to Santa Monica (just published guide) and bridges it to Downtown LA geographically
+
+**Published:** `justinsather.com/best-boba-culver-city/`
+
+- 6 ranked shops, all linking to existing full reviews (maximum internal link density):
+  1. Yi Fang Taiwan Fruit Tea (Sawtelle, 10 min north) — real fruit rather than syrup, Pineapple Green Tea
+  2. Milksha Westwood (15 min north) — Taiwan's largest fresh milk brand, first US location, no powder
+  3. Sharetea Westwood (15 min north) — Three Mates, reliable chain anchor, UCLA corridor
+  4. Boba Guys (West LA / multiple LA locations, 15-20 min) — organic ingredients, Strawberry Matcha
+  5. Gong Cha (West LA / multiple locations, 10-15 min) — High Mountain Oolong base, chain option
+  6. Tiger Sugar (Koreatown, 20-25 min east via 10 freeway) — best brown sugar boba in LA
+- 6-shop "More Worth Visiting" section: Kung Fu Tea, It's Boba Time, CoCo Fresh Tea, Wanderlust Creamery, Happy Lemon, Chicha San Chen
+- Honest framing: Culver City's immediate boba scene is limited; Sawtelle (10 min north) and Westwood (15 min north) are the best Westside options; Koreatown (20-25 min east via 10 freeway) is closer than from Burbank or the Valley
+- 6-area neighborhood breakdown: Downtown Culver City/Washington Blvd, Sawtelle/Japantown (best nearby), Westwood Village (15 min), West LA/Pico Corridor, Mar Vista/Palms/West Adams, Koreatown
+- FAQPage JSON-LD schema with 6 questions targeting "boba near Sony Pictures", "boba near Amazon Studios", Sawtelle proximity, Koreatown distance, and late-night options
+- Best Boba LA pillar page updated: Culver City card added to related guides CTA section
+- Santa Monica guide updated: Culver City card replaces generic Best Boba LA card (better geographic cross-link)
+- Sitemap updated at priority 0.9
+
+**Why this matters:** Culver City is one of the most important entertainment and technology hubs in Los Angeles, with Sony Pictures, Amazon Studios, Apple TV+, and HBO all based along the Washington Blvd corridor. No "best boba culver city" neighborhood guide existed on the site. The page clusters Yi Fang (Sawtelle), Milksha, Sharetea, Boba Guys, and Gong Cha reviews around a Culver City hub, captures "boba near me" searches from the large entertainment industry daytime workforce, and continues the proven neighborhood guide strategy. The Culver City-to-Koreatown drive (20-25 min via 10 east) is notably shorter than from Burbank or the Valley, which is a genuine differentiating hook for this guide.
+
+**Deployed:** success (state: "success", description: "Deployment has completed")
