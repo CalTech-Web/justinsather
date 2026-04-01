@@ -533,6 +533,10 @@ export default function BestBobaLAPage() {
             <h3 className="text-lg font-bold text-[#1A202C] group-hover:text-[#2B6CB0] transition-colors mb-2">Best Boba in Culver City &rarr;</h3>
             <p className="text-[#4A5568] text-sm">The complete guide for boba near Sony Pictures, Amazon Studios, and the Westside. Yi Fang on Sawtelle is 10 minutes north. Koreatown is 20 minutes east.</p>
           </Link>
+          <Link href="/best-boba-torrance/" className="group bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow p-6 text-center block">
+            <h3 className="text-lg font-bold text-[#1A202C] group-hover:text-[#2B6CB0] transition-colors mb-2">Best Boba in Torrance &rarr;</h3>
+            <p className="text-[#4A5568] text-sm">The complete South Bay guide for boba near Del Amo Fashion Center, Redondo Beach, and Gardena. Mochinut and 85 Degrees are the local anchors.</p>
+          </Link>
         </div>
       </section>
     </>

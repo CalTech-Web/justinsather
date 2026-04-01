@@ -394,6 +394,10 @@ export default function BestBobaLongBeachPage() {
               <h3 className="font-bold text-[#1A202C] mb-1">Best Boba in Koreatown</h3>
               <p className="text-[#4A5568] text-sm">30+ shops covered in the most comprehensive Koreatown boba guide in Los Angeles.</p>
             </Link>
+            <Link href="/best-boba-torrance/" className="block bg-[#EDF2F7] rounded-xl p-5 hover:bg-[#E2E8F0] transition-colors">
+              <h3 className="font-bold text-[#1A202C] mb-1">Best Boba in Torrance</h3>
+              <p className="text-[#4A5568] text-sm">The South Bay guide for boba near Del Amo Fashion Center and Redondo Beach. Mochinut and 85 Degrees are the local anchors, 20 minutes west of Long Beach.</p>
+            </Link>
           </div>
         </div>
       </section>
