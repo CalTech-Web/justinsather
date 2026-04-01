@@ -1950,3 +1950,67 @@ Deployment succeeded.
 **Why this matters:** Culver City is one of the most important entertainment and technology hubs in Los Angeles, with Sony Pictures, Amazon Studios, Apple TV+, and HBO all based along the Washington Blvd corridor. No "best boba culver city" neighborhood guide existed on the site. The page clusters Yi Fang (Sawtelle), Milksha, Sharetea, Boba Guys, and Gong Cha reviews around a Culver City hub, captures "boba near me" searches from the large entertainment industry daytime workforce, and continues the proven neighborhood guide strategy. The Culver City-to-Koreatown drive (20-25 min via 10 east) is notably shorter than from Burbank or the Valley, which is a genuine differentiating hook for this guide.
 
 **Deployed:** success (state: "success", description: "Deployment has completed")
+**SEO Agent Run — 2026-03-31**
+
+**Action:** Published "Best Boba Culver City" neighborhood guide
+
+**Keyword opportunity:**
+- `best boba culver city` / `boba near sony pictures culver city` / `boba near amazon studios culver city` — KD 0, maps to the "boba near me" parent cluster (high TP)
+- Culver City is home to Sony Pictures, Amazon Studios, Apple TV+, and HBO, a large entertainment/tech workforce with no competing neighborhood guide on the site
+
+**What was done:**
+- New page: `justinsather.com/best-boba-culver-city/`
+- 6 ranked shops linking to existing reviews: Yi Fang Taiwan Fruit Tea (Sawtelle, 10 min north), Milksha Westwood (15 min), Sharetea Westwood (15 min), Boba Guys (West LA, 15-20 min), Gong Cha (West LA, 10-15 min), Tiger Sugar (Koreatown, 20-25 min via 10 east)
+- Honest framing: Culver City's immediate boba scene is thin; Sawtelle is the closest quality destination, Koreatown is 20-25 min east, shorter than from Burbank or the Valley
+- FAQPage JSON-LD schema with 6 questions targeting Sony/Amazon studio workers, Sawtelle proximity, and Koreatown distance
+- Best Boba LA pillar page cross-linked with Culver City card
+- Santa Monica guide updated with Culver City related guide card
+- Sitemap updated at priority 0.9
+
+**Deployed:** success
+[2026-03-31 01:22:42] Run #2 finished
+[2026-03-31 01:22:42] Reached max loops (2). Stopping.
+[2026-04-01 00:07:01] ==========================================
+[2026-04-01 00:07:01] Agent: Seo Agent
+[2026-04-01 00:07:01] Model: sonnet
+[2026-04-01 00:07:01] Workspace: /Users/brandonhopkins/Projects/seo/justinsather/agents/seo-agent
+[2026-04-01 00:07:01] Stop on complete: false
+[2026-04-01 00:07:01] Max loops: 2 (0=infinite)
+[2026-04-01 00:07:01] ==========================================
+[2026-04-01 00:07:01] Run #1 starting (model: sonnet)
+Deployment succeeded.
+
+---
+
+**SEO Agent Run — 2026-04-01**
+
+**Action:** Published "Best Boba Torrance" neighborhood guide targeting the South Bay boba keyword cluster
+
+**Keyword opportunity:**
+- "best boba torrance" — major South Bay city (150k+ pop), maps to "boba near me" parent cluster (high TP), zero competing guide on site
+- "boba torrance" / "bubble tea torrance" / "boba near del amo fashion center" — local intent variants, all KD 0
+- "boba south bay los angeles" — regional intent, maps to same parent cluster
+- Torrance is adjacent to Gardena (It's Boba Time location page) and Long Beach (guide published 2026-03-25), natural next step in South Bay coverage
+
+**Published:** `justinsather.com/best-boba-torrance/`
+
+- 6 ranked shops, all linking to existing full reviews (maximum internal link density):
+  1. Mochinut (Torrance) — unique local anchor, mochi donuts + brown sugar milk tea, Korean-American concept
+  2. 85 Degrees Bakery (Torrance) — Taiwanese bakery chain, sea salt coffee, Tiger Bread, multi-South Bay locations
+  3. It's Boba Time (Gardena, 5 to 10 min north via PCH) — dedicated location page linked, everyday South Bay anchor
+  4. Boba Guys (Long Beach 2nd and PCH, 20 min east) — best premium boba in the South Bay
+  5. Gong Cha (multiple South Bay/LA locations) — accessible chain option
+  6. Tiger Sugar (Koreatown, 35 to 40 min north via 110) — best brown sugar boba in LA, worth the planned drive
+- 6-shop "More Worth Visiting" section: Meet Fresh, CoCo Fresh Tea, Kung Fu Tea, Tastea, Feng Cha, Happy Lemon
+- Honest framing: Torrance has Mochinut and 85 Degrees as local anchors; Gardena (5 min) and Long Beach (20 min east) are the everyday options; Koreatown (35 to 40 min north via 110) is the quality destination for a special trip
+- Neighborhood breakdown for: Old Town Torrance/Carson St, Del Amo/Hawthorne Blvd, Torrance-Gardena border/PCH corridor, South Bay beach cities, Long Beach via PCH east, Koreatown via 110 north
+- FAQPage JSON-LD schema with 6 questions targeting "boba del amo", "boba redondo beach", Koreatown distance, Long Beach proximity, South Bay options
+- Cross-links added:
+  - Best Boba LA pillar page: Torrance card added to related guides CTA section
+  - Best Boba Long Beach: Torrance card added to related guides section
+  - It's Boba Time Gardena sidebar: Torrance guide link added
+- Sitemap updated at priority 0.9
+
+**Why this matters:** Torrance is one of LA County's largest cities (150k+ residents) and the commercial hub of the South Bay, with Del Amo Fashion Center as one of the largest malls in the United States. The site already had deep South Bay coverage (It's Boba Time Gardena location page, Best Boba Long Beach guide), and a Torrance guide is the natural next step that clusters that coverage around a dedicated hub. The Torrance-to-Koreatown drive via the 110 freeway is a genuinely different experience than from other neighborhoods, giving the guide a unique angle that connects South Bay residents to the LA boba network.
+
+**Deployed:** success (state: "success", description: "Deployment has completed")
