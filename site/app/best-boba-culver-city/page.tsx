@@ -398,6 +398,10 @@ export default function BestBobaCulverCityPage() {
               <h3 className="font-bold text-[#1A202C] mb-1">Best Boba in Koreatown</h3>
               <p className="text-[#4A5568] text-sm">The complete guide to 30+ boba shops in Koreatown, 20 minutes east of Culver City via the 10 freeway. Tiger Sugar, Happy Lemon, and Machi Machi in one corridor.</p>
             </Link>
+            <Link href="/best-boba-venice/" className="block bg-[#EDF2F7] rounded-xl p-5 hover:bg-[#E2E8F0] transition-colors">
+              <h3 className="font-bold text-[#1A202C] mb-1">Best Boba Near Venice Beach</h3>
+              <p className="text-[#4A5568] text-sm">The guide for boba near Venice Beach, Abbot Kinney, and Marina del Rey. Venice is 5 to 10 minutes west of Culver City with Sawtelle as the shared nearest boba destination.</p>
+            </Link>
             <Link href="/best-boba-los-angeles/" className="block bg-[#EDF2F7] rounded-xl p-5 hover:bg-[#E2E8F0] transition-colors">
               <h3 className="font-bold text-[#1A202C] mb-1">Best Boba in Los Angeles</h3>
               <p className="text-[#4A5568] text-sm">The complete citywide ranking of 22+ boba shops across all of Los Angeles County, organized by neighborhood with full review links.</p>

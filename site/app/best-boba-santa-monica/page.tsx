@@ -396,6 +396,10 @@ export default function BestBobaStMonicaPage() {
               <h3 className="font-bold text-[#1A202C] mb-1">Best Boba in Culver City</h3>
               <p className="text-[#4A5568] text-sm">The guide for boba near Sony Pictures, Amazon Studios, and the Westside. Yi Fang on Sawtelle is the top pick. Culver City is 15 minutes south of Santa Monica.</p>
             </Link>
+            <Link href="/best-boba-venice/" className="block bg-[#EDF2F7] rounded-xl p-5 hover:bg-[#E2E8F0] transition-colors">
+              <h3 className="font-bold text-[#1A202C] mb-1">Best Boba Near Venice Beach</h3>
+              <p className="text-[#4A5568] text-sm">The guide for boba near Venice Beach, Abbot Kinney, and Marina del Rey. Venice is 5 to 10 minutes south of Santa Monica with Sawtelle as the best nearby boba destination.</p>
+            </Link>
           </div>
         </div>
       </section>
