@@ -2014,3 +2014,56 @@ Deployment succeeded.
 **Why this matters:** Torrance is one of LA County's largest cities (150k+ residents) and the commercial hub of the South Bay, with Del Amo Fashion Center as one of the largest malls in the United States. The site already had deep South Bay coverage (It's Boba Time Gardena location page, Best Boba Long Beach guide), and a Torrance guide is the natural next step that clusters that coverage around a dedicated hub. The Torrance-to-Koreatown drive via the 110 freeway is a genuinely different experience than from other neighborhoods, giving the guide a unique angle that connects South Bay residents to the LA boba network.
 
 **Deployed:** success (state: "success", description: "Deployment has completed")
+**SEO Agent Run — 2026-04-01 complete.**
+
+**Action:** Published "Best Boba Torrance" neighborhood guide
+
+**Keyword opportunity:**
+- `best boba torrance` / `boba near del amo fashion center` / `boba torrance` — all KD 0, map to the "boba near me" parent cluster (high TP)
+- Torrance is LA County's largest South Bay city (150k+ residents) with no competing boba neighborhood guide on the site
+- Natural geographic progression from the existing It's Boba Time Gardena location page and Best Boba Long Beach guide
+
+**Published:** `justinsather.com/best-boba-torrance/`
+- 6 ranked shops all linking to existing full reviews: Mochinut Torrance (rank 1), 85 Degrees Bakery Torrance (rank 2), It's Boba Time Gardena (rank 3, dedicated location page), Boba Guys Long Beach (rank 4, 20 min east), Gong Cha (rank 5, chain option), Tiger Sugar Koreatown (rank 6, 35 to 40 min north via 110)
+- FAQPage JSON-LD schema with 6 questions targeting Del Amo, Redondo Beach, South Bay, Long Beach proximity, and Koreatown distance
+- Cross-links added to Best Boba LA, Best Boba Long Beach, and It's Boba Time Gardena
+- Sitemap updated at priority 0.9
+
+**Deployed:** success
+[2026-04-01 00:14:57] Run #1 finished
+[2026-04-01 00:15:02] Run #2 starting (model: sonnet)
+Deployment succeeded.
+
+---
+
+**SEO Agent Run — 2026-04-01**
+
+**Action:** Published "Best Boba Venice" neighborhood guide targeting the Venice Beach boba keyword cluster
+
+**Keyword opportunity:**
+- "best boba venice beach" / "boba near venice beach" / "boba abbot kinney" — major LA tourist destination, maps to "boba near me" parent cluster (high TP), zero competing guide on site
+- "boba venice boardwalk" / "boba venice ca" / "boba near marina del rey" — tourist and local intent, all KD 0
+- "boba near playa vista" / "boba silicon beach" — tech worker daytime intent
+- Venice is adjacent to Santa Monica (existing guide) and Culver City (existing guide), natural geographic extension of the Westside cluster
+
+**Published:** `justinsather.com/best-boba-venice/`
+
+- 6 ranked shops, all linking to existing full reviews (maximum internal link density):
+  1. Yi Fang Taiwan Fruit Tea (Sawtelle, 10 to 15 min east via Lincoln/Rose) — real fruit rather than syrup, Pineapple Green Tea
+  2. Milksha Westwood (15 to 20 min northeast) — Taiwan's largest fresh milk brand, first US location, no powder
+  3. Sharetea Westwood (15 to 20 min northeast) — Three Mates, reliable chain anchor, everyday option
+  4. Gong Cha (West LA, 15 to 20 min northeast via Lincoln north) — High Mountain Oolong base, chain option
+  5. Boba Guys (West LA / Rideback Ranch, 20 min northeast) — organic Straus milk, Strawberry Matcha
+  6. Tiger Sugar (Koreatown, 30 to 40 min east via 10 freeway) — best brown sugar boba in LA
+- Honest framing: Venice itself has no dedicated boba (coffee and juice culture); Sawtelle 10 min east and Westwood 15 to 20 min northeast are the quality Westside destinations; Koreatown 30 to 40 min east via the 10 is the best boba in LA
+- 7-area neighborhood breakdown: Venice Boardwalk/Windward Ave, Abbot Kinney Blvd, Rose Ave/Lincoln Blvd, Marina del Rey, Playa Vista/Silicon Beach, Sawtelle/Westside, Koreatown via 10 freeway
+- FAQPage JSON-LD schema with 6 questions targeting "is there boba in venice beach", "best boba near venice", "boba abbot kinney", Koreatown distance, Marina del Rey options, Playa Vista/Silicon Beach
+- Cross-links added:
+  - Best Boba LA pillar page: Venice card added to related guides grid
+  - Best Boba Santa Monica: Venice card added to related guides (4 cards now)
+  - Best Boba Culver City: Venice card added to related guides (4 cards now, replacing only Best Boba LA placeholder)
+- Sitemap updated at priority 0.9
+
+**Why this matters:** Venice Beach is one of the most tourist-searched destinations in Los Angeles, with millions of annual visitors to the boardwalk and Abbot Kinney. No "best boba venice beach" neighborhood guide existed on the site. The page fills the geographic gap between the Santa Monica guide (north) and the Culver City guide (east), completing the Westside boba cluster with a Venice hub. The honest framing (Venice has no dedicated boba, Sawtelle is 10 min east) follows the proven strategy from Silver Lake, Hollywood, Santa Monica, and Downtown LA guides. All 6 ranked shops link to existing full reviews, maximizing internal link density from the new guide.
+
+**Deployed:** success (state: "success", description: "Deployment has completed")
