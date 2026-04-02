@@ -541,6 +541,10 @@ export default function BestBobaLAPage() {
             <h3 className="text-lg font-bold text-[#1A202C] group-hover:text-[#2B6CB0] transition-colors mb-2">Best Boba Near Venice Beach &rarr;</h3>
             <p className="text-[#4A5568] text-sm">The complete guide for boba near Venice Beach, Abbot Kinney, and Marina del Rey. Sawtelle is 10 minutes east. Westwood and Milksha are 15 to 20 minutes northeast.</p>
           </Link>
+          <Link href="/best-boba-inglewood/" className="group bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow p-6 text-center block">
+            <h3 className="text-lg font-bold text-[#1A202C] group-hover:text-[#2B6CB0] transition-colors mb-2">Best Boba Near Inglewood &rarr;</h3>
+            <p className="text-[#4A5568] text-sm">The complete guide for boba near SoFi Stadium, Kia Forum, and LAX. It&apos;s Boba Time is 10 minutes north in Gardena. Koreatown is 15 to 20 minutes northeast.</p>
+          </Link>
         </div>
       </section>
     </>

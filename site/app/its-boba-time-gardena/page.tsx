@@ -398,6 +398,9 @@ export default function ItsBobatimeGardenaPage() {
                 <Link href="/chicha-san-chen-san-gabriel-review/" className="text-[#2B6CB0] text-sm font-semibold hover:text-[#215387] transition-colors block">
                   Chicha San Chen San Gabriel &rarr;
                 </Link>
+                <Link href="/best-boba-inglewood/" className="text-[#2B6CB0] text-sm font-semibold hover:text-[#215387] transition-colors block">
+                  Best Boba Near Inglewood (SoFi, Kia Forum, LAX) &rarr;
+                </Link>
                 <Link href="/best-boba-torrance/" className="text-[#2B6CB0] text-sm font-semibold hover:text-[#215387] transition-colors block">
                   Best Boba in Torrance (South Bay Guide) &rarr;
                 </Link>

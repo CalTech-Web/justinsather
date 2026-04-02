@@ -394,13 +394,13 @@ export default function BestBobaTorrancePage() {
               <h3 className="font-bold text-[#1A202C] mb-1">Best Boba in Long Beach</h3>
               <p className="text-[#4A5568] text-sm">Boba Guys at 2nd and PCH is the best premium boba in the South Bay, 20 minutes east of Torrance. The complete Long Beach guide with 4 ranked shops.</p>
             </Link>
+            <Link href="/best-boba-inglewood/" className="block bg-[#EDF2F7] rounded-xl p-5 hover:bg-[#E2E8F0] transition-colors">
+              <h3 className="font-bold text-[#1A202C] mb-1">Best Boba Near Inglewood</h3>
+              <p className="text-[#4A5568] text-sm">The complete guide for boba near SoFi Stadium, Kia Forum, and LAX. It&apos;s Boba Time Gardena is 10 minutes north of Inglewood. 15 minutes from Torrance via PCH north.</p>
+            </Link>
             <Link href="/best-boba-koreatown-complete-guide-to-30-shops/" className="block bg-[#EDF2F7] rounded-xl p-5 hover:bg-[#E2E8F0] transition-colors">
               <h3 className="font-bold text-[#1A202C] mb-1">Best Boba in Koreatown</h3>
               <p className="text-[#4A5568] text-sm">The best boba neighborhood in Los Angeles, 35 to 40 minutes north via the 110. Tiger Sugar, Happy Lemon, and Machi Machi in one corridor.</p>
-            </Link>
-            <Link href="/best-boba-los-angeles/" className="block bg-[#EDF2F7] rounded-xl p-5 hover:bg-[#E2E8F0] transition-colors">
-              <h3 className="font-bold text-[#1A202C] mb-1">Best Boba in Los Angeles</h3>
-              <p className="text-[#4A5568] text-sm">The definitive citywide ranking of the best boba shops across all of LA County. 25+ shops ranked and reviewed.</p>
             </Link>
           </div>
         </div>
