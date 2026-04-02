@@ -545,6 +545,10 @@ export default function BestBobaLAPage() {
             <h3 className="text-lg font-bold text-[#1A202C] group-hover:text-[#2B6CB0] transition-colors mb-2">Best Boba Near Inglewood &rarr;</h3>
             <p className="text-[#4A5568] text-sm">The complete guide for boba near SoFi Stadium, Kia Forum, and LAX. It&apos;s Boba Time is 10 minutes north in Gardena. Koreatown is 15 to 20 minutes northeast.</p>
           </Link>
+          <Link href="/best-boba-rowland-heights/" className="group bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow p-6 text-center block">
+            <h3 className="text-lg font-bold text-[#1A202C] group-hover:text-[#2B6CB0] transition-colors mb-2">Best Boba in Rowland Heights &rarr;</h3>
+            <p className="text-[#4A5568] text-sm">Little Taipei&apos;s boba corridor. Half and Half Tea Express, The Alley, LaTea, and Moge Tee all on the Colima Rd strip. The densest authentic Taiwanese boba in LA County.</p>
+          </Link>
         </div>
       </section>
     </>
