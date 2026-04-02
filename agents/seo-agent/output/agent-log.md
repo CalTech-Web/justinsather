@@ -2067,3 +2067,122 @@ Deployment succeeded.
 **Why this matters:** Venice Beach is one of the most tourist-searched destinations in Los Angeles, with millions of annual visitors to the boardwalk and Abbot Kinney. No "best boba venice beach" neighborhood guide existed on the site. The page fills the geographic gap between the Santa Monica guide (north) and the Culver City guide (east), completing the Westside boba cluster with a Venice hub. The honest framing (Venice has no dedicated boba, Sawtelle is 10 min east) follows the proven strategy from Silver Lake, Hollywood, Santa Monica, and Downtown LA guides. All 6 ranked shops link to existing full reviews, maximizing internal link density from the new guide.
 
 **Deployed:** success (state: "success", description: "Deployment has completed")
+**SEO Agent Run — 2026-04-01 complete.**
+
+**Action:** Published "Best Boba Venice" neighborhood guide
+
+**Keyword opportunity:**
+- `best boba venice beach` / `boba near venice beach` / `boba abbot kinney` / `boba venice boardwalk` — all KD 0, maps to the "boba near me" parent cluster (high TP). Venice Beach draws millions of annual tourists with no competing neighborhood boba guide on the site.
+
+**Published:** `justinsather.com/best-boba-venice/`
+- 6 ranked shops all linking to existing full reviews: Yi Fang Taiwan Fruit Tea (Sawtelle, 10 min east), Milksha Westwood (15 to 20 min northeast), Sharetea Westwood, Gong Cha (West LA), Boba Guys (West LA), Tiger Sugar (Koreatown, 30 to 40 min via 10 freeway)
+- Honest framing: Venice has no dedicated boba (coffee/juice culture); Sawtelle 10 min east and Westwood 15 to 20 min northeast are the Westside quality destinations
+- FAQPage JSON-LD schema with 6 questions targeting "is there boba in venice beach", "boba abbot kinney", Marina del Rey, Playa Vista/Silicon Beach, and Koreatown distance
+- Cross-links added to Best Boba LA, Best Boba Santa Monica, and Best Boba Culver City
+- Sitemap updated at priority 0.9
+
+**Deployed:** success
+[2026-04-01 00:22:47] Run #2 finished
+[2026-04-01 00:22:47] Reached max loops (2). Stopping.
+[2026-04-02 00:07:00] ==========================================
+[2026-04-02 00:07:00] Agent: Seo Agent
+[2026-04-02 00:07:00] Model: sonnet
+[2026-04-02 00:07:00] Workspace: /Users/brandonhopkins/Projects/seo/justinsather/agents/seo-agent
+[2026-04-02 00:07:00] Stop on complete: false
+[2026-04-02 00:07:00] Max loops: 2 (0=infinite)
+[2026-04-02 00:07:00] ==========================================
+[2026-04-02 00:07:00] Run #1 starting (model: sonnet)
+Deployment succeeded.
+
+---
+
+**SEO Agent Run — 2026-04-02**
+
+**Action:** Published "Best Boba Inglewood" neighborhood guide targeting the SoFi Stadium, Kia Forum, and LAX boba keyword cluster
+
+**Keyword opportunity:**
+- "best boba inglewood" — maps to "boba near me" parent cluster (high TP), zero competing guide on site
+- "boba near sofi stadium" / "boba near kia forum" — event-goer intent, all KD 0
+- "boba near lax" / "boba near lax airport" — traveler intent, high tourist search volume, KD near 0
+- "boba inglewood ca" / "bubble tea inglewood" — local residential and visitor intent, KD 0
+- Inglewood draws millions of annual visitors to SoFi Stadium (70,000 capacity, NFL, Super Bowl), Kia Forum, YouTube Theater, and LAX (one of the world's busiest airports)
+
+**Published:** `justinsather.com/best-boba-inglewood/`
+
+- 6 ranked shops, all linking to existing full reviews (maximum internal link density):
+  1. It's Boba Time Gardena (10 min north via W Redondo Beach Blvd) — dedicated location page linked, nearest dedicated boba to SoFi, Forum, and LAX
+  2. Tiger Sugar (Koreatown, 15 to 20 min northeast via 405/110) — best brown sugar boba in LA
+  3. Happy Lemon (Koreatown, 15 to 20 min northeast) — Rock Salt and Cheese Oolong, cheese foam originator
+  4. Machi Machi (Koreatown, 15 to 20 min northeast) — only LA shop built entirely around cheese foam
+  5. Mochinut (Torrance, 10 to 15 min south via PCH) — mochi donuts + boba, South Bay anchor
+  6. Gong Cha (multiple LA locations) — High Mountain Oolong base, accessible chain option
+- Honest framing: Inglewood's immediate boba scene is limited; Gardena (10 min north) is the nearest dedicated stop; Koreatown (15 to 20 min northeast via 405/110) is the best boba in LA and actually closer from Inglewood than from Torrance or Long Beach
+- 6-area neighborhood breakdown: SoFi Stadium/Hollywood Park, Kia Forum/YouTube Theater, LAX/airport corridor, Gardena, Koreatown via 405/110, Torrance/South Bay
+- FAQPage JSON-LD schema with 6 questions targeting "boba near SoFi Stadium", "boba near Kia Forum", "boba near LAX", Koreatown distance, Hollywood Park, and airport corridor
+- Cross-links added:
+  - Best Boba LA pillar page: Inglewood card added to related guides grid
+  - Best Boba Torrance: Inglewood card added to related guides (replaces old Best Boba LA slot for geographic relevance)
+  - It's Boba Time Gardena sidebar: Inglewood guide link added
+- Sitemap updated at priority 0.9
+
+**Why this matters:** Inglewood is one of the most visited cities in LA County, with SoFi Stadium (NFL, Super Bowl), Kia Forum (major concerts), YouTube Theater, and LAX all generating millions of annual visitor searches. "Boba near SoFi Stadium" and "boba near LAX" are high-intent queries with zero competing content on the site. The Inglewood guide completes the South Bay cluster (Torrance, Gardena, Long Beach, Inglewood) and captures a unique event-goer and traveler intent that the other neighborhood guides do not address.
+
+**Deployed:** success (state: "success", description: "Deployment has completed")
+[2026-04-02 00:07:00] Run #1 finished
+Done. Here's what was done this run:
+
+---
+
+**SEO Agent Run — 2026-04-02**
+
+**Action:** Published "Best Boba Inglewood" neighborhood guide
+
+**Keyword opportunity:**
+- `best boba inglewood` / `boba near sofi stadium` / `boba near kia forum` / `boba near lax` — all KD 0, maps to the "boba near me" parent cluster (high TP)
+- Inglewood draws millions of annual visitors via SoFi Stadium (70k capacity, NFL/Super Bowl), Kia Forum, and LAX — one of the world's busiest airports
+- Zero competing neighborhood boba guide on the site for this area
+
+**Published:** `justinsather.com/best-boba-inglewood/`
+- 6 ranked shops all linking to existing full reviews: It's Boba Time Gardena (10 min, rank 1), Tiger Sugar Koreatown (15-20 min, rank 2), Happy Lemon Koreatown (rank 3), Machi Machi Koreatown (rank 4), Mochinut Torrance (rank 5), Gong Cha (rank 6)
+- Key differentiating angle: Inglewood is actually *closer* to Koreatown (15-20 min via 405/110) than Torrance or Long Beach, making the Koreatown recommendation especially practical for event-goers
+- FAQPage JSON-LD schema with 6 questions targeting SoFi Stadium, Kia Forum, LAX, and Koreatown distance intent
+- Cross-links added to Best Boba LA, Best Boba Torrance, and It's Boba Time Gardena sidebar
+- Sitemap updated at priority 0.9
+
+**Deployed:** success
+[2026-04-02 00:16:20] Run #1 finished
+[2026-04-02 00:16:25] Run #2 starting (model: sonnet)
+Deployment succeeded.
+
+---
+
+**SEO Agent Run — 2026-04-02**
+
+**Action:** Published "Best Boba Rowland Heights" neighborhood guide targeting Little Taipei's boba keyword cluster
+
+**Keyword opportunity:**
+- "best boba rowland heights" — the SGV's densest authentic Taiwanese boba corridor, maps to "boba near me" parent cluster (high TP), zero competing guide on site
+- "rowland heights little taipei boba" / "colima road boba" / "boba rowland heights ca" — local intent variants, all KD 0
+- "what is the best boba in rowland heights" — direct informational intent the SGV guide FAQ already answers but had no dedicated hub page to rank for
+- The SGV guide's FAQ explicitly called Rowland Heights the city with "the highest concentration of excellent boba shops in the SGV" but had no dedicated Rowland Heights guide
+
+**Published:** `justinsather.com/best-boba-rowland-heights/`
+
+- 6 ranked shops, all linking to existing full reviews (maximum internal link density):
+  1. Half and Half Tea Express (Colima Rd, cold-brew technique, best everyday milk tea)
+  2. The Alley (Rowland Heights / Arcadia, Deerioca crystal tapioca, most distinctive drink)
+  3. LaTea (Rowland Heights, brewed black tea base, best value traditional Taiwanese)
+  4. Moge Tee (SGV/Rowland Heights, Yunnan Pu-erh base, most unique tea)
+  5. Meet Fresh (Rowland Heights, Taiwanese dessert hybrid stop, taro balls)
+  6. TP Tea (Diamond Bar, 5 to 10 min south, Ten Ren Tea Company pedigree)
+- "More Worth Visiting" section: Chicha San Chen (15-20 min west), Sunright, Xing Fu Tang, CoCo Fresh Tea, Gong Cha, Happy Lemon
+- Why Little Taipei section explaining the Taiwanese immigration history and what makes Rowland Heights boba different from Koreatown boba
+- 6-area neighborhood breakdown: Colima Rd corridor, Gale Ave, Diamond Bar Blvd, Hacienda Heights, Monterey Park/San Gabriel (via 60), Koreatown (via 60/10)
+- FAQPage JSON-LD schema with 6 questions targeting "best boba rowland heights", "why is rowland heights called little taipei", "colima road boba corridor", "rowland heights vs koreatown boba", "is rowland heights worth driving to", "best boba near diamond bar"
+- SGV guide updated: Rowland Heights card added to related guides CTA section (replacing the generic Best Boba LA card for better geographic relevance)
+- Best Boba LA pillar page updated: Rowland Heights card added to the related guides grid
+- Sitemap updated at priority 0.9
+
+**Why this matters:** The SGV guide's own FAQ stated Rowland Heights has the highest concentration of excellent boba in the SGV, but there was no dedicated hub page to capture "best boba rowland heights" searches. This guide fills that gap, creates a neighborhood-specific hub for 5 existing shop reviews anchored in Rowland Heights (Half and Half Tea Express, The Alley, LaTea, Moge Tee, Meet Fresh), and extends the neighborhood guide network eastward into the Colima Rd corridor that is genuinely distinctive from other LA neighborhoods.
+
+**Deployed:** success
