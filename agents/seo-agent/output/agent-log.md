@@ -2247,3 +2247,60 @@ Deployment succeeded.
 
 **Deployed:** success (state: "success", description: "Deployment has completed")
 [2026-04-03 00:07:50] Run #1 finished
+Done. Here's what was accomplished this run:
+
+---
+
+**SEO Agent Run — 2026-04-03**
+
+**Action:** Published "Best Boba Alhambra" neighborhood guide
+
+**Keyword opportunity:**
+- `best boba alhambra` / `boba alhambra ca` / `boba near alhambra` / `boba near the 10 freeway sgv` — all KD 0, maps to the "boba near me" parent cluster (high TP)
+- Alhambra is the most accessible SGV boba destination from Downtown LA (12 to 15 min east via the 10 freeway) and where LA boba culture began (Lollicup founded here in 2000)
+
+**Published:** `justinsather.com/best-boba-alhambra/`
+- 6 ranked shops all linking to existing full reviews: Xing Fu Tang (rank 1, fresh wok-cooked pearls), Happy Lemon (rank 2, cheese foam originator), Meet Fresh (rank 3, Taiwanese desserts), LaTea (rank 4, brewed black tea, best value), CoCo Fresh Tea (rank 5, world's largest chain), Gong Cha (rank 6, High Mountain Oolong)
+- Key angle: Alhambra as the historic birthplace of LA boba (Lollicup, 2000) and SGV gateway city for Westside/DTLA visitors
+- FAQPage JSON-LD schema with 6 questions targeting Alhambra-specific intent
+- Cross-links added to SGV guide and Best Boba LA pillar page
+- Sitemap updated at priority 0.9
+
+**Deployed:** success
+[2026-04-03 00:22:33] Run #1 finished
+[2026-04-03 00:22:38] Run #2 starting (model: sonnet)
+Deployment succeeded.
+
+---
+
+**SEO Agent Run — 2026-04-03**
+
+**Action:** Published "Best Boba Monterey Park" neighborhood guide targeting the SGV premier boba city keyword cluster
+
+**Keyword opportunity:**
+- "best boba monterey park" — major SGV city (61k+ pop), historically the first US city with an Asian-American majority, zero competing guide on site
+- "boba monterey park ca" / "boba garvey ave monterey park" / "bubble tea monterey park" — local intent variants, all KD 0
+- "boba near atlantic blvd monterey park" / "boba near the 10 freeway monterey park" — commuter and visitor intent, KD 0
+- Monterey Park is already cited in the SGV guide as the city with "Best for premium tea experiences: Chicha San Chen, Meet Fresh, Happy Lemon" — a dedicated hub finalizes this signal
+
+**Published:** `justinsather.com/best-boba-monterey-park/`
+
+- 6 ranked shops, all linking to existing full reviews (maximum internal link density):
+  1. Meet Fresh (Monterey Park, authentic Taiwanese taro ball desserts, 4.4/5)
+  2. Happy Lemon (Monterey Park / Alhambra, Rock Salt and Cheese Oolong, cheese foam originator, 4.2/5)
+  3. 85 Degrees Bakery (Monterey Park, sea salt coffee, Taiwanese bread, best value companion stop, 4.3/5)
+  4. CoCo Fresh Tea (Monterey Park area, Avocado Smoothie Milk Tea, value everyday option, 4.0/5)
+  5. Gong Cha (multiple SGV locations, High Mountain Oolong, reliable chain, 4.1/5)
+  6. Chicha San Chen (San Gabriel, 5 min east, World Tea Championship winner, 5.0/5)
+- Key differentiating angle: Monterey Park as the historically significant "first US city with Asian-American majority" and the heart of the SGV boba network, accessible from DTLA in 15 to 20 min via the 10 freeway
+- "More Worth Visiting" section: Xing Fu Tang (10-15 min west), LaTea, Moge Tee (20-25 min east), The Alley (15-20 min east), Half and Half Tea Express (25 min), Tiger Sugar (Koreatown, 20-25 min west)
+- 6-area neighborhood breakdown: Garvey Ave corridor, Atlantic Blvd / Garfield Ave (border with Alhambra), Lincoln Ave, San Gabriel / Temple City (5-15 min east), Alhambra (5-10 min west), Koreatown / DTLA via 10 freeway (15-25 min west)
+- FAQPage JSON-LD schema with 6 questions targeting "best boba monterey park", "why is monterey park important for asian food", "garvey ave boba corridor", "is monterey park worth visiting for boba", "monterey park vs koreatown boba", "best boba near 10 freeway monterey park"
+- Cross-links added:
+  - SGV guide: Monterey Park card added as first related guide (replacing the Alhambra card, which moved to second position)
+  - Best Boba Alhambra: Monterey Park card added as first related guide
+  - Best Boba LA pillar page: Monterey Park card added to related guides grid
+
+**Why this matters:** The SGV guide's own city breakdown section explicitly calls Monterey Park the city with "Best for premium tea experiences" covering Chicha San Chen, Meet Fresh, and Happy Lemon, but there was no dedicated hub page to capture "best boba monterey park" searches. Monterey Park is the geographic center of the SGV boba network, adjacent to Alhambra (just published) to the west and San Gabriel / Chicha San Chen to the east. The city's historical significance (first US city with an Asian-American majority, foundational Taiwanese and Cantonese food culture) gives the guide a unique cultural angle that differentiates it from the adjacent Alhambra and Rowland Heights guides.
+
+**Deployed:** success (state: "success", description: "Deployment has completed")
