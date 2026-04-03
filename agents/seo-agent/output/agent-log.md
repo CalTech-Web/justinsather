@@ -2186,3 +2186,64 @@ Deployment succeeded.
 **Why this matters:** The SGV guide's own FAQ stated Rowland Heights has the highest concentration of excellent boba in the SGV, but there was no dedicated hub page to capture "best boba rowland heights" searches. This guide fills that gap, creates a neighborhood-specific hub for 5 existing shop reviews anchored in Rowland Heights (Half and Half Tea Express, The Alley, LaTea, Moge Tee, Meet Fresh), and extends the neighborhood guide network eastward into the Colima Rd corridor that is genuinely distinctive from other LA neighborhoods.
 
 **Deployed:** success
+**SEO Agent Run — 2026-04-02 complete.**
+
+**Action:** Published "Best Boba Rowland Heights" neighborhood guide
+
+**Keyword opportunity:**
+- `best boba rowland heights` / `colima road boba` / `rowland heights little taipei boba` — all KD 0, maps to the "boba near me" parent cluster (high TP)
+- The SGV guide's FAQ explicitly called Rowland Heights the city with "the highest concentration of excellent boba shops in the SGV" but there was no dedicated hub page for it
+
+**Published:** `justinsather.com/best-boba-rowland-heights/`
+- 6 ranked shops all linking to existing full reviews: Half and Half Tea Express (rank 1, cold-brew technique), The Alley (rank 2, Deerioca crystal tapioca), LaTea (rank 3, traditional Taiwanese), Moge Tee (rank 4, Yunnan Pu-erh), Meet Fresh (rank 5, Taiwanese desserts), TP Tea Diamond Bar (rank 6, 5-10 min south)
+- Includes "Why Little Taipei" cultural context, 6-area neighborhood breakdown, FAQPage JSON-LD schema with 6 questions
+- Cross-links added to Best Boba LA pillar page and SGV guide (Rowland Heights card replaces generic Best Boba LA card)
+- Sitemap updated at priority 0.9
+
+**Deployed:** success
+[2026-04-02 00:25:07] Run #2 finished
+[2026-04-02 00:25:07] Reached max loops (2). Stopping.
+[2026-04-03 00:07:50] ==========================================
+[2026-04-03 00:07:50] Agent: Seo Agent
+[2026-04-03 00:07:50] Model: sonnet
+[2026-04-03 00:07:50] Workspace: /Users/brandonhopkins/Projects/seo/justinsather/agents/seo-agent
+[2026-04-03 00:07:50] Stop on complete: false
+[2026-04-03 00:07:50] Max loops: 2 (0=infinite)
+[2026-04-03 00:07:50] ==========================================
+[2026-04-03 00:07:50] Run #1 starting (model: sonnet)
+Deployment succeeded.
+
+---
+
+**SEO Agent Run — 2026-04-03**
+
+**Action:** Published "Best Boba Alhambra" neighborhood guide targeting the SGV gateway city keyword cluster
+
+**Keyword opportunity:**
+- "best boba alhambra" / "boba alhambra ca" / "boba near alhambra" — all KD 0, maps to "boba near me" parent cluster (high TP)
+- "alhambra boba shops" / "bubble tea alhambra" / "boba near the 10 freeway sgv" — local and commuter intent, all KD 0
+- Alhambra is the most accessible SGV boba destination from Downtown LA (12 to 15 min east via the 10 freeway) and has historic significance as the city where LA boba began (Lollicup founded in Alhambra, 2000)
+- Multiple existing shop reviews already reference Alhambra locations explicitly (Xing Fu Tang, Happy Lemon, Meet Fresh, LaTea, CoCo Fresh Tea), making this a high-internal-link-density hub with zero new shop content needed
+
+**Published:** `justinsather.com/best-boba-alhambra/`
+
+- 6 ranked shops, all linking to existing full reviews (maximum internal link density):
+  1. Xing Fu Tang (Alhambra / Temple City, fresh wok-cooked pearls, Tiger Milk Tea, 4.7/5)
+  2. Happy Lemon (Alhambra, Rock Salt and Cheese Oolong, cheese foam originator, 4.2/5)
+  3. Meet Fresh (Alhambra, Taiwanese desserts, taro ball combos, 4.4/5)
+  4. LaTea (Alhambra, brewed black tea base, traditional Taiwanese, best value, 4.3/5)
+  5. CoCo Fresh Tea (Alhambra, Avocado Smoothie Milk Tea, world's largest chain by outlet count, 4.0/5)
+  6. Gong Cha (SGV / Alhambra area, High Mountain Oolong base, reliable chain, 4.1/5)
+- "More Worth Visiting" section: Chicha San Chen (San Gabriel, 5-10 min east), Sunright Tea Studio (Pasadena, 15 min north), The Alley (Arcadia, 15 min east), Half and Half Tea Express (Rowland Heights, 15-20 min east), Moge Tee (Rowland Heights, 15-20 min east), Tiger Sugar (Koreatown, 12-20 min west)
+- Key differentiating angle: Alhambra as the historic birthplace of LA boba culture (Lollicup founded here in 2000) and the SGV gateway city — most accessible SGV boba from DTLA and the Westside
+- 6-area neighborhood breakdown: Valley Blvd corridor (historic SGV spine), Garfield Ave / Mission Road (Old Town Alhambra), Atlantic Blvd (border with Monterey Park), San Gabriel / Temple City (5-15 min east), Monterey Park / Arcadia (adjacent north and east), Koreatown / DTLA via 10 freeway (12-20 min west)
+- FAQPage JSON-LD schema with 6 questions targeting "best boba alhambra", "history of boba alhambra", "boba corridor alhambra", "is alhambra worth visiting for boba", "best boba near 10 freeway sgv", "alhambra vs rowland heights boba"
+- Cross-links added:
+  - SGV guide: Alhambra card added to related guides (4 cards now, replacing the Koreatown card for geographic focus)
+  - Best Boba LA pillar page: Alhambra card added to related guides grid
+- Sitemap updated at priority 0.9
+
+**Why this matters:** Alhambra is the western anchor of the SGV boba corridor and the most accessible SGV boba destination from Downtown LA and Koreatown. Multiple existing shop reviews already named Alhambra locations, but there was no dedicated hub to capture "best boba alhambra" searches. The guide fills this gap, creates a hub for 5 existing shop reviews with Alhambra locations, and positions the site to capture "boba near the 10 freeway" and "sgv gateway" intent from commuters and visitors who approach the SGV from the west.
+
+**Deployed:** success (state: "success", description: "Deployment has completed")
+[2026-04-03 00:07:50] Run #1 finished
