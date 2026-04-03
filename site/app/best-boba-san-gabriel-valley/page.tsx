@@ -457,6 +457,10 @@ export default function BestBobaSGVPage() {
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <h2 className="text-2xl font-bold text-[#1A202C] mb-6">More LA Boba Guides</h2>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
+          <Link href="/best-boba-monterey-park/" className="group bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow p-6">
+            <h3 className="text-lg font-bold text-[#1A202C] group-hover:text-[#2B6CB0] transition-colors mb-2">Best Boba in Monterey Park &rarr;</h3>
+            <p className="text-[#4A5568] text-sm">Meet Fresh, Happy Lemon, 85 Degrees Bakery, and Chicha San Chen just 5 minutes east. The heart of the SGV boba scene, 15 to 20 minutes from Downtown LA via the 10 freeway.</p>
+          </Link>
           <Link href="/best-boba-alhambra/" className="group bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow p-6">
             <h3 className="text-lg font-bold text-[#1A202C] group-hover:text-[#2B6CB0] transition-colors mb-2">Best Boba in Alhambra &rarr;</h3>
             <p className="text-[#4A5568] text-sm">The SGV gateway city. Xing Fu Tang, Happy Lemon, Meet Fresh, and LaTea all within minutes of the 10 freeway. The most accessible SGV boba stop from Downtown LA.</p>
@@ -464,10 +468,6 @@ export default function BestBobaSGVPage() {
           <Link href="/best-boba-rowland-heights/" className="group bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow p-6">
             <h3 className="text-lg font-bold text-[#1A202C] group-hover:text-[#2B6CB0] transition-colors mb-2">Best Boba in Rowland Heights &rarr;</h3>
             <p className="text-[#4A5568] text-sm">Little Taipei&apos;s boba corridor. Half and Half Tea Express, The Alley, LaTea, and Moge Tee all on the Colima Rd strip. The densest authentic Taiwanese boba in LA County.</p>
-          </Link>
-          <Link href="/best-boba-pasadena/" className="group bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow p-6">
-            <h3 className="text-lg font-bold text-[#1A202C] group-hover:text-[#2B6CB0] transition-colors mb-2">Best Boba in Pasadena &rarr;</h3>
-            <p className="text-[#4A5568] text-sm">Sunright Tea Studio, Chicha San Chen, Xing Fu Tang, The Alley, and more. The best boba in Pasadena and the east SGV, ranked.</p>
           </Link>
         </div>
       </section>

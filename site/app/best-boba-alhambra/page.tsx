@@ -390,6 +390,10 @@ export default function BestBobaAlhambraPage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-[#1A202C] mb-6">More LA Boba Guides</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <Link href="/best-boba-monterey-park/" className="block bg-[#EDF2F7] rounded-xl p-5 hover:bg-[#E2E8F0] transition-colors">
+              <h3 className="font-bold text-[#1A202C] mb-1">Best Boba in Monterey Park</h3>
+              <p className="text-[#4A5568] text-sm">Adjacent to Alhambra to the east. Meet Fresh, Happy Lemon, 85 Degrees Bakery, and Chicha San Chen just 5 minutes further east in San Gabriel. 5 to 10 minutes from Alhambra.</p>
+            </Link>
             <Link href="/best-boba-san-gabriel-valley/" className="block bg-[#EDF2F7] rounded-xl p-5 hover:bg-[#E2E8F0] transition-colors">
               <h3 className="font-bold text-[#1A202C] mb-1">Best Boba in the San Gabriel Valley</h3>
               <p className="text-[#4A5568] text-sm">The complete SGV guide covering Alhambra, Monterey Park, Rowland Heights, Temple City, Pasadena, and beyond. 15+ shops personally reviewed.</p>
@@ -397,10 +401,6 @@ export default function BestBobaAlhambraPage() {
             <Link href="/best-boba-rowland-heights/" className="block bg-[#EDF2F7] rounded-xl p-5 hover:bg-[#E2E8F0] transition-colors">
               <h3 className="font-bold text-[#1A202C] mb-1">Best Boba in Rowland Heights</h3>
               <p className="text-[#4A5568] text-sm">Little Taipei&apos;s boba corridor. Half and Half Tea Express, The Alley, LaTea, and Moge Tee on the Colima Rd strip. 20 to 25 minutes east of Alhambra via the 60.</p>
-            </Link>
-            <Link href="/best-boba-los-angeles/" className="block bg-[#EDF2F7] rounded-xl p-5 hover:bg-[#E2E8F0] transition-colors">
-              <h3 className="font-bold text-[#1A202C] mb-1">Best Boba in Los Angeles</h3>
-              <p className="text-[#4A5568] text-sm">The top 25+ boba shops across all of LA County, ranked and reviewed. Covers Koreatown, SGV, Silver Lake, Westwood, and beyond.</p>
             </Link>
           </div>
         </div>
