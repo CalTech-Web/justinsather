@@ -549,6 +549,10 @@ export default function BestBobaLAPage() {
             <h3 className="text-lg font-bold text-[#1A202C] group-hover:text-[#2B6CB0] transition-colors mb-2">Best Boba in Rowland Heights &rarr;</h3>
             <p className="text-[#4A5568] text-sm">Little Taipei&apos;s boba corridor. Half and Half Tea Express, The Alley, LaTea, and Moge Tee all on the Colima Rd strip. The densest authentic Taiwanese boba in LA County.</p>
           </Link>
+          <Link href="/best-boba-alhambra/" className="group bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow p-6 text-center block">
+            <h3 className="text-lg font-bold text-[#1A202C] group-hover:text-[#2B6CB0] transition-colors mb-2">Best Boba in Alhambra &rarr;</h3>
+            <p className="text-[#4A5568] text-sm">The SGV gateway city, 12 to 15 min east of Downtown LA via the 10 freeway. Xing Fu Tang, Happy Lemon, Meet Fresh, and LaTea. Where the modern LA boba scene began.</p>
+          </Link>
         </div>
       </section>
     </>
