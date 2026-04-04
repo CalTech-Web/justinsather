@@ -2370,3 +2370,58 @@ Done. Here's what was done this run:
 **Why this matters:** Chicha San Chen is the highest-rated shop on the site (5/5) and the only World Tea Championship-winning boba shop in Los Angeles. It is located in San Gabriel, and every other neighborhood guide and review page has referenced San Gabriel as "5-10 min east" of Alhambra and Monterey Park. A dedicated San Gabriel guide creates the hub that clusters this anchor shop, captures all "best boba san gabriel" and "boba san gabriel square" searches, and completes the central SGV city cluster (Alhambra, Monterey Park, San Gabriel).
 
 **Deployed:** success (state: "success", description: "Deployment has completed")
+Done. Here's what was done:
+
+**SEO Agent Run — 2026-04-04**
+
+**Action:** Published "Best Boba San Gabriel" neighborhood guide
+
+**Keyword opportunity:**
+- `best boba san gabriel` / `boba san gabriel ca` / `boba san gabriel square` — all KD 0, maps to "boba near me" parent cluster
+- San Gabriel is the city where Chicha San Chen (the site's only 5/5 shop, World Tea Championship winner) is located
+- Every adjacent guide referenced San Gabriel as "5-10 min east" but there was no dedicated hub page
+
+**Published:** `justinsather.com/best-boba-san-gabriel/`
+- 6 ranked shops all linking to existing reviews: Chicha San Chen (rank 1, 5/5, the anchor), Sunright Tea Studio (rank 2, Rosemead adjacent), 85 Degrees Bakery (rank 3), Gong Cha (rank 4), CoCo Fresh Tea (rank 5), Happy Lemon (rank 6)
+- Key angle: San Gabriel as home of the best single boba shop in the SGV and San Gabriel Square as the best concentrated Asian food block in LA County
+- FAQPage JSON-LD schema with 6 questions; full neighborhood breakdown by area
+- Cross-links added to Best Boba LA, SGV guide, Alhambra guide, Monterey Park guide, and Chicha San Chen review sidebar
+- Sitemap updated at priority 0.9
+
+**Deployed:** success
+[2026-04-04 00:17:11] Run #1 finished
+[2026-04-04 00:17:16] Run #2 starting (model: sonnet)
+Deployment succeeded.
+
+---
+
+**SEO Agent Run — 2026-04-04**
+
+**Action:** Published "Best Boba Arcadia" neighborhood guide targeting the eastern SGV boba keyword cluster
+
+**Keyword opportunity:**
+- "best boba arcadia" / "boba arcadia ca" / "boba near westfield santa anita" — all KD 0, maps to "boba near me" parent cluster (high TP)
+- "boba near santa anita park" / "boba arcadia ca" — visitor intent from Westfield Santa Anita (one of the largest SGV malls) and Santa Anita Park (horse racing)
+- "boba temple city arcadia" — eastern SGV corridor searches
+- Every adjacent guide (San Gabriel, Pasadena, SGV hub) had referenced Arcadia and Temple City but no dedicated Arcadia hub existed
+
+**Published:** `justinsather.com/best-boba-arcadia/`
+
+- 6 ranked shops, all linking to existing full reviews (maximum internal link density):
+  1. The Alley (Arcadia, Deerioca crystal tapioca, Roasted Oolong Milk Tea, 4.3/5)
+  2. 85 Degrees Bakery (Arcadia, sea salt coffee, tiger bread, best value pastry + boba combo, 4.4/5)
+  3. Happy Lemon (Arcadia/Alhambra, Rock Salt and Cheese Oolong, cheese foam originator, 4.2/5)
+  4. Xing Fu Tang (Temple City, 5-10 min west, fresh wok-cooked pearls, Tiger Milk Tea, 4.7/5)
+  5. Half and Half Tea Express (Temple City, 10 min west, cold-brew technique, Top 1 Milk Tea, 4.3/5)
+  6. Ding Tea (Arcadia, precision-brewed Taiwanese oolong and red tea bases, 4.0/5)
+- Key differentiating angle: Arcadia as the eastern SGV anchor, with The Alley (most distinctive tapioca in the SGV) and 85 Degrees Bakery (best Taiwanese bakery in LA) as the two primary draws
+- 6-area neighborhood breakdown: Baldwin Ave corridor, Las Tunas Dr/Temple City connection, Westfield Santa Anita/Santa Anita Park landmarks, San Gabriel (15-20 min south), Pasadena (10-15 min north), Rowland Heights via 210 (20-25 min east)
+- FAQPage JSON-LD schema with 6 questions targeting "best boba arcadia", "boba near westfield santa anita", "how does arcadia compare to SGV", "is arcadia worth visiting", "what to order at The Alley", and "how far is arcadia from san gabriel"
+- Cross-links added:
+  - SGV guide: Arcadia card added to related guides grid (4 cards now)
+  - San Gabriel guide: SGV guide card replaced with Arcadia card for better geographic adjacency
+- Sitemap updated at priority 0.9
+
+**Why this matters:** Arcadia is the eastern anchor of the central SGV boba corridor, with a dense commercial strip along Baldwin Ave that feeds significant "boba near Westfield Santa Anita" and "boba near Santa Anita Park" search intent. The city already had 5 existing reviewed shops referencing Arcadia locations (The Alley, 85 Degrees, Happy Lemon, Xing Fu Tang, Half and Half Tea Express) but no dedicated hub page. This guide completes the eastern SGV city cluster alongside the Rowland Heights, San Gabriel, and Pasadena guides.
+
+**Deployed:** success
