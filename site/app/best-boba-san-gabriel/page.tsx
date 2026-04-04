@@ -398,9 +398,9 @@ export default function BestBobaSanGabrielPage() {
               <h3 className="font-bold text-[#1A202C] mb-1">Best Boba in Monterey Park</h3>
               <p className="text-[#4A5568] text-sm">Adjacent to San Gabriel to the northwest. Meet Fresh, Happy Lemon, 85 Degrees Bakery. First US city with an Asian-American majority, 5 to 10 minutes from San Gabriel.</p>
             </Link>
-            <Link href="/best-boba-san-gabriel-valley/" className="block bg-[#EDF2F7] rounded-xl p-5 hover:bg-[#E2E8F0] transition-colors">
-              <h3 className="font-bold text-[#1A202C] mb-1">Best Boba in the San Gabriel Valley</h3>
-              <p className="text-[#4A5568] text-sm">The complete SGV guide covering San Gabriel, Alhambra, Monterey Park, Rowland Heights, Temple City, Pasadena, and beyond. 15+ shops personally reviewed.</p>
+            <Link href="/best-boba-arcadia/" className="block bg-[#EDF2F7] rounded-xl p-5 hover:bg-[#E2E8F0] transition-colors">
+              <h3 className="font-bold text-[#1A202C] mb-1">Best Boba in Arcadia</h3>
+              <p className="text-[#4A5568] text-sm">The eastern SGV anchor: The Alley (Deerioca crystal tapioca), 85 Degrees Bakery, and the Temple City-to-Arcadia boba loop. 15 to 20 minutes north of San Gabriel via Baldwin Ave.</p>
             </Link>
           </div>
         </div>
