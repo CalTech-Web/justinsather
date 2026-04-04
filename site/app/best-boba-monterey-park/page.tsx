@@ -390,17 +390,17 @@ export default function BestBobaMontereyParkPage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-[#1A202C] mb-6">More LA Boba Guides</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-            <Link href="/best-boba-san-gabriel-valley/" className="block bg-[#EDF2F7] rounded-xl p-5 hover:bg-[#E2E8F0] transition-colors">
-              <h3 className="font-bold text-[#1A202C] mb-1">Best Boba in the San Gabriel Valley</h3>
-              <p className="text-[#4A5568] text-sm">The complete SGV guide covering Monterey Park, Alhambra, Rowland Heights, Temple City, Pasadena, and beyond. 15+ shops personally reviewed.</p>
+            <Link href="/best-boba-san-gabriel/" className="block bg-[#EDF2F7] rounded-xl p-5 hover:bg-[#E2E8F0] transition-colors">
+              <h3 className="font-bold text-[#1A202C] mb-1">Best Boba in San Gabriel</h3>
+              <p className="text-[#4A5568] text-sm">Adjacent to Monterey Park to the east. Chicha San Chen (World Tea Championship winner, 5/5) and San Gabriel Square on Valley Blvd. 5 to 10 minutes from Monterey Park.</p>
             </Link>
             <Link href="/best-boba-alhambra/" className="block bg-[#EDF2F7] rounded-xl p-5 hover:bg-[#E2E8F0] transition-colors">
               <h3 className="font-bold text-[#1A202C] mb-1">Best Boba in Alhambra</h3>
               <p className="text-[#4A5568] text-sm">Adjacent to Monterey Park to the west. Xing Fu Tang, Happy Lemon, Meet Fresh, and LaTea. The historic birthplace of LA boba culture, 5 to 10 minutes from Monterey Park.</p>
             </Link>
-            <Link href="/best-boba-rowland-heights/" className="block bg-[#EDF2F7] rounded-xl p-5 hover:bg-[#E2E8F0] transition-colors">
-              <h3 className="font-bold text-[#1A202C] mb-1">Best Boba in Rowland Heights</h3>
-              <p className="text-[#4A5568] text-sm">Little Taipei&apos;s boba corridor. Half and Half Tea Express, The Alley, LaTea, and Moge Tee on the Colima Rd strip. 20 to 25 minutes east via the 60 freeway.</p>
+            <Link href="/best-boba-san-gabriel-valley/" className="block bg-[#EDF2F7] rounded-xl p-5 hover:bg-[#E2E8F0] transition-colors">
+              <h3 className="font-bold text-[#1A202C] mb-1">Best Boba in the San Gabriel Valley</h3>
+              <p className="text-[#4A5568] text-sm">The complete SGV guide covering Monterey Park, San Gabriel, Alhambra, Rowland Heights, Temple City, Pasadena, and beyond. 15+ shops personally reviewed.</p>
             </Link>
           </div>
         </div>

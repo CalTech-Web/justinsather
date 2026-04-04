@@ -298,6 +298,9 @@ export default function ChichaSanChenReviewPage() {
                 <Link href="/yi-fang-taiwan-fruit-tea-review-los-angeles/" className="text-[#2B6CB0] text-sm font-semibold hover:text-[#215387] transition-colors block">
                   Yi Fang Taiwan Fruit Tea Review &rarr;
                 </Link>
+                <Link href="/best-boba-san-gabriel/" className="text-[#2B6CB0] text-sm font-semibold hover:text-[#215387] transition-colors block">
+                  Best Boba in San Gabriel &rarr;
+                </Link>
                 <Link href="/best-boba-los-angeles/" className="text-[#2B6CB0] text-sm font-semibold hover:text-[#215387] transition-colors block">
                   Best Boba in LA (25+ shops) &rarr;
                 </Link>

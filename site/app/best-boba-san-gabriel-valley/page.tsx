@@ -457,9 +457,9 @@ export default function BestBobaSGVPage() {
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <h2 className="text-2xl font-bold text-[#1A202C] mb-6">More LA Boba Guides</h2>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
-          <Link href="/best-boba-monterey-park/" className="group bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow p-6">
-            <h3 className="text-lg font-bold text-[#1A202C] group-hover:text-[#2B6CB0] transition-colors mb-2">Best Boba in Monterey Park &rarr;</h3>
-            <p className="text-[#4A5568] text-sm">Meet Fresh, Happy Lemon, 85 Degrees Bakery, and Chicha San Chen just 5 minutes east. The heart of the SGV boba scene, 15 to 20 minutes from Downtown LA via the 10 freeway.</p>
+          <Link href="/best-boba-san-gabriel/" className="group bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow p-6">
+            <h3 className="text-lg font-bold text-[#1A202C] group-hover:text-[#2B6CB0] transition-colors mb-2">Best Boba in San Gabriel &rarr;</h3>
+            <p className="text-[#4A5568] text-sm">Chicha San Chen (World Tea Championship winner, 5/5) and San Gabriel Square on Valley Blvd. The best single-city stop in the entire SGV, 15 to 20 minutes from Downtown LA via the 10 freeway.</p>
           </Link>
           <Link href="/best-boba-alhambra/" className="group bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow p-6">
             <h3 className="text-lg font-bold text-[#1A202C] group-hover:text-[#2B6CB0] transition-colors mb-2">Best Boba in Alhambra &rarr;</h3>

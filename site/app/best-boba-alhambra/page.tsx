@@ -390,17 +390,17 @@ export default function BestBobaAlhambraPage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-[#1A202C] mb-6">More LA Boba Guides</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <Link href="/best-boba-san-gabriel/" className="block bg-[#EDF2F7] rounded-xl p-5 hover:bg-[#E2E8F0] transition-colors">
+              <h3 className="font-bold text-[#1A202C] mb-1">Best Boba in San Gabriel</h3>
+              <p className="text-[#4A5568] text-sm">Adjacent to Alhambra to the east. Chicha San Chen (World Tea Championship winner, 5/5), Sunright Tea Studio, and San Gabriel Square on Valley Blvd. 5 to 10 minutes from Alhambra.</p>
+            </Link>
             <Link href="/best-boba-monterey-park/" className="block bg-[#EDF2F7] rounded-xl p-5 hover:bg-[#E2E8F0] transition-colors">
               <h3 className="font-bold text-[#1A202C] mb-1">Best Boba in Monterey Park</h3>
-              <p className="text-[#4A5568] text-sm">Adjacent to Alhambra to the east. Meet Fresh, Happy Lemon, 85 Degrees Bakery, and Chicha San Chen just 5 minutes further east in San Gabriel. 5 to 10 minutes from Alhambra.</p>
+              <p className="text-[#4A5568] text-sm">Adjacent to Alhambra to the north. Meet Fresh, Happy Lemon, and 85 Degrees Bakery on the Garvey Ave corridor. 5 to 10 minutes from Alhambra.</p>
             </Link>
             <Link href="/best-boba-san-gabriel-valley/" className="block bg-[#EDF2F7] rounded-xl p-5 hover:bg-[#E2E8F0] transition-colors">
               <h3 className="font-bold text-[#1A202C] mb-1">Best Boba in the San Gabriel Valley</h3>
-              <p className="text-[#4A5568] text-sm">The complete SGV guide covering Alhambra, Monterey Park, Rowland Heights, Temple City, Pasadena, and beyond. 15+ shops personally reviewed.</p>
-            </Link>
-            <Link href="/best-boba-rowland-heights/" className="block bg-[#EDF2F7] rounded-xl p-5 hover:bg-[#E2E8F0] transition-colors">
-              <h3 className="font-bold text-[#1A202C] mb-1">Best Boba in Rowland Heights</h3>
-              <p className="text-[#4A5568] text-sm">Little Taipei&apos;s boba corridor. Half and Half Tea Express, The Alley, LaTea, and Moge Tee on the Colima Rd strip. 20 to 25 minutes east of Alhambra via the 60.</p>
+              <p className="text-[#4A5568] text-sm">The complete SGV guide covering Alhambra, San Gabriel, Monterey Park, Rowland Heights, Temple City, Pasadena, and beyond. 15+ shops personally reviewed.</p>
             </Link>
           </div>
         </div>
