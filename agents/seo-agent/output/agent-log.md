@@ -2304,3 +2304,69 @@ Deployment succeeded.
 **Why this matters:** The SGV guide's own city breakdown section explicitly calls Monterey Park the city with "Best for premium tea experiences" covering Chicha San Chen, Meet Fresh, and Happy Lemon, but there was no dedicated hub page to capture "best boba monterey park" searches. Monterey Park is the geographic center of the SGV boba network, adjacent to Alhambra (just published) to the west and San Gabriel / Chicha San Chen to the east. The city's historical significance (first US city with an Asian-American majority, foundational Taiwanese and Cantonese food culture) gives the guide a unique cultural angle that differentiates it from the adjacent Alhambra and Rowland Heights guides.
 
 **Deployed:** success (state: "success", description: "Deployment has completed")
+Done. Here's what was done this run:
+
+---
+
+**SEO Agent Run — 2026-04-03**
+
+**Action:** Published "Best Boba Monterey Park" neighborhood guide
+
+**Keyword opportunity:**
+- `best boba monterey park` / `boba monterey park ca` / `boba garvey ave monterey park` — all KD 0, maps to the "boba near me" parent cluster (high TP)
+- Monterey Park is the first US city to have an Asian-American majority population (early 1980s), historically significant, no competing neighborhood guide on the site
+- The SGV guide's own city breakdown explicitly called Monterey Park the city with "Best for premium tea experiences" but had no dedicated hub page
+
+**Published:** `justinsather.com/best-boba-monterey-park/`
+- 6 ranked shops all linking to existing full reviews: Meet Fresh (rank 1), Happy Lemon (rank 2), 85 Degrees Bakery (rank 3), CoCo Fresh Tea (rank 4), Gong Cha (rank 5), Chicha San Chen (rank 6, San Gabriel, 5 min east)
+- Key angle: Monterey Park as the geographic center of the SGV boba network, accessible from DTLA in 15 to 20 min via the 10 freeway, with historical context (first US majority-Asian city)
+- FAQPage JSON-LD schema with 6 questions, 6-area neighborhood breakdown
+- Cross-links added to SGV guide (Monterey Park card added first), Alhambra guide (Monterey Park card added), and Best Boba LA pillar page
+
+**Deployed:** success
+[2026-04-03 00:35:03] Run #2 finished
+[2026-04-03 00:35:03] Reached max loops (2). Stopping.
+[2026-04-04 00:07:01] ==========================================
+[2026-04-04 00:07:01] Agent: Seo Agent
+[2026-04-04 00:07:01] Model: sonnet
+[2026-04-04 00:07:01] Workspace: /Users/brandonhopkins/Projects/seo/justinsather/agents/seo-agent
+[2026-04-04 00:07:01] Stop on complete: false
+[2026-04-04 00:07:01] Max loops: 2 (0=infinite)
+[2026-04-04 00:07:01] ==========================================
+[2026-04-04 00:07:01] Run #1 starting (model: sonnet)
+
+---
+
+**SEO Agent Run — 2026-04-04**
+
+**Action:** Published "Best Boba San Gabriel" neighborhood guide targeting the San Gabriel city boba keyword cluster
+
+**Keyword opportunity:**
+- "best boba san gabriel" / "boba san gabriel ca" / "boba san gabriel square" — all KD 0, maps to "boba near me" parent cluster (high TP)
+- "boba near san gabriel square" / "boba valley blvd san gabriel" — hyperlocal intent, KD 0
+- San Gabriel is the city where Chicha San Chen (the site's only 5/5 shop, World Tea Championship winner) is located
+- Every adjacent guide (Alhambra, Monterey Park, SGV) referenced San Gabriel as "5-10 min east" but there was no dedicated hub page for the city
+
+**Published:** `justinsather.com/best-boba-san-gabriel/`
+
+- 6 ranked shops, all linking to existing full reviews:
+  1. Chicha San Chen (San Gabriel, World Tea Championship, Four Seasons oolong, Wuyi Mountain Oolong, 5/5)
+  2. Sunright Tea Studio (Rosemead, adjacent south, Sun Moon Lake black tea, Alishan oolong, 4.6/5)
+  3. 85 Degrees Bakery (Arcadia/SGV, sea salt coffee, tiger bread, 4.4/5)
+  4. Gong Cha (multiple SGV/San Gabriel area, High Mountain Oolong base, 4.1/5)
+  5. CoCo Fresh Tea (Alhambra/SGV, Avocado Smoothie Milk Tea, value option, 4.1/5)
+  6. Happy Lemon (Alhambra/Arcadia, Rock Salt and Cheese Oolong, cheese foam originator, 4.2/5)
+- Key differentiating angle: San Gabriel as home of the SGV's best single boba shop (Chicha San Chen) and San Gabriel Square as the best concentrated Asian food destination in LA County
+- 6-area neighborhood breakdown: Valley Blvd/San Gabriel Square, San Gabriel Blvd/Las Tunas, Rosemead (adjacent south), Alhambra/Monterey Park (5-10 min west), Temple City/Arcadia (10-15 min east), Downtown LA/Koreatown (15-25 min west via 10 freeway)
+- FAQPage JSON-LD schema with 6 questions targeting "best boba san gabriel", "san gabriel square boba", "chicha san chen order", "san gabriel vs koreatown boba", "how far is san gabriel from alhambra", "is san gabriel worth visiting for boba"
+- Cross-links added:
+  - Best Boba LA: San Gabriel card added to related guides grid
+  - SGV guide: San Gabriel card added first (replacing Monterey Park for most-relevant-first ordering)
+  - Alhambra guide: San Gabriel card added as first related guide (most geographically relevant)
+  - Monterey Park guide: San Gabriel card added as first related guide
+  - Chicha San Chen review: San Gabriel guide link added to sidebar
+- Sitemap updated at priority 0.9
+
+**Why this matters:** Chicha San Chen is the highest-rated shop on the site (5/5) and the only World Tea Championship-winning boba shop in Los Angeles. It is located in San Gabriel, and every other neighborhood guide and review page has referenced San Gabriel as "5-10 min east" of Alhambra and Monterey Park. A dedicated San Gabriel guide creates the hub that clusters this anchor shop, captures all "best boba san gabriel" and "boba san gabriel square" searches, and completes the central SGV city cluster (Alhambra, Monterey Park, San Gabriel).
+
+**Deployed:** success (state: "success", description: "Deployment has completed")
