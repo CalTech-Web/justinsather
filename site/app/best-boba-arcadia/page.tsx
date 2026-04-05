@@ -389,7 +389,11 @@ export default function BestBobaArcadiaPage() {
       <section className="bg-white py-12 border-t border-gray-100">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-[#1A202C] mb-6">More SGV Boba Guides</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            <Link href="/best-boba-temple-city/" className="block bg-[#EDF2F7] rounded-xl p-5 hover:bg-[#E2E8F0] transition-colors">
+              <h3 className="font-bold text-[#1A202C] mb-1">Best Boba in Temple City</h3>
+              <p className="text-[#4A5568] text-sm">Xing Fu Tang (fresh wok-cooked pearls, the best in the eastern SGV) and Half and Half Tea Express (cold-brew technique) on Las Tunas Drive. 5 to 10 minutes west of Arcadia.</p>
+            </Link>
             <Link href="/best-boba-san-gabriel/" className="block bg-[#EDF2F7] rounded-xl p-5 hover:bg-[#E2E8F0] transition-colors">
               <h3 className="font-bold text-[#1A202C] mb-1">Best Boba in San Gabriel</h3>
               <p className="text-[#4A5568] text-sm">Home of Chicha San Chen, the World Tea Championship-winning boba shop and the highest-rated in the SGV. San Gabriel Square on Valley Blvd is the best single boba block in LA County. 15 to 20 minutes south of Arcadia.</p>

@@ -473,6 +473,10 @@ export default function BestBobaSGVPage() {
             <h3 className="text-lg font-bold text-[#1A202C] group-hover:text-[#2B6CB0] transition-colors mb-2">Best Boba in Arcadia &rarr;</h3>
             <p className="text-[#4A5568] text-sm">The Alley (Deerioca crystal tapioca), 85 Degrees Bakery (sea salt coffee), and the eastern SGV boba grid. The best eastern SGV loop: The Alley and 85 Degrees in Arcadia, Xing Fu Tang and Half and Half in Temple City.</p>
           </Link>
+          <Link href="/best-boba-temple-city/" className="group bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow p-6">
+            <h3 className="text-lg font-bold text-[#1A202C] group-hover:text-[#2B6CB0] transition-colors mb-2">Best Boba in Temple City &rarr;</h3>
+            <p className="text-[#4A5568] text-sm">Xing Fu Tang (fresh wok-cooked pearls, the best in the eastern SGV) and Half and Half Tea Express (cold-brew technique) on Las Tunas Drive. The most concentrated quality boba corridor in the eastern SGV, adjacent to Arcadia to the east.</p>
+          </Link>
         </div>
       </section>
     </>
