@@ -395,9 +395,9 @@ export default function BestBobaHollywoodPage() {
               <h3 className="font-bold text-[#1A202C] mb-1">Best Boba in Koreatown</h3>
               <p className="text-[#4A5568] text-sm">The complete guide to 30+ boba shops in Koreatown, the best boba neighborhood in Los Angeles and just 15 minutes west of Hollywood.</p>
             </Link>
-            <Link href="/best-boba-silver-lake/" className="block bg-[#EDF2F7] rounded-xl p-5 hover:bg-[#E2E8F0] transition-colors">
-              <h3 className="font-bold text-[#1A202C] mb-1">Best Boba in Silver Lake</h3>
-              <p className="text-[#4A5568] text-sm">The guide to boba near Silver Lake, Los Feliz, Echo Park, and Atwater Village. Includes every shop worth visiting on the Eastside.</p>
+            <Link href="/best-boba-west-hollywood/" className="block bg-[#EDF2F7] rounded-xl p-5 hover:bg-[#E2E8F0] transition-colors">
+              <h3 className="font-bold text-[#1A202C] mb-1">Best Boba in West Hollywood</h3>
+              <p className="text-[#4A5568] text-sm">Where to find boba near WeHo, the Sunset Strip, and Melrose Ave. West Hollywood&apos;s own scene is limited; Koreatown is 10 to 15 min east. The complete guide.</p>
             </Link>
             <Link href="/best-boba-los-angeles/" className="block bg-[#EDF2F7] rounded-xl p-5 hover:bg-[#E2E8F0] transition-colors">
               <h3 className="font-bold text-[#1A202C] mb-1">Best Boba in Los Angeles</h3>

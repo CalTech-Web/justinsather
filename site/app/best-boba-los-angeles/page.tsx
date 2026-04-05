@@ -561,6 +561,10 @@ export default function BestBobaLAPage() {
             <h3 className="text-lg font-bold text-[#1A202C] group-hover:text-[#2B6CB0] transition-colors mb-2">Best Boba in San Gabriel &rarr;</h3>
             <p className="text-[#4A5568] text-sm">Chicha San Chen (World Tea Championship winner, 5/5) and San Gabriel Square on Valley Blvd. The best single-city boba stop in the SGV, 15 to 20 minutes from Downtown LA via the 10 freeway.</p>
           </Link>
+          <Link href="/best-boba-west-hollywood/" className="group bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow p-6 text-center block">
+            <h3 className="text-lg font-bold text-[#1A202C] group-hover:text-[#2B6CB0] transition-colors mb-2">Best Boba Near West Hollywood &rarr;</h3>
+            <p className="text-[#4A5568] text-sm">Where to find boba near WeHo, the Sunset Strip, and Melrose Ave. Koreatown is 10 to 15 minutes east. Tiger Sugar, Happy Lemon, Machi Machi, and Feng Cha are the best nearby destinations.</p>
+          </Link>
         </div>
       </section>
     </>
