@@ -2425,3 +2425,62 @@ Deployment succeeded.
 **Why this matters:** Arcadia is the eastern anchor of the central SGV boba corridor, with a dense commercial strip along Baldwin Ave that feeds significant "boba near Westfield Santa Anita" and "boba near Santa Anita Park" search intent. The city already had 5 existing reviewed shops referencing Arcadia locations (The Alley, 85 Degrees, Happy Lemon, Xing Fu Tang, Half and Half Tea Express) but no dedicated hub page. This guide completes the eastern SGV city cluster alongside the Rowland Heights, San Gabriel, and Pasadena guides.
 
 **Deployed:** success
+**SEO Agent Run — 2026-04-04 complete.**
+
+**Action:** Published "Best Boba Arcadia" neighborhood guide
+
+**Keyword opportunity:**
+- `best boba arcadia` / `boba near westfield santa anita` / `boba arcadia ca` — all KD 0, maps to the "boba near me" parent cluster (high TP)
+- Arcadia is the eastern SGV anchor with Westfield Santa Anita and Santa Anita Park generating significant local visitor search traffic
+- 5 existing reviewed shops referenced Arcadia locations but there was no dedicated hub page
+
+**Published:** `justinsather.com/best-boba-arcadia/`
+- 6 ranked shops all linking to existing reviews: The Alley (rank 1, Deerioca crystal tapioca), 85 Degrees Bakery (rank 2, sea salt coffee + Taiwanese bread), Happy Lemon (rank 3, cheese foam originator), Xing Fu Tang Temple City (rank 4, fresh wok-cooked pearls), Half and Half Tea Express Temple City (rank 5, cold-brew technique), Ding Tea (rank 6, precision-brewed Taiwanese)
+- FAQPage JSON-LD schema with 6 questions targeting Westfield Santa Anita, eastern SGV comparisons, The Alley ordering, and distance to San Gabriel
+- Cross-links added: Arcadia card added to SGV guide related guides; San Gabriel guide related guides updated with Arcadia card
+- Sitemap updated at priority 0.9
+
+**Deployed:** success
+[2026-04-04 00:26:47] Run #2 finished
+[2026-04-04 00:26:47] Reached max loops (2). Stopping.
+[2026-04-05 00:07:03] ==========================================
+[2026-04-05 00:07:03] Agent: Seo Agent
+[2026-04-05 00:07:03] Model: sonnet
+[2026-04-05 00:07:03] Workspace: /Users/brandonhopkins/Projects/seo/justinsather/agents/seo-agent
+[2026-04-05 00:07:03] Stop on complete: false
+[2026-04-05 00:07:03] Max loops: 2 (0=infinite)
+[2026-04-05 00:07:03] ==========================================
+[2026-04-05 00:07:03] Run #1 starting (model: sonnet)
+
+
+---
+
+**SEO Agent Run — 2026-04-05**
+
+**Action:** Published "Best Boba Temple City" neighborhood guide targeting the Temple City SGV keyword cluster
+
+**Keyword opportunity:**
+- `best boba temple city` / `boba temple city ca` / `boba las tunas temple city` — all KD 0, maps to "boba near me" parent cluster (high TP)
+- Temple City is the home of Xing Fu Tang (one of the top 3 fresh-pearl shops in the entire SGV) and Half and Half Tea Express (cold-brew technique), both on Las Tunas Drive
+- Every adjacent guide (Arcadia, San Gabriel, SGV hub) referenced Temple City repeatedly but there was no dedicated hub page
+- The Arcadia guide explicitly ranked Xing Fu Tang (Temple City) and Half and Half Tea Express (Temple City) as shops 4 and 5, signaling the natural gap
+
+**Published:** `justinsather.com/best-boba-temple-city/`
+- 6 ranked shops all linking to existing full reviews:
+  1. Xing Fu Tang (Temple City, Las Tunas Dr, fresh wok-cooked pearls, Tiger Milk Tea, 4.7/5)
+  2. Half and Half Tea Express (Temple City, Las Tunas Dr, cold-brew technique, Top 1 Milk Tea, 4.3/5)
+  3. Machi Machi (Temple City/Arcadia, Brown Sugar Cheese Foam, Earl Grey Cheese Foam, 4.1/5)
+  4. The Alley (Arcadia, 5-10 min east, Deerioca crystal tapioca, 4.3/5)
+  5. 85 Degrees Bakery (Arcadia, 5-10 min east, sea salt coffee, tiger bread, 4.4/5)
+  6. Happy Lemon (Arcadia/Alhambra, Rock Salt and Cheese Oolong, cheese foam originator, 4.2/5)
+- Key differentiating angle: Temple City as the home of two of the most technically distinct boba shops in the eastern SGV, with Las Tunas Drive as the most concentrated quality-per-shop boba strip in the area
+- 6-area neighborhood breakdown: Las Tunas Drive (central Temple City), Rosemead Blvd/Live Oak Ave, Arcadia (5-10 min east), San Gabriel (15-20 min south), Alhambra/Monterey Park (20-25 min west), Pasadena (20-25 min north)
+- FAQPage JSON-LD schema with 6 questions targeting "best boba temple city", "Xing Fu Tang Temple City location", "Temple City vs SGV boba comparison", "what to order at Xing Fu Tang", "Temple City + Arcadia boba tour", and "how far is Temple City from Arcadia and San Gabriel"
+- Cross-links added:
+  - Arcadia guide: Temple City card added as first related guide (4-card grid, was 3)
+  - SGV hub guide: Temple City card added to cross-links section (5th city guide)
+- Sitemap updated at priority 0.9
+
+**Why this matters:** The SGV city cluster (Alhambra, Monterey Park, San Gabriel, Arcadia) was missing Temple City, the city where Xing Fu Tang and Half and Half Tea Express are actually located. The Arcadia guide featured these two shops in positions 4 and 5 as "Temple City shops" but there was no dedicated hub to capture "best boba temple city" and "boba las tunas" searches directly. This completes the central eastern SGV city guide cluster.
+
+**Deployed:** success (state: "success", description: "Deployment has completed")
