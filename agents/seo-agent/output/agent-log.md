@@ -2484,3 +2484,56 @@ Deployment succeeded.
 **Why this matters:** The SGV city cluster (Alhambra, Monterey Park, San Gabriel, Arcadia) was missing Temple City, the city where Xing Fu Tang and Half and Half Tea Express are actually located. The Arcadia guide featured these two shops in positions 4 and 5 as "Temple City shops" but there was no dedicated hub to capture "best boba temple city" and "boba las tunas" searches directly. This completes the central eastern SGV city guide cluster.
 
 **Deployed:** success (state: "success", description: "Deployment has completed")
+Done. Here's what was done this run:
+
+**SEO Agent Run — 2026-04-05**
+
+**Action:** Published "Best Boba Temple City" neighborhood guide
+
+**Keyword opportunity:**
+- `best boba temple city` / `boba las tunas temple city` — KD 0, maps to "boba near me" parent cluster
+- Temple City is where Xing Fu Tang and Half and Half Tea Express are actually located, but the site had no dedicated hub page for the city
+- The Arcadia guide had been featuring these two shops as "Temple City shops" in positions 4 and 5, signaling the gap
+
+**Published:** `justinsather.com/best-boba-temple-city/`
+- 6 ranked shops: Xing Fu Tang (rank 1, fresh wok-cooked pearls), Half and Half Tea Express (rank 2, cold-brew technique), Machi Machi (rank 3, cheese foam), The Alley (rank 4, Arcadia, Deerioca), 85 Degrees Bakery (rank 5, Arcadia), Happy Lemon (rank 6)
+- FAQPage JSON-LD schema with 6 questions; 6-area neighborhood breakdown
+- Cross-links added to Arcadia guide (Temple City card added as first related guide) and SGV hub guide (5th city card added)
+- Sitemap updated at priority 0.9
+
+**Deployed:** success
+[2026-04-05 00:20:53] Run #1 finished
+[2026-04-05 00:20:58] Run #2 starting (model: sonnet)
+
+
+---
+
+**SEO Agent Run — 2026-04-05**
+
+**Action:** Published "Best Boba West Hollywood" neighborhood guide targeting the WeHo and Sunset Strip boba keyword cluster
+
+**Keyword opportunity:**
+- `best boba west hollywood` / `boba weho` / `boba near sunset strip` / `boba melrose ave west hollywood` — all KD 0, maps to "boba near me" parent cluster (high TP)
+- West Hollywood is one of the most internationally recognized LA neighborhoods (Sunset Strip, Melrose Ave, WeHo nightlife) with no competing neighborhood boba guide on the site
+- Adjacent to Hollywood (done) and Koreatown (done), completes the central LA corridor between the two existing guides
+
+**Published:** `justinsather.com/best-boba-west-hollywood/`
+
+- 6 ranked shops, all linking to existing full reviews (maximum internal link density):
+  1. Tiger Sugar (Koreatown, 10 to 15 min east via Santa Monica Blvd, 5/5, the best WeHo-area brown sugar boba)
+  2. Happy Lemon (Koreatown, 10 to 15 min east, cheese foam originator, Rock Salt and Cheese Oolong)
+  3. Feng Cha (Koreatown / multiple LA, 10 to 20 min east, Brown Sugar Milk Tea, most affordable cheese foam near WeHo)
+  4. Machi Machi (Koreatown, 10 to 15 min east, only LA shop built entirely around cheese foam)
+  5. Yi Fang Taiwan Fruit Tea (Sawtelle/Fairfax, 15 min west via Santa Monica Blvd, real-fruit teas)
+  6. Gong Cha (West LA / multiple LA, 10 to 20 min, High Mountain Oolong base, most accessible chain near WeHo)
+- Honest framing: West Hollywood's own boba scene is limited (Sunset Strip and Melrose Ave are bars/restaurants/boutiques); Koreatown 10 to 15 min east is the answer for WeHo residents
+- 6-area neighborhood breakdown: Sunset Strip, Santa Monica Blvd/Melrose WeHo core, Koreatown (10 to 15 min east), Hollywood (10 to 20 min east), Sawtelle/Fairfax (15 min west), Westwood Village (20 to 25 min west)
+- FAQPage JSON-LD schema with 6 questions targeting "best boba near west hollywood", "is there boba on the sunset strip", "is there boba on melrose ave", "how far is west hollywood from koreatown", "best boba for WeHo nightlife", "best cheap boba near west hollywood"
+- Cross-links added:
+  - Hollywood guide: Silver Lake card replaced with West Hollywood card (better geographic adjacency)
+  - Best Boba LA pillar page: West Hollywood card added to related guides grid
+- Sitemap updated at priority 0.9
+
+**Why this matters:** West Hollywood is one of the most globally recognized LA neighborhoods, drawing millions of annual visitors to the Sunset Strip, Melrose Ave, and WeHo nightlife. No competing neighborhood boba guide existed. The page fills the geographic gap between the Hollywood guide (east) and the Santa Monica/Culver City guides (west), completes the central LA neighborhood guide cluster, and captures "boba near me" searches from WeHo's large residential population and entertainment industry visitor base.
+
+**Deployed:** success
